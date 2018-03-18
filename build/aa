@@ -1,2154 +1,2035 @@
 Listening to port 4567
 Connected!!!
-particle number: 0 initialized to: id:0 x: 6.36731 y: 2.46489 theta: -0.0117673 weight: 1
-particle number: 1 initialized to: id:1 x: 6.07785 y: 1.93704 theta: -0.00465164 weight: 1
+particle number: 0 initialized to: id:0 x: 6.28631 y: 2.07619 theta: -0.0114673 weight: 1
+particle number: 1 initialized to: id:1 x: 5.99685 y: 1.54834 theta: -0.00435164 weight: 1
+particle number: 2 initialized to: id:2 x: 6.33298 y: 2.00966 theta: 0.00944677 weight: 1
+particle number: 3 initialized to: id:3 x: 6.16491 y: 1.93111 theta: -0.00808279 weight: 1
+particle number: 4 initialized to: id:4 x: 6.62919 y: 1.83255 theta: -0.0186715 weight: 1
+particle number: 5 initialized to: id:5 x: 6.55792 y: 1.76986 theta: 0.00128421 weight: 1
+particle number: 6 initialized to: id:6 x: 6.04215 y: 1.63908 theta: -0.0319529 weight: 1
+particle number: 7 initialized to: id:7 x: 5.52119 y: 1.71443 theta: -0.0112963 weight: 1
+particle number: 8 initialized to: id:8 x: 6.05451 y: 1.8155 theta: -0.0125374 weight: 1
+particle number: 9 initialized to: id:9 x: 6.31895 y: 1.66706 theta: -0.00321754 weight: 1
+particle number: 10 initialized to: id:10 x: 6.43597 y: 2.29159 theta: -0.0151523 weight: 1
+particle number: 11 initialized to: id:11 x: 6.09812 y: 2.11267 theta: -0.00507431 weight: 1
+particle number: 12 initialized to: id:12 x: 6.68636 y: 1.78537 theta: -0.0249428 weight: 1
+particle number: 13 initialized to: id:13 x: 6.33684 y: 2.21616 theta: -0.0131108 weight: 1
+particle number: 14 initialized to: id:14 x: 6.18161 y: 2.37288 theta: -0.0158561 weight: 1
+particle number: 15 initialized to: id:15 x: 6.34458 y: 1.86783 theta: -0.0149526 weight: 1
+particle number: 16 initialized to: id:16 x: 6.14081 y: 1.57446 theta: -0.000752986 weight: 1
+particle number: 17 initialized to: id:17 x: 5.844 y: 2.11004 theta: -0.0250557 weight: 1
+particle number: 18 initialized to: id:18 x: 6.03138 y: 1.91852 theta: 0.00238173 weight: 1
+particle number: 19 initialized to: id:19 x: 6.79377 y: 1.82233 theta: -0.0317364 weight: 1
+particle number: 20 initialized to: id:20 x: 6.49329 y: 2.02558 theta: -0.00063253 weight: 1
+particle number: 21 initialized to: id:21 x: 6.31866 y: 1.51164 theta: -0.00622668 weight: 1
+particle number: 22 initialized to: id:22 x: 5.89218 y: 2.1532 theta: -0.015979 weight: 1
+particle number: 23 initialized to: id:23 x: 6.28869 y: 1.80525 theta: -0.0222833 weight: 1
+particle number: 24 initialized to: id:24 x: 6.28245 y: 2.09473 theta: -0.0108415 weight: 1
+particle number: 25 initialized to: id:25 x: 5.99262 y: 1.84617 theta: -0.0124674 weight: 1
+particle number: 26 initialized to: id:26 x: 6.32855 y: 1.82355 theta: -0.00077839 weight: 1
+particle number: 27 initialized to: id:27 x: 6.66542 y: 2.26921 theta: -0.00729428 weight: 1
+particle number: 28 initialized to: id:28 x: 6.36268 y: 1.90898 theta: -0.00189397 weight: 1
+particle number: 29 initialized to: id:29 x: 6.3406 y: 1.31517 theta: -0.0140616 weight: 1
+particle number: 30 initialized to: id:30 x: 6.60192 y: 1.64833 theta: 0.00824778 weight: 1
+particle number: 31 initialized to: id:31 x: 6.62017 y: 1.88369 theta: -0.0130176 weight: 1
+particle number: 32 initialized to: id:32 x: 6.55564 y: 2.27449 theta: -0.0167468 weight: 1
+particle number: 33 initialized to: id:33 x: 5.46593 y: 1.79157 theta: -0.0159197 weight: 1
+particle number: 34 initialized to: id:34 x: 6.14884 y: 2.14544 theta: -0.0242121 weight: 1
+particle number: 35 initialized to: id:35 x: 6.80383 y: 2.01825 theta: -0.00618559 weight: 1
+particle number: 36 initialized to: id:36 x: 6.48851 y: 1.59326 theta: -0.018843 weight: 1
+particle number: 37 initialized to: id:37 x: 6.28176 y: 1.57421 theta: -0.00262249 weight: 1
+particle number: 38 initialized to: id:38 x: 6.20788 y: 1.76368 theta: -0.0162944 weight: 1
+particle number: 39 initialized to: id:39 x: 6.68393 y: 1.76968 theta: -0.0145397 weight: 1
+particle number: 40 initialized to: id:40 x: 6.68223 y: 2.08015 theta: -0.0283522 weight: 1
+particle number: 41 initialized to: id:41 x: 6.48712 y: 2.26757 theta: -0.00282926 weight: 1
+particle number: 42 initialized to: id:42 x: 6.34396 y: 2.36799 theta: -0.0102231 weight: 1
+particle number: 43 initialized to: id:43 x: 6.01452 y: 2.08637 theta: -0.013281 weight: 1
+particle number: 44 initialized to: id:44 x: 5.76293 y: 2.61205 theta: -0.0313263 weight: 1
+particle number: 45 initialized to: id:45 x: 6.49588 y: 2.11101 theta: -0.0222049 weight: 1
+particle number: 46 initialized to: id:46 x: 5.68283 y: 1.82433 theta: -5.96734e-05 weight: 1
+particle number: 47 initialized to: id:47 x: 6.0197 y: 1.79108 theta: -0.00274924 weight: 1
+particle number: 48 initialized to: id:48 x: 6.93458 y: 1.549 theta: -0.00869674 weight: 1
+particle number: 49 initialized to: id:49 x: 6.17291 y: 1.96817 theta: -0.0330505 weight: 1
+particle number: 50 initialized to: id:50 x: 6.2766 y: 2.34202 theta: -0.00123733 weight: 1
+particle number: 51 initialized to: id:51 x: 6.68284 y: 1.75231 theta: -0.00365822 weight: 1
+particle number: 52 initialized to: id:52 x: 6.397 y: 1.87337 theta: -0.0264997 weight: 1
+particle number: 53 initialized to: id:53 x: 6.44405 y: 1.80504 theta: -0.00952281 weight: 1
+particle number: 54 initialized to: id:54 x: 6.75657 y: 1.62244 theta: -0.018287 weight: 1
+particle number: 55 initialized to: id:55 x: 6.58573 y: 1.44472 theta: -0.0149081 weight: 1
+particle number: 56 initialized to: id:56 x: 6.17409 y: 2.54489 theta: -0.00925896 weight: 1
+particle number: 57 initialized to: id:57 x: 6.07383 y: 1.12248 theta: -0.0144629 weight: 1
+particle number: 58 initialized to: id:58 x: 5.78081 y: 1.86766 theta: -0.00924131 weight: 1
+particle number: 59 initialized to: id:59 x: 6.57263 y: 1.72364 theta: 0.00505899 weight: 1
+particle number: 60 initialized to: id:60 x: 6.26741 y: 1.58645 theta: -0.0167508 weight: 1
+particle number: 61 initialized to: id:61 x: 6.25571 y: 1.95768 theta: -0.0275681 weight: 1
+particle number: 62 initialized to: id:62 x: 6.39633 y: 2.46544 theta: -0.00947459 weight: 1
+particle number: 63 initialized to: id:63 x: 6.43502 y: 1.69793 theta: -0.0261776 weight: 1
+particle number: 64 initialized to: id:64 x: 6.24368 y: 2.13894 theta: -0.0193474 weight: 1
+particle number: 65 initialized to: id:65 x: 5.94593 y: 2.02032 theta: -0.00366079 weight: 1
+particle number: 66 initialized to: id:66 x: 6.54982 y: 1.83512 theta: -0.00531826 weight: 1
+particle number: 67 initialized to: id:67 x: 6.5679 y: 1.88492 theta: -0.0236206 weight: 1
+particle number: 68 initialized to: id:68 x: 5.93128 y: 1.77765 theta: -0.00776083 weight: 1
+particle number: 69 initialized to: id:69 x: 6.13389 y: 1.77934 theta: -0.0103432 weight: 1
+particle number: 70 initialized to: id:70 x: 6.27791 y: 1.84061 theta: -0.0192522 weight: 1
+particle number: 71 initialized to: id:71 x: 6.3342 y: 1.88596 theta: -0.0114712 weight: 1
+particle number: 72 initialized to: id:72 x: 6.10658 y: 1.78969 theta: -0.00379062 weight: 1
+particle number: 73 initialized to: id:73 x: 6.48304 y: 1.62695 theta: -0.0298239 weight: 1
+particle number: 74 initialized to: id:74 x: 6.56257 y: 1.81627 theta: -0.0275762 weight: 1
+particle number: 75 initialized to: id:75 x: 6.63269 y: 2.04332 theta: -0.0145307 weight: 1
+particle number: 76 initialized to: id:76 x: 5.81969 y: 1.91423 theta: -0.00762076 weight: 1
+particle number: 77 initialized to: id:77 x: 6.13519 y: 1.42306 theta: -0.0046166 weight: 1
+particle number: 78 initialized to: id:78 x: 6.09273 y: 1.55863 theta: -0.0281431 weight: 1
+particle number: 79 initialized to: id:79 x: 5.65261 y: 2.03511 theta: -0.000440716 weight: 1
+particle number: 80 initialized to: id:80 x: 6.70318 y: 2.20738 theta: -0.0269859 weight: 1
+particle number: 81 initialized to: id:81 x: 6.33389 y: 1.43533 theta: -0.0107511 weight: 1
+particle number: 82 initialized to: id:82 x: 6.40072 y: 1.6551 theta: -0.013584 weight: 1
+particle number: 83 initialized to: id:83 x: 6.16798 y: 1.44825 theta: -0.0274393 weight: 1
+particle number: 84 initialized to: id:84 x: 6.34776 y: 1.99999 theta: -0.00752702 weight: 1
+particle number: 85 initialized to: id:85 x: 6.19578 y: 1.26863 theta: -0.0126824 weight: 1
+particle number: 86 initialized to: id:86 x: 6.50049 y: 1.95988 theta: -0.0188897 weight: 1
+particle number: 87 initialized to: id:87 x: 6.38027 y: 2.25639 theta: -0.0145481 weight: 1
+particle number: 88 initialized to: id:88 x: 6.68267 y: 1.70698 theta: -0.0155837 weight: 1
+particle number: 89 initialized to: id:89 x: 6.63928 y: 1.54331 theta: -0.016684 weight: 1
+particle number: 90 initialized to: id:90 x: 6.20798 y: 1.83461 theta: -0.0130419 weight: 1
+particle number: 91 initialized to: id:91 x: 6.34377 y: 1.89342 theta: -0.00420275 weight: 1
+particle number: 92 initialized to: id:92 x: 6.42948 y: 1.49767 theta: -0.00128611 weight: 1
+particle number: 93 initialized to: id:93 x: 6.67027 y: 1.89222 theta: 0.013077 weight: 1
+particle number: 94 initialized to: id:94 x: 6.49554 y: 2.107 theta: -0.0106664 weight: 1
+particle number: 95 initialized to: id:95 x: 6.91465 y: 2.4249 theta: -0.0410467 weight: 1
+particle number: 96 initialized to: id:96 x: 6.33006 y: 2.51557 theta: -0.0125623 weight: 1
+particle number: 97 initialized to: id:97 x: 6.17093 y: 2.17162 theta: 0.00376977 weight: 1
+particle number: 98 initialized to: id:98 x: 6.28438 y: 1.56579 theta: -0.00932493 weight: 1
+particle number: 99 initialized to: id:99 x: 6.89999 y: 2.15838 theta: -0.0296507 weight: 1
 Particles initialized
-for particle :0 number of landmarks associated are: 11
-for particle :0 number of observations in map cords are: 11
-after data association
-Obs: 0 associated to landmark id: 32
-base Observation x: 2.8729 base observation y: 5.3251
-particle pos  x: 6.36731 particle pos y: 2.46489 particle pos theta: -0.0117673
-transformed Observation x: 9.30267 Observation y: 7.75581
-Obs: 1 associated to landmark id: 3
-base Observation x: 11.588 base observation y: -6.5105
-particle pos  x: 6.36731 particle pos y: 2.46489 particle pos theta: -0.0117673
-transformed Observation x: 17.8779 Observation y: -4.18152
-Obs: 2 associated to landmark id: 40
-base Observation x: -19.783 base observation y: -2.5941
-particle pos  x: 6.36731 particle pos y: 2.46489 particle pos theta: -0.0117673
-transformed Observation x: -13.4448 Observation y: 0.103754
-Obs: 3 associated to landmark id: 39
-base Observation x: 1.6321 base observation y: -22.9645
-particle pos  x: 6.36731 particle pos y: 2.46489 particle pos theta: -0.0117673
-transformed Observation x: 7.72907 Observation y: -20.5172
-Obs: 4 associated to landmark id: 38
-base Observation x: 13.8268 base observation y: -22.496
-particle pos  x: 6.36731 particle pos y: 2.46489 particle pos theta: -0.0117673
-transformed Observation x: 19.9284 Observation y: -20.1923
-Obs: 5 associated to landmark id: 12
-base Observation x: 30.1949 base observation y: 12.8303
-particle pos  x: 6.36731 particle pos y: 2.46489 particle pos theta: -0.0117673
-transformed Observation x: 36.7111 Observation y: 14.939
-Obs: 6 associated to landmark id: 4
-base Observation x: -13.6932 base observation y: -35.91
-particle pos  x: 6.36731 particle pos y: 2.46489 particle pos theta: -0.0117673
-transformed Observation x: -7.7475 Observation y: -33.2815
-Obs: 7 associated to landmark id: 24
-base Observation x: 30.4077 base observation y: -30.5996
-particle pos  x: 6.36731 particle pos y: 2.46489 particle pos theta: -0.0117673
-transformed Observation x: 36.4128 Observation y: -28.4904
-Obs: 8 associated to landmark id: 17
-base Observation x: -36.6444 base observation y: -25.2456
-particle pos  x: 6.36731 particle pos y: 2.46489 particle pos theta: -0.0117673
-transformed Observation x: -30.5716 Observation y: -22.3478
-Obs: 9 associated to landmark id: 16
-base Observation x: 22.3663 base observation y: -41.5289
-particle pos  x: 6.36731 particle pos y: 2.46489 particle pos theta: -0.0117673
-transformed Observation x: 28.2434 Observation y: -39.3243
-Obs: 10 associated to landmark id: 13
-base Observation x: -45.9765 base observation y: -15.247
-particle pos  x: 6.36731 particle pos y: 2.46489 particle pos theta: -0.0117673
-transformed Observation x: -39.7854 Observation y: -12.2401
-particle number: 0now has weight: 0.287629
-particle number: 0now has weight: 0.0601731
-particle number: 0now has weight: 0.0684864
-particle number: 0now has weight: 0.0112043
-particle number: 0now has weight: 0.0153351
-particle number: 0now has weight: 0.00602732
-particle number: 0now has weight: 1.91366e-07
-particle number: 0now has weight: 1.04464e-07
-particle number: 0now has weight: 7.54369e-11
-particle number: 0now has weight: 4.42398e-12
-particle number: 0now has weight: 3.58252e-12
-for particle :1 number of landmarks associated are: 11
-for particle :1 number of observations in map cords are: 11
-after data association
-Obs: 0 associated to landmark id: 32
-base Observation x: 2.8729 base observation y: 5.3251
-particle pos  x: 6.07785 particle pos y: 1.93704 particle pos theta: -0.00465164
-transformed Observation x: 8.97549 Observation y: 7.24872
-Obs: 1 associated to landmark id: 3
-base Observation x: 11.588 base observation y: -6.5105
-particle pos  x: 6.07785 particle pos y: 1.93704 particle pos theta: -0.00465164
-transformed Observation x: 17.6354 Observation y: -4.62729
-Obs: 2 associated to landmark id: 40
-base Observation x: -19.783 base observation y: -2.5941
-particle pos  x: 6.07785 particle pos y: 1.93704 particle pos theta: -0.00465164
-transformed Observation x: -13.717 Observation y: -0.565006
-Obs: 3 associated to landmark id: 39
-base Observation x: 1.6321 base observation y: -22.9645
-particle pos  x: 6.07785 particle pos y: 1.93704 particle pos theta: -0.00465164
-transformed Observation x: 7.60311 Observation y: -21.0348
-Obs: 4 associated to landmark id: 38
-base Observation x: 13.8268 base observation y: -22.496
-particle pos  x: 6.07785 particle pos y: 1.93704 particle pos theta: -0.00465164
-transformed Observation x: 19.7999 Observation y: -20.623
-Obs: 5 associated to landmark id: 12
-base Observation x: 30.1949 base observation y: 12.8303
-particle pos  x: 6.07785 particle pos y: 1.93704 particle pos theta: -0.00465164
-transformed Observation x: 36.3321 Observation y: 14.6267
-Obs: 6 associated to landmark id: 4
-base Observation x: -13.6932 base observation y: -35.91
-particle pos  x: 6.07785 particle pos y: 1.93704 particle pos theta: -0.00465164
-transformed Observation x: -7.78224 Observation y: -33.9089
-Obs: 7 associated to landmark id: 24
-base Observation x: 30.4077 base observation y: -30.5996
-particle pos  x: 6.07785 particle pos y: 1.93704 particle pos theta: -0.00465164
-transformed Observation x: 36.3429 Observation y: -28.8037
-Obs: 8 associated to landmark id: 17
-base Observation x: -36.6444 base observation y: -25.2456
-particle pos  x: 6.07785 particle pos y: 1.93704 particle pos theta: -0.00465164
-transformed Observation x: -30.6836 Observation y: -23.1378
-Obs: 9 associated to landmark id: 16
-base Observation x: 22.3663 base observation y: -41.5289
-particle pos  x: 6.07785 particle pos y: 1.93704 particle pos theta: -0.00465164
-transformed Observation x: 28.2507 Observation y: -39.6954
-Obs: 10 associated to landmark id: 13
-base Observation x: -45.9765 base observation y: -15.247
-particle pos  x: 6.07785 particle pos y: 1.93704 particle pos theta: -0.00465164
-transformed Observation x: -39.9691 Observation y: -13.0959
-particle number: 1now has weight: 0.791695
-particle number: 1now has weight: 1.07709
-particle number: 1now has weight: 0.55012
-particle number: 1now has weight: 0.129752
-particle number: 1now has weight: 0.0349398
-particle number: 1now has weight: 0.0450741
-particle number: 1now has weight: 0.000811539
-particle number: 1now has weight: 0.000875045
-particle number: 1now has weight: 2.56782e-05
-particle number: 1now has weight: 4.34556e-06
-particle number: 1now has weight: 1.76487e-06
 into particle_cloud
-Particle id: 1particle weight 1.76487e-06
-Particle id: 1particle weight 1.76487e-06
-highest w 1.76487e-06
-average w 1.76487e-06
-for particle :0 number of landmarks associated are: 11
-for particle :0 number of observations in map cords are: 11
-after data association
-Obs: 0 associated to landmark id: 32
-base Observation x: 3.5023 base observation y: 4.9019
-particle pos  x: 6.60671 particle pos y: 2.63342 particle pos theta: 0.314928
-transformed Observation x: 8.41841 Observation y: 8.37907
-Obs: 1 associated to landmark id: 3
-base Observation x: 8.3437 base observation y: -9.9565
-particle pos  x: 6.60671 particle pos y: 2.63342 particle pos theta: 0.314928
-transformed Observation x: 17.6241 Observation y: -4.24896
-Obs: 2 associated to landmark id: 40
-base Observation x: -19.9148 base observation y: 3.4856
-particle pos  x: 6.60671 particle pos y: 2.63342 particle pos theta: 0.314928
-transformed Observation x: -13.4083 Observation y: -0.220979
-Obs: 3 associated to landmark id: 39
-base Observation x: -5.6211 base observation y: -22.4296
-particle pos  x: 6.60671 particle pos y: 2.63342 particle pos theta: 0.314928
-transformed Observation x: 8.20959 Observation y: -20.4342
-Obs: 4 associated to landmark id: 38
-base Observation x: 5.6392 base observation y: -24.8606
-particle pos  x: 6.60671 particle pos y: 2.63342 particle pos theta: 0.314928
-transformed Observation x: 19.6691 Observation y: -19.2578
-Obs: 5 associated to landmark id: 12
-base Observation x: 32.1026 base observation y: 3.119
-particle pos  x: 6.60671 particle pos y: 2.63342 particle pos theta: 0.314928
-transformed Observation x: 36.1644 Observation y: 15.5427
-Obs: 6 associated to landmark id: 4
-base Observation x: -24.3049 base observation y: -30.9704
-particle pos  x: 6.60671 particle pos y: 2.63342 particle pos theta: 0.314928
-transformed Observation x: -6.90982 Observation y: -34.3422
-Obs: 7 associated to landmark id: 24
-base Observation x: 19.1407 base observation y: -38.9498
-particle pos  x: 6.60671 particle pos y: 2.63342 particle pos theta: 0.314928
-transformed Observation x: 36.8707 Observation y: -28.472
-Obs: 8 associated to landmark id: 17
-base Observation x: -42.1051 base observation y: -13.0829
-particle pos  x: 6.60671 particle pos y: 2.63342 particle pos theta: 0.314928
-transformed Observation x: -29.3752 Observation y: -22.848
-Obs: 9 associated to landmark id: 16
-base Observation x: 8.5497 base observation y: -47.1478
-particle pos  x: 6.60671 particle pos y: 2.63342 particle pos theta: 0.314928
-transformed Observation x: 29.3399 Observation y: -39.5473
-Obs: 10 associated to landmark id: 13
-base Observation x: -48.5737 base observation y: -0.0181
-particle pos  x: 6.60671 particle pos y: 2.63342 particle pos theta: 0.314928
-transformed Observation x: -39.5725 Observation y: -12.4294
-particle number: 0now has weight: 4.03977e-08
-particle number: 0now has weight: 2.86636e-08
-particle number: 0now has weight: 3.45129e-08
-particle number: 0now has weight: 1.23803e-08
-particle number: 0now has weight: 7.70615e-11
-particle number: 0now has weight: 7.84895e-12
-particle number: 0now has weight: 8.56288e-12
-particle number: 0now has weight: 3.96163e-12
-particle number: 0now has weight: 7.74684e-13
-particle number: 0now has weight: 3.65242e-13
-particle number: 0now has weight: 4.14025e-13
-for particle :1 number of landmarks associated are: 11
-for particle :1 number of observations in map cords are: 11
-after data association
-Obs: 0 associated to landmark id: 32
-base Observation x: 3.5023 base observation y: 4.9019
-particle pos  x: 6.52816 particle pos y: 2.10753 particle pos theta: 0.312552
-transformed Observation x: 8.35351 Observation y: 7.84886
-Obs: 1 associated to landmark id: 3
-base Observation x: 8.3437 base observation y: -9.9565
-particle pos  x: 6.52816 particle pos y: 2.10753 particle pos theta: 0.312552
-transformed Observation x: 17.5291 Observation y: -4.801
-Obs: 2 associated to landmark id: 40
-base Observation x: -19.9148 base observation y: 3.4856
-particle pos  x: 6.52816 particle pos y: 2.10753 particle pos theta: 0.312552
-transformed Observation x: -13.4936 Observation y: -0.699311
-Obs: 3 associated to landmark id: 39
-base Observation x: -5.6211 base observation y: -22.4296
-particle pos  x: 6.52816 particle pos y: 2.10753 particle pos theta: 0.312552
-transformed Observation x: 8.07624 Observation y: -20.9638
-Obs: 4 associated to landmark id: 38
-base Observation x: 5.6392 base observation y: -24.8606
-particle pos  x: 6.52816 particle pos y: 2.10753 particle pos theta: 0.312552
-transformed Observation x: 19.5385 Observation y: -19.8146
-Obs: 5 associated to landmark id: 12
-base Observation x: 32.1026 base observation y: 3.119
-particle pos  x: 6.52816 particle pos y: 2.10753 particle pos theta: 0.312552
-transformed Observation x: 36.1164 Observation y: 14.9466
-Obs: 6 associated to landmark id: 4
-base Observation x: -24.3049 base observation y: -30.9704
-particle pos  x: 6.52816 particle pos y: 2.10753 particle pos theta: 0.312552
-transformed Observation x: -7.07617 Observation y: -34.8359
-Obs: 7 associated to landmark id: 24
-base Observation x: 19.1407 base observation y: -38.9498
-particle pos  x: 6.52816 particle pos y: 2.10753 particle pos theta: 0.312552
-transformed Observation x: 36.7181 Observation y: -29.0697
-Obs: 8 associated to landmark id: 17
-base Observation x: -42.1051 base observation y: -13.0829
-particle pos  x: 6.52816 particle pos y: 2.10753 particle pos theta: 0.312552
-transformed Observation x: -29.5142 Observation y: -23.2884
-Obs: 9 associated to landmark id: 16
-base Observation x: 8.5497 base observation y: -47.1478
-particle pos  x: 6.52816 particle pos y: 2.10753 particle pos theta: 0.312552
-transformed Observation x: 29.161 Observation y: -40.1271
-Obs: 10 associated to landmark id: 13
-base Observation x: -48.5737 base observation y: -0.0181
-particle pos  x: 6.52816 particle pos y: 2.10753 particle pos theta: 0.312552
-transformed Observation x: -39.6867 Observation y: -12.8455
-particle number: 1now has weight: 7.82184e-07
-particle number: 1now has weight: 1.03273e-06
-particle number: 1now has weight: 2.17637e-07
-particle number: 1now has weight: 3.52517e-07
-particle number: 1now has weight: 4.50149e-08
-particle number: 1now has weight: 7.05224e-08
-particle number: 1now has weight: 7.5521e-08
-particle number: 1now has weight: 1.08155e-07
-particle number: 1now has weight: 1.07505e-07
-particle number: 1now has weight: 5.97279e-08
-particle number: 1now has weight: 7.44234e-08
+Biggest particle has weight: 0
+highest w 0.000279567
+average w 0.000223132
 into particle_cloud
-Particle id: 1particle weight 7.44234e-08
-Particle id: 1particle weight 7.44234e-08
-highest w 7.44234e-08
-average w 7.44234e-08
-for particle :0 number of landmarks associated are: 11
-for particle :0 number of observations in map cords are: 11
-after data association
-Obs: 0 associated to landmark id: 32
-base Observation x: 3.8981 base observation y: 4.3067
-particle pos  x: 6.70629 particle pos y: 1.95078 particle pos theta: 0.304015
-transformed Observation x: 9.1364 Observation y: 7.22689
-Obs: 1 associated to landmark id: 3
-base Observation x: 7.3783 base observation y: -9.331
-particle pos  x: 6.70629 particle pos y: 1.95078 particle pos theta: 0.304015
-transformed Observation x: 16.5395 Observation y: -4.7436
-Obs: 2 associated to landmark id: 40
-base Observation x: -20.6891 base observation y: 3.9209
-particle pos  x: 6.70629 particle pos y: 1.95078 particle pos theta: 0.304015
-transformed Observation x: -14.2078 Observation y: -0.501478
-Obs: 3 associated to landmark id: 39
-base Observation x: -6.309 base observation y: -22.1845
-particle pos  x: 6.70629 particle pos y: 1.95078 particle pos theta: 0.304015
-transformed Observation x: 7.32761 Observation y: -21.105
-Obs: 4 associated to landmark id: 38
-base Observation x: 5.8892 base observation y: -24.6006
-particle pos  x: 6.70629 particle pos y: 1.95078 particle pos theta: 0.304015
-transformed Observation x: 19.6897 Observation y: -19.7587
-Obs: 5 associated to landmark id: 12
-base Observation x: 31.2861 base observation y: 3.095
-particle pos  x: 6.70629 particle pos y: 1.95078 particle pos theta: 0.304015
-transformed Observation x: 35.6312 Observation y: 14.2695
-Obs: 6 associated to landmark id: 4
-base Observation x: -24.6914 base observation y: -31.4459
-particle pos  x: 6.70629 particle pos y: 1.95078 particle pos theta: 0.304015
-transformed Observation x: -7.43938 Observation y: -35.4445
-Obs: 7 associated to landmark id: 24
-base Observation x: 18.2808 base observation y: -38.3086
-particle pos  x: 6.70629 particle pos y: 1.95078 particle pos theta: 0.304015
-transformed Observation x: 35.6166 Observation y: -29.1287
-Obs: 8 associated to landmark id: 17
-base Observation x: -42.9968 base observation y: -12.8176
-particle pos  x: 6.70629 particle pos y: 1.95078 particle pos theta: 0.304015
-transformed Observation x: -30.4818 Observation y: -23.1503
-Obs: 9 associated to landmark id: 16
-base Observation x: 7.9336 base observation y: -46.2893
-particle pos  x: 6.70629 particle pos y: 1.95078 particle pos theta: 0.304015
-transformed Observation x: 28.1329 Observation y: -39.8408
-Obs: 10 associated to landmark id: 13
-base Observation x: -49.014 base observation y: -0.2858
-particle pos  x: 6.70629 particle pos y: 1.95078 particle pos theta: 0.304015
-transformed Observation x: -39.9745 Observation y: -12.9944
-particle number: 0now has weight: 3.22846e-08
-particle number: 0now has weight: 6.85149e-10
-particle number: 0now has weight: 8.24392e-11
-particle number: 0now has weight: 1.88752e-12
-particle number: 0now has weight: 4.64564e-13
-particle number: 0now has weight: 2.37512e-14
-particle number: 0now has weight: 2.6061e-16
-particle number: 0now has weight: 1.19349e-18
-particle number: 0now has weight: 1.90303e-19
-particle number: 0now has weight: 1.24905e-20
-particle number: 0now has weight: 8.14867e-21
-for particle :1 number of landmarks associated are: 11
-for particle :1 number of observations in map cords are: 11
-after data association
-Obs: 0 associated to landmark id: 32
-base Observation x: 3.8981 base observation y: 4.3067
-particle pos  x: 7.30496 particle pos y: 1.42982 particle pos theta: 0.306527
-transformed Observation x: 9.72181 Observation y: 6.71202
-Obs: 1 associated to landmark id: 3
-base Observation x: 7.3783 base observation y: -9.331
-particle pos  x: 7.30496 particle pos y: 1.42982 particle pos theta: 0.306527
-transformed Observation x: 17.155 Observation y: -5.23984
-Obs: 2 associated to landmark id: 40
-base Observation x: -20.6891 base observation y: 3.9209
-particle pos  x: 7.30496 particle pos y: 1.42982 particle pos theta: 0.306527
-transformed Observation x: -13.6029 Observation y: -1.07496
-Obs: 3 associated to landmark id: 39
-base Observation x: -6.309 base observation y: -22.1845
-particle pos  x: 7.30496 particle pos y: 1.42982 particle pos theta: 0.306527
-transformed Observation x: 7.98419 Observation y: -21.6243
-Obs: 4 associated to landmark id: 38
-base Observation x: 5.8892 base observation y: -24.6006
-particle pos  x: 7.30496 particle pos y: 1.42982 particle pos theta: 0.306527
-transformed Observation x: 20.3429 Observation y: -20.247
-Obs: 5 associated to landmark id: 12
-base Observation x: 31.2861 base observation y: 3.095
-particle pos  x: 7.30496 particle pos y: 1.42982 particle pos theta: 0.306527
-transformed Observation x: 36.1988 Observation y: 13.8211
-Obs: 6 associated to landmark id: 4
-base Observation x: -24.6914 base observation y: -31.4459
-particle pos  x: 7.30496 particle pos y: 1.42982 particle pos theta: 0.306527
-transformed Observation x: -6.74674 Observation y: -36.0009
-Obs: 7 associated to landmark id: 24
-base Observation x: 18.2808 base observation y: -38.3086
-particle pos  x: 7.30496 particle pos y: 1.42982 particle pos theta: 0.306527
-transformed Observation x: 36.2932 Observation y: -29.5769
-Obs: 8 associated to landmark id: 17
-base Observation x: -42.9968 base observation y: -12.8176
-particle pos  x: 7.30496 particle pos y: 1.42982 particle pos theta: 0.306527
-transformed Observation x: -29.8199 Observation y: -23.7646
-Obs: 9 associated to landmark id: 16
-base Observation x: 7.9336 base observation y: -46.2893
-particle pos  x: 7.30496 particle pos y: 1.42982 particle pos theta: 0.306527
-transformed Observation x: 28.8365 Observation y: -40.3079
-Obs: 10 associated to landmark id: 13
-base Observation x: -49.014 base observation y: -0.2858
-particle pos  x: 7.30496 particle pos y: 1.42982 particle pos theta: 0.306527
-transformed Observation x: -39.3381 Observation y: -13.6326
-particle number: 1now has weight: 1.41477e-11
-particle number: 1now has weight: 1.7332e-12
-particle number: 1now has weight: 1.51945e-14
-particle number: 1now has weight: 1.9142e-15
-particle number: 1now has weight: 2.55027e-15
-particle number: 1now has weight: 1.63258e-17
-particle number: 1now has weight: 9.10748e-23
-particle number: 1now has weight: 6.72607e-24
-particle number: 1now has weight: 3.17079e-24
-particle number: 1now has weight: 9.98871e-25
-particle number: 1now has weight: 1.83975e-27
+Biggest particle has weight: 0
+highest w 2.56277e-07
+average w 2.0221e-07
 into particle_cloud
-Particle id: 1particle weight 8.14867e-21
-Particle id: 1particle weight 8.14867e-21
-highest w 8.14867e-21
-average w 8.14867e-21
-for particle :0 number of landmarks associated are: 11
-for particle :0 number of observations in map cords are: 11
-after data association
-Obs: 0 associated to landmark id: 32
-base Observation x: 3.0618 base observation y: 4.3138
-particle pos  x: 6.49451 particle pos y: 1.80576 particle pos theta: 0.302728
-transformed Observation x: 8.13103 Observation y: 6.83619
-Obs: 1 associated to landmark id: 3
-base Observation x: 6.9399 base observation y: -9.6058
-particle pos  x: 6.49451 particle pos y: 1.80576 particle pos theta: 0.302728
-transformed Observation x: 15.9826 Observation y: -5.29428
-Obs: 2 associated to landmark id: 40
-base Observation x: -21.1349 base observation y: 4.3365
-particle pos  x: 6.49451 particle pos y: 1.80576 particle pos theta: 0.302728
-transformed Observation x: -14.9721 Observation y: -0.355791
-Obs: 3 associated to landmark id: 39
-base Observation x: -6.5614 base observation y: -22.128
-particle pos  x: 6.49451 particle pos y: 1.80576 particle pos theta: 0.302728
-transformed Observation x: 6.8284 Observation y: -21.2721
-Obs: 4 associated to landmark id: 38
-base Observation x: 5.209 base observation y: -25.1001
-particle pos  x: 6.49451 particle pos y: 1.80576 particle pos theta: 0.302728
-transformed Observation x: 18.9496 Observation y: -20.6
-Obs: 5 associated to landmark id: 12
-base Observation x: 30.7876 base observation y: 3.258
-particle pos  x: 6.49451 particle pos y: 1.80576 particle pos theta: 0.302728
-transformed Observation x: 34.9108 Observation y: 14.0942
-Obs: 6 associated to landmark id: 4
-base Observation x: -25.0698 base observation y: -30.8684
-particle pos  x: 6.49451 particle pos y: 1.80576 particle pos theta: 0.302728
-transformed Observation x: -8.23262 Observation y: -35.1329
-Obs: 7 associated to landmark id: 24
-base Observation x: 18.182 base observation y: -39.205
-particle pos  x: 6.49451 particle pos y: 1.80576 particle pos theta: 0.302728
-transformed Observation x: 35.5377 Observation y: -30.1959
-Obs: 8 associated to landmark id: 17
-base Observation x: -43.2048 base observation y: -13.5502
-particle pos  x: 6.49451 particle pos y: 1.80576 particle pos theta: 0.302728
-transformed Observation x: -30.706 Observation y: -24.0087
-Obs: 9 associated to landmark id: 16
-base Observation x: 7.852 base observation y: -46.2852
-particle pos  x: 6.49451 particle pos y: 1.80576 particle pos theta: 0.302728
-transformed Observation x: 27.7883 Observation y: -40.0338
-Obs: 10 associated to landmark id: 13
-base Observation x: -49.3692 base observation y: -0.2076
-particle pos  x: 6.49451 particle pos y: 1.80576 particle pos theta: 0.302728
-transformed Observation x: -40.5678 Observation y: -13.1106
-particle number: 0now has weight: 8.16786e-23
-particle number: 0now has weight: 1.02118e-28
-particle number: 0now has weight: 6.631e-33
-particle number: 0now has weight: 1.98583e-37
-particle number: 0now has weight: 4.40325e-41
-particle number: 0now has weight: 3.68895e-46
-particle number: 0now has weight: 1.0592e-49
-particle number: 0now has weight: 2.2407e-56
-particle number: 0now has weight: 3.02057e-59
-particle number: 0now has weight: 3.69292e-62
-particle number: 0now has weight: 5.59137e-64
-for particle :1 number of landmarks associated are: 11
-for particle :1 number of observations in map cords are: 11
-after data association
-Obs: 0 associated to landmark id: 32
-base Observation x: 3.0618 base observation y: 4.3138
-particle pos  x: 7.11421 particle pos y: 2.07019 particle pos theta: 0.29778
-transformed Observation x: 8.7756 Observation y: 7.09247
-Obs: 1 associated to landmark id: 3
-base Observation x: 6.9399 base observation y: -9.6058
-particle pos  x: 7.11421 particle pos y: 2.07019 particle pos theta: 0.29778
-transformed Observation x: 16.567 Observation y: -5.0767
-Obs: 2 associated to landmark id: 40
-base Observation x: -21.1349 base observation y: 4.3365
-particle pos  x: 7.11421 particle pos y: 2.07019 particle pos theta: 0.29778
-transformed Observation x: -14.3629 Observation y: 0.0148836
-Obs: 3 associated to landmark id: 39
-base Observation x: -6.5614 base observation y: -22.128
-particle pos  x: 7.11421 particle pos y: 2.07019 particle pos theta: 0.29778
-transformed Observation x: 7.33391 Observation y: -21.0091
-Obs: 4 associated to landmark id: 38
-base Observation x: 5.209 base observation y: -25.1001
-particle pos  x: 7.11421 particle pos y: 2.07019 particle pos theta: 0.29778
-transformed Observation x: 19.4583 Observation y: -20.3969
-Obs: 5 associated to landmark id: 12
-base Observation x: 30.7876 base observation y: 3.258
-particle pos  x: 7.11421 particle pos y: 2.07019 particle pos theta: 0.29778
-transformed Observation x: 35.591 Observation y: 14.2179
-Obs: 6 associated to landmark id: 4
-base Observation x: -25.0698 base observation y: -30.8684
-particle pos  x: 7.11421 particle pos y: 2.07019 particle pos theta: 0.29778
-transformed Observation x: -7.79551 Observation y: -34.7951
-Obs: 7 associated to landmark id: 24
-base Observation x: 18.182 base observation y: -39.205
-particle pos  x: 7.11421 particle pos y: 2.07019 particle pos theta: 0.29778
-transformed Observation x: 35.9987 Observation y: -30.0748
-Obs: 8 associated to landmark id: 17
-base Observation x: -43.2048 base observation y: -13.5502
-particle pos  x: 7.11421 particle pos y: 2.07019 particle pos theta: 0.29778
-transformed Observation x: -30.2135 Observation y: -23.5599
-Obs: 9 associated to landmark id: 16
-base Observation x: 7.852 base observation y: -46.2852
-particle pos  x: 7.11421 particle pos y: 2.07019 particle pos theta: 0.29778
-transformed Observation x: 28.2007 Observation y: -39.8742
-Obs: 10 associated to landmark id: 13
-base Observation x: -49.3692 base observation y: -0.2076
-particle pos  x: 7.11421 particle pos y: 2.07019 particle pos theta: 0.29778
-transformed Observation x: -40.0213 Observation y: -12.6132
-particle number: 1now has weight: 4.17146e-21
-particle number: 1now has weight: 3.65197e-23
-particle number: 1now has weight: 3.32589e-24
-particle number: 1now has weight: 8.88086e-26
-particle number: 1now has weight: 8.53079e-27
-particle number: 1now has weight: 2.39614e-28
-particle number: 1now has weight: 2.49227e-29
-particle number: 1now has weight: 2.25657e-33
-particle number: 1now has weight: 1.15884e-33
-particle number: 1now has weight: 1.26916e-34
-particle number: 1now has weight: 1.64987e-34
+Biggest particle has weight: 0
+highest w 1.0808e-09
+average w 7.95183e-10
 into particle_cloud
-Particle id: 1particle weight 1.64987e-34
-Particle id: 1particle weight 1.64987e-34
-highest w 1.64987e-34
-average w 1.64987e-34
-for particle :0 number of landmarks associated are: 11
-for particle :0 number of observations in map cords are: 11
-after data association
-Obs: 0 associated to landmark id: 32
-base Observation x: 2.2156 base observation y: 4.7599
-particle pos  x: 7.62936 particle pos y: 2.61453 particle pos theta: 0.295538
-transformed Observation x: 8.36256 Observation y: 7.81337
-Obs: 1 associated to landmark id: 3
-base Observation x: 6.8652 base observation y: -9.8474
-particle pos  x: 7.62936 particle pos y: 2.61453 particle pos theta: 0.295538
-transformed Observation x: 17.065 Observation y: -4.80642
-Obs: 2 associated to landmark id: 40
-base Observation x: -20.8852 base observation y: 3.8969
-particle pos  x: 7.62936 particle pos y: 2.61453 particle pos theta: 0.295538
-transformed Observation x: -13.4854 Observation y: 0.259568
-Obs: 3 associated to landmark id: 39
-base Observation x: -6.9552 base observation y: -22.4323
-particle pos  x: 7.62936 particle pos y: 2.61453 particle pos theta: 0.295538
-transformed Observation x: 7.50922 Observation y: -20.871
-Obs: 4 associated to landmark id: 38
-base Observation x: 5.0308 base observation y: -25.2195
-particle pos  x: 7.62936 particle pos y: 2.61453 particle pos theta: 0.295538
-transformed Observation x: 19.7874 Observation y: -20.0463
-Obs: 5 associated to landmark id: 12
-base Observation x: 30.8304 base observation y: 2.8071
-particle pos  x: 7.62936 particle pos y: 2.61453 particle pos theta: 0.295538
-transformed Observation x: 36.3055 Observation y: 14.2794
-Obs: 6 associated to landmark id: 4
-base Observation x: -25.6084 base observation y: -30.2971
-particle pos  x: 7.62936 particle pos y: 2.61453 particle pos theta: 0.295538
-transformed Observation x: -8.04463 Observation y: -33.8276
-Obs: 7 associated to landmark id: 24
-base Observation x: 17.9347 base observation y: -38.5083
-particle pos  x: 7.62936 particle pos y: 2.61453 particle pos theta: 0.295538
-transformed Observation x: 36.0022 Observation y: -29.0007
-Obs: 8 associated to landmark id: 17
-base Observation x: -43.8345 base observation y: -13.1079
-particle pos  x: 7.62936 particle pos y: 2.61453 particle pos theta: 0.295538
-transformed Observation x: -30.487 Observation y: -22.6921
-Obs: 9 associated to landmark id: 16
-base Observation x: 7.1304 base observation y: -46.7493
-particle pos  x: 7.62936 particle pos y: 2.61453 particle pos theta: 0.295538
-transformed Observation x: 28.0666 Observation y: -40.0312
-Obs: 10 associated to landmark id: 13
-base Observation x: -49.9789 base observation y: -0.2123
-particle pos  x: 7.62936 particle pos y: 2.61453 particle pos theta: 0.295538
-transformed Observation x: -40.1209 Observation y: -12.1452
-particle number: 0now has weight: 8.46059e-35
-particle number: 0now has weight: 5.85404e-35
-particle number: 0now has weight: 4.44138e-35
-particle number: 0now has weight: 5.17726e-36
-particle number: 0now has weight: 4.33917e-36
-particle number: 0now has weight: 1.36833e-36
-particle number: 0now has weight: 1.36257e-39
-particle number: 0now has weight: 2.61664e-40
-particle number: 0now has weight: 6.56775e-42
-particle number: 0now has weight: 1.62838e-43
-particle number: 0now has weight: 4.53013e-44
-for particle :1 number of landmarks associated are: 11
-for particle :1 number of observations in map cords are: 11
-after data association
-Obs: 0 associated to landmark id: 32
-base Observation x: 2.2156 base observation y: 4.7599
-particle pos  x: 7.29151 particle pos y: 2.43561 particle pos theta: 0.305616
-transformed Observation x: 7.97228 Observation y: 7.64157
-Obs: 1 associated to landmark id: 3
-base Observation x: 6.8652 base observation y: -9.8474
-particle pos  x: 7.29151 particle pos y: 2.43561 particle pos theta: 0.305616
-transformed Observation x: 16.8015 Observation y: -4.88987
-Obs: 2 associated to landmark id: 40
-base Observation x: -20.8852 base observation y: 3.8969
-particle pos  x: 7.29151 particle pos y: 2.43561 particle pos theta: 0.305616
-transformed Observation x: -13.7984 Observation y: -0.132025
-Obs: 3 associated to landmark id: 39
-base Observation x: -6.9552 base observation y: -22.4323
-particle pos  x: 7.29151 particle pos y: 2.43561 particle pos theta: 0.305616
-transformed Observation x: 7.40805 Observation y: -21.0499
-Obs: 4 associated to landmark id: 38
-base Observation x: 5.0308 base observation y: -25.2195
-particle pos  x: 7.29151 particle pos y: 2.43561 particle pos theta: 0.305616
-transformed Observation x: 19.6773 Observation y: -20.1016
-Obs: 5 associated to landmark id: 12
-base Observation x: 30.8304 base observation y: 2.8071
-particle pos  x: 7.29151 particle pos y: 2.43561 particle pos theta: 0.305616
-transformed Observation x: 35.8487 Observation y: 14.3889
-Obs: 6 associated to landmark id: 4
-base Observation x: -25.6084 base observation y: -30.2971
-particle pos  x: 7.29151 particle pos y: 2.43561 particle pos theta: 0.305616
-transformed Observation x: -8.01443 Observation y: -34.1627
-Obs: 7 associated to landmark id: 24
-base Observation x: 17.9347 base observation y: -38.5083
-particle pos  x: 7.29151 particle pos y: 2.43561 particle pos theta: 0.305616
-transformed Observation x: 35.9816 Observation y: -28.8921
-Obs: 8 associated to landmark id: 17
-base Observation x: -43.8345 base observation y: -13.1079
-particle pos  x: 7.29151 particle pos y: 2.43561 particle pos theta: 0.305616
-transformed Observation x: -30.5679 Observation y: -23.2539
-Obs: 9 associated to landmark id: 16
-base Observation x: 7.1304 base observation y: -46.7493
-particle pos  x: 7.29151 particle pos y: 2.43561 particle pos theta: 0.305616
-transformed Observation x: 28.1575 Observation y: -40.002
-Obs: 10 associated to landmark id: 13
-base Observation x: -49.9789 base observation y: -0.2123
-particle pos  x: 7.29151 particle pos y: 2.43561 particle pos theta: 0.305616
-transformed Observation x: -40.3076 Observation y: -12.8045
-particle number: 1now has weight: 8.69292e-36
-particle number: 1now has weight: 1.14813e-36
-particle number: 1now has weight: 1.75811e-36
-particle number: 1now has weight: 9.05918e-38
-particle number: 1now has weight: 4.83718e-38
-particle number: 1now has weight: 1.46623e-38
-particle number: 1now has weight: 1.50158e-40
-particle number: 1now has weight: 2.64245e-41
-particle number: 1now has weight: 2.37671e-42
-particle number: 1now has weight: 1.41914e-43
-particle number: 1now has weight: 4.53453e-44
+Biggest particle has weight: 0
+highest w 5.58393e-12
+average w 3.32917e-12
 into particle_cloud
-Particle id: 1particle weight 4.53453e-44
-Particle id: 1particle weight 4.53453e-44
-highest w 4.53453e-44
-average w 4.53453e-44
-for particle :0 number of landmarks associated are: 11
-for particle :0 number of observations in map cords are: 10
-after data association
-Obs: 0 associated to landmark id: 32
-base Observation x: 2.06 base observation y: 4.2619
-particle pos  x: 7.61612 particle pos y: 2.1707 particle pos theta: 0.300807
-transformed Observation x: 8.32086 Observation y: 6.85159
-Obs: 1 associated to landmark id: 3
-base Observation x: 6.5565 base observation y: -9.2065
-particle pos  x: 7.61612 particle pos y: 2.1707 particle pos theta: 0.300807
-transformed Observation x: 16.606 Observation y: -4.67977
-Obs: 2 associated to landmark id: 40
-base Observation x: -21.1095 base observation y: 4.5536
-particle pos  x: 7.61612 particle pos y: 2.1707 particle pos theta: 0.300807
-transformed Observation x: -13.8947 Observation y: 0.265289
-Obs: 3 associated to landmark id: 39
-base Observation x: -7.591 base observation y: -22.6623
-particle pos  x: 7.61612 particle pos y: 2.1707 particle pos theta: 0.300807
-transformed Observation x: 7.0806 Observation y: -21.7232
-Obs: 4 associated to landmark id: 38
-base Observation x: 4.3761 base observation y: -24.6816
-particle pos  x: 7.61612 particle pos y: 2.1707 particle pos theta: 0.300807
-transformed Observation x: 19.1087 Observation y: -20.106
-Obs: 5 associated to landmark id: 12
-base Observation x: 30.6728 base observation y: 3.0907
-particle pos  x: 7.61612 particle pos y: 2.1707 particle pos theta: 0.300807
-transformed Observation x: 35.9959 Observation y: 14.2107
-Obs: 6 associated to landmark id: 4
-base Observation x: -26.0157 base observation y: -30.701
-particle pos  x: 7.61612 particle pos y: 2.1707 particle pos theta: 0.300807
-transformed Observation x: -8.135 Observation y: -34.86
-Obs: 7 associated to landmark id: 24
-base Observation x: 17.6269 base observation y: -38.46
-particle pos  x: 7.61612 particle pos y: 2.1707 particle pos theta: 0.300807
-transformed Observation x: 35.8469 Observation y: -29.3397
-Obs: 8 associated to landmark id: 17
-base Observation x: -44.438 base observation y: -12.6283
-particle pos  x: 7.61612 particle pos y: 2.1707 particle pos theta: 0.300807
-transformed Observation x: -31.0849 Observation y: -23.0571
-Obs: 9 associated to landmark id: 16
-base Observation x: 6.5026 base observation y: -46.9636
-particle pos  x: 7.61612 particle pos y: 2.1707 particle pos theta: 0.300807
-transformed Observation x: 27.7416 Observation y: -40.7575
-particle number: 0now has weight: 1.59887e-45
-particle number: 0now has weight: 6.8733e-47
-particle number: 0now has weight: 4.07766e-47
-particle number: 0now has weight: 2.85992e-51
-particle number: 0now has weight: 1.3736e-53
-particle number: 0now has weight: 2.32007e-54
-particle number: 0now has weight: 8.35362e-57
-particle number: 0now has weight: 1.71461e-58
-particle number: 0now has weight: 3.9995e-62
-particle number: 0now has weight: 1.56208e-67
-for particle :1 number of landmarks associated are: 10
-for particle :1 number of observations in map cords are: 10
-after data association
-Obs: 0 associated to landmark id: 32
-base Observation x: 2.06 base observation y: 4.2619
-particle pos  x: 8.04692 particle pos y: 2.52566 particle pos theta: 0.306239
-transformed Observation x: 8.72622 Observation y: 7.21031
-Obs: 1 associated to landmark id: 3
-base Observation x: 6.5565 base observation y: -9.2065
-particle pos  x: 8.04692 particle pos y: 2.52566 particle pos theta: 0.306239
-transformed Observation x: 17.0739 Observation y: -4.27588
-Obs: 2 associated to landmark id: 40
-base Observation x: -21.1095 base observation y: 4.5536
-particle pos  x: 8.04692 particle pos y: 2.52566 particle pos theta: 0.306239
-transformed Observation x: -13.4532 Observation y: 0.503423
-Obs: 3 associated to landmark id: 39
-base Observation x: -7.591 base observation y: -22.6623
-particle pos  x: 8.04692 particle pos y: 2.52566 particle pos theta: 0.306239
-transformed Observation x: 7.6412 Observation y: -21.3707
-Obs: 4 associated to landmark id: 38
-base Observation x: 4.3761 base observation y: -24.6816
-particle pos  x: 8.04692 particle pos y: 2.52566 particle pos theta: 0.306239
-transformed Observation x: 19.6603 Observation y: -19.6883
-Obs: 5 associated to landmark id: 12
-base Observation x: 30.6728 base observation y: 3.0907
-particle pos  x: 8.04692 particle pos y: 2.52566 particle pos theta: 0.306239
-transformed Observation x: 36.3609 Observation y: 14.7196
-Obs: 6 associated to landmark id: 4
-base Observation x: -26.0157 base observation y: -30.701
-particle pos  x: 8.04692 particle pos y: 2.52566 particle pos theta: 0.306239
-transformed Observation x: -7.50281 Observation y: -34.59
-Obs: 7 associated to landmark id: 24
-base Observation x: 17.6269 base observation y: -38.46
-particle pos  x: 8.04692 particle pos y: 2.52566 particle pos theta: 0.306239
-transformed Observation x: 36.4484 Observation y: -28.8309
-Obs: 8 associated to landmark id: 17
-base Observation x: -44.438 base observation y: -12.6283
-particle pos  x: 8.04692 particle pos y: 2.52566 particle pos theta: 0.306239
-transformed Observation x: -30.5165 Observation y: -22.912
-Obs: 9 associated to landmark id: 16
-base Observation x: 6.5026 base observation y: -46.9636
-particle pos  x: 8.04692 particle pos y: 2.52566 particle pos theta: 0.306239
-transformed Observation x: 28.4053 Observation y: -40.2925
-particle number: 1now has weight: 3.95988e-44
-particle number: 1now has weight: 2.0131e-44
-particle number: 1now has weight: 3.91457e-45
-particle number: 1now has weight: 4.949e-46
-particle number: 1now has weight: 7.49756e-47
-particle number: 1now has weight: 1.08281e-46
-particle number: 1now has weight: 8.67062e-47
-particle number: 1now has weight: 1.25511e-46
-particle number: 1now has weight: 8.08555e-48
-particle number: 1now has weight: 7.4103e-49
+Biggest particle has weight: 0
+highest w 3.04136e-12
+average w 2.12758e-12
 into particle_cloud
-Particle id: 1particle weight 7.4103e-49
-Particle id: 1particle weight 7.4103e-49
-highest w 7.4103e-49
-average w 7.4103e-49
-for particle :0 number of landmarks associated are: 10
-for particle :0 number of observations in map cords are: 10
-after data association
-Obs: 0 associated to landmark id: 32
-base Observation x: 1.7318 base observation y: 4.4963
-particle pos  x: 8.34525 particle pos y: 2.47617 particle pos theta: 0.295458
-transformed Observation x: 8.69279 Observation y: 7.2819
-Obs: 1 associated to landmark id: 3
-base Observation x: 6.016 base observation y: -9.6957
-particle pos  x: 8.34525 particle pos y: 2.47617 particle pos theta: 0.295458
-transformed Observation x: 16.9237 Observation y: -5.04768
-Obs: 2 associated to landmark id: 40
-base Observation x: -22.2028 base observation y: 3.6514
-particle pos  x: 8.34525 particle pos y: 2.47617 particle pos theta: 0.295458
-transformed Observation x: -13.9587 Observation y: -0.49561
-Obs: 3 associated to landmark id: 39
-base Observation x: -8.0333 base observation y: -22.7817
-particle pos  x: 8.34525 particle pos y: 2.47617 particle pos theta: 0.295458
-transformed Observation x: 7.29357 Observation y: -21.6575
-Obs: 4 associated to landmark id: 38
-base Observation x: 4.3403 base observation y: -25.314
-particle pos  x: 8.34525 particle pos y: 2.47617 particle pos theta: 0.295458
-transformed Observation x: 19.8684 Observation y: -20.4771
-Obs: 5 associated to landmark id: 12
-base Observation x: 29.8618 base observation y: 3.3895
-particle pos  x: 8.34525 particle pos y: 2.47617 particle pos theta: 0.295458
-transformed Observation x: 35.9262 Observation y: 14.4139
-Obs: 6 associated to landmark id: 4
-base Observation x: -26.6688 base observation y: -30.8602
-particle pos  x: 8.34525 particle pos y: 2.47617 particle pos theta: 0.295458
-transformed Observation x: -8.18216 Observation y: -34.8122
-Obs: 7 associated to landmark id: 24
-base Observation x: 17.0561 base observation y: -38.7543
-particle pos  x: 8.34525 particle pos y: 2.47617 particle pos theta: 0.295458
-transformed Observation x: 35.9467 Observation y: -29.6325
-Obs: 8 associated to landmark id: 17
-base Observation x: -44.3166 base observation y: -12.548
-particle pos  x: 8.34525 particle pos y: 2.47617 particle pos theta: 0.295458
-transformed Observation x: -30.3974 Observation y: -22.4321
-Obs: 9 associated to landmark id: 16
-base Observation x: 6.381 base observation y: -46.4007
-particle pos  x: 8.34525 particle pos y: 2.47617 particle pos theta: 0.295458
-transformed Observation x: 27.9606 Observation y: -40.0559
-particle number: 0now has weight: 8.17125e-49
-particle number: 0now has weight: 1.20394e-49
-particle number: 0now has weight: 5.05698e-50
-particle number: 0now has weight: 6.61962e-53
-particle number: 0now has weight: 4.29982e-53
-particle number: 0now has weight: 1.92468e-53
-particle number: 0now has weight: 4.72667e-56
-particle number: 0now has weight: 3.21392e-58
-particle number: 0now has weight: 1.87068e-60
-particle number: 0now has weight: 1.51189e-62
-for particle :1 number of landmarks associated are: 10
-for particle :1 number of observations in map cords are: 10
-after data association
-Obs: 0 associated to landmark id: 32
-base Observation x: 1.7318 base observation y: 4.4963
-particle pos  x: 8.37236 particle pos y: 2.17936 particle pos theta: 0.31331
-transformed Observation x: 8.63405 Observation y: 6.99053
-Obs: 1 associated to landmark id: 3
-base Observation x: 6.016 base observation y: -9.6957
-particle pos  x: 8.37236 particle pos y: 2.17936 particle pos theta: 0.31331
-transformed Observation x: 17.0838 Observation y: -5.19015
-Obs: 2 associated to landmark id: 40
-base Observation x: -22.2028 base observation y: 3.6514
-particle pos  x: 8.37236 particle pos y: 2.17936 particle pos theta: 0.31331
-transformed Observation x: -13.875 Observation y: -1.19011
-Obs: 3 associated to landmark id: 39
-base Observation x: -8.0333 base observation y: -22.7817
-particle pos  x: 8.37236 particle pos y: 2.17936 particle pos theta: 0.31331
-transformed Observation x: 7.75166 Observation y: -21.9692
-Obs: 4 associated to landmark id: 38
-base Observation x: 4.3403 base observation y: -25.314
-particle pos  x: 8.37236 particle pos y: 2.17936 particle pos theta: 0.31331
-transformed Observation x: 20.3034 Observation y: -20.5646
-Obs: 5 associated to landmark id: 12
-base Observation x: 29.8618 base observation y: 3.3895
-particle pos  x: 8.37236 particle pos y: 2.17936 particle pos theta: 0.31331
-transformed Observation x: 35.7358 Observation y: 14.6075
-Obs: 6 associated to landmark id: 4
-base Observation x: -26.6688 base observation y: -30.8602
-particle pos  x: 8.37236 particle pos y: 2.17936 particle pos theta: 0.31331
-transformed Observation x: -7.48676 Observation y: -35.3981
-Obs: 7 associated to landmark id: 24
-base Observation x: 17.0561 base observation y: -38.7543
-particle pos  x: 8.37236 particle pos y: 2.17936 particle pos theta: 0.31331
-transformed Observation x: 36.5426 Observation y: -29.4315
-Obs: 8 associated to landmark id: 17
-base Observation x: -44.3166 base observation y: -12.548
-particle pos  x: 8.37236 particle pos y: 2.17936 particle pos theta: 0.31331
-transformed Observation x: -29.9194 Observation y: -23.4166
-Obs: 9 associated to landmark id: 16
-base Observation x: 6.381 base observation y: -46.4007
-particle pos  x: 8.37236 particle pos y: 2.17936 particle pos theta: 0.31331
-transformed Observation x: 28.7439 Observation y: -39.9958
-particle number: 1now has weight: 1.91153e-49
-particle number: 1now has weight: 2.59379e-50
-particle number: 1now has weight: 4.50338e-53
-particle number: 1now has weight: 1.00737e-55
-particle number: 1now has weight: 5.89998e-56
-particle number: 1now has weight: 2.37411e-56
-particle number: 1now has weight: 3.44209e-58
-particle number: 1now has weight: 1.20494e-58
-particle number: 1now has weight: 1.83967e-58
-particle number: 1now has weight: 2.06027e-58
+Biggest particle has weight: 0
+highest w 1.18274e-11
+average w 7.89567e-12
 into particle_cloud
-Particle id: 1particle weight 2.06027e-58
-Particle id: 1particle weight 2.06027e-58
-highest w 2.06027e-58
-average w 2.06027e-58
-for particle :0 number of landmarks associated are: 10
-for particle :0 number of observations in map cords are: 10
-after data association
-Obs: 0 associated to landmark id: 32
-base Observation x: 1.4579 base observation y: 4.5961
-particle pos  x: 8.50936 particle pos y: 2.36548 particle pos theta: 0.326082
-transformed Observation x: 8.41814 Observation y: 7.1864
-Obs: 1 associated to landmark id: 3
-base Observation x: 5.4241 base observation y: -9.6943
-particle pos  x: 8.50936 particle pos y: 2.36548 particle pos theta: 0.326082
-transformed Observation x: 16.753 Observation y: -5.08045
-Obs: 2 associated to landmark id: 40
-base Observation x: -22.8258 base observation y: 3.98
-particle pos  x: 8.50936 particle pos y: 2.36548 particle pos theta: 0.326082
-transformed Observation x: -14.3886 Observation y: -1.17612
-Obs: 3 associated to landmark id: 39
-base Observation x: -8.3369 base observation y: -22.6858
-particle pos  x: 8.50936 particle pos y: 2.36548 particle pos theta: 0.326082
-transformed Observation x: 7.8788 Observation y: -21.7955
-Obs: 4 associated to landmark id: 38
-base Observation x: 3.2957 base observation y: -24.9787
-particle pos  x: 8.50936 particle pos y: 2.36548 particle pos theta: 0.326082
-transformed Observation x: 19.6329 Observation y: -20.2412
-Obs: 5 associated to landmark id: 12
-base Observation x: 29.8919 base observation y: 2.9299
-particle pos  x: 8.50936 particle pos y: 2.36548 particle pos theta: 0.326082
-transformed Observation x: 35.8875 Observation y: 14.7164
-Obs: 6 associated to landmark id: 4
-base Observation x: -26.7962 base observation y: -30.6154
-particle pos  x: 8.50936 particle pos y: 2.36548 particle pos theta: 0.326082
-transformed Observation x: -7.06766 Observation y: -35.2204
-Obs: 7 associated to landmark id: 24
-base Observation x: 16.7764 base observation y: -39.1181
-particle pos  x: 8.50936 particle pos y: 2.36548 particle pos theta: 0.326082
-transformed Observation x: 36.9326 Observation y: -29.3172
-Obs: 8 associated to landmark id: 17
-base Observation x: -44.5775 base observation y: -13.2525
-particle pos  x: 8.50936 particle pos y: 2.36548 particle pos theta: 0.326082
-transformed Observation x: -29.4739 Observation y: -24.4684
-Obs: 9 associated to landmark id: 16
-base Observation x: 5.2998 base observation y: -47.0345
-particle pos  x: 8.50936 particle pos y: 2.36548 particle pos theta: 0.326082
-transformed Observation x: 28.5966 Observation y: -40.4928
-particle number: 0now has weight: 8.47124e-59
-particle number: 0now has weight: 3.49701e-60
-particle number: 0now has weight: 4.36743e-64
-particle number: 0now has weight: 9.81787e-66
-particle number: 0now has weight: 3.99532e-66
-particle number: 0now has weight: 3.7976e-66
-particle number: 0now has weight: 5.02703e-67
-particle number: 0now has weight: 1.98647e-67
-particle number: 0now has weight: 6.37954e-71
-particle number: 0now has weight: 3.28281e-72
-for particle :1 number of landmarks associated are: 10
-for particle :1 number of observations in map cords are: 10
-after data association
-Obs: 0 associated to landmark id: 32
-base Observation x: 1.4579 base observation y: 4.5961
-particle pos  x: 9.27175 particle pos y: 2.26929 particle pos theta: 0.291964
-transformed Observation x: 9.34504 Observation y: 7.09052
-Obs: 1 associated to landmark id: 3
-base Observation x: 5.4241 base observation y: -9.6943
-particle pos  x: 9.27175 particle pos y: 2.26929 particle pos theta: 0.291964
-transformed Observation x: 17.2567 Observation y: -5.45351
-Obs: 2 associated to landmark id: 40
-base Observation x: -22.8258 base observation y: 3.98
-particle pos  x: 9.27175 particle pos y: 2.26929 particle pos theta: 0.291964
-transformed Observation x: -13.7336 Observation y: -0.489174
-Obs: 3 associated to landmark id: 39
-base Observation x: -8.3369 base observation y: -22.6858
-particle pos  x: 9.27175 particle pos y: 2.26929 particle pos theta: 0.291964
-transformed Observation x: 7.8174 Observation y: -21.8561
-Obs: 4 associated to landmark id: 38
-base Observation x: 3.2957 base observation y: -24.9787
-particle pos  x: 9.27175 particle pos y: 2.26929 particle pos theta: 0.291964
-transformed Observation x: 19.6177 Observation y: -20.7037
-Obs: 5 associated to landmark id: 12
-base Observation x: 29.8919 base observation y: 2.9299
-particle pos  x: 9.27175 particle pos y: 2.26929 particle pos theta: 0.291964
-transformed Observation x: 37.0553 Observation y: 13.6791
-Obs: 6 associated to landmark id: 4
-base Observation x: -26.7962 base observation y: -30.6154
-particle pos  x: 9.27175 particle pos y: 2.26929 particle pos theta: 0.291964
-transformed Observation x: -7.57831 Observation y: -34.7633
-Obs: 7 associated to landmark id: 24
-base Observation x: 16.7764 base observation y: -39.1181
-particle pos  x: 9.27175 particle pos y: 2.26929 particle pos theta: 0.291964
-transformed Observation x: 36.5977 Observation y: -30.3645
-Obs: 8 associated to landmark id: 17
-base Observation x: -44.5775 base observation y: -13.2525
-particle pos  x: 9.27175 particle pos y: 2.26929 particle pos theta: 0.291964
-transformed Observation x: -29.6047 Observation y: -23.2533
-Obs: 9 associated to landmark id: 16
-base Observation x: 5.2998 base observation y: -47.0345
-particle pos  x: 9.27175 particle pos y: 2.26929 particle pos theta: 0.291964
-transformed Observation x: 27.8854 Observation y: -41.2493
-particle number: 1now has weight: 1.59907e-59
-particle number: 1now has weight: 4.23179e-61
-particle number: 1now has weight: 3.05382e-61
-particle number: 1now has weight: 3.03029e-63
-particle number: 1now has weight: 2.15583e-64
-particle number: 1now has weight: 4.45853e-69
-particle number: 1now has weight: 1.94211e-69
-particle number: 1now has weight: 2.21175e-74
-particle number: 1now has weight: 2.89675e-74
-particle number: 1now has weight: 6.93298e-82
+Biggest particle has weight: 0
+highest w 9.05191e-12
+average w 6.17402e-12
 into particle_cloud
-Particle id: 1particle weight 3.28281e-72
-Particle id: 1particle weight 3.28281e-72
-highest w 3.28281e-72
-average w 3.28281e-72
-for particle :0 number of landmarks associated are: 10
-for particle :0 number of observations in map cords are: 10
-after data association
-Obs: 0 associated to landmark id: 32
-base Observation x: 1.1097 base observation y: 4.9674
-particle pos  x: 9.10054 particle pos y: 2.84768 particle pos theta: 0.309965
-transformed Observation x: 8.64218 Observation y: 7.91685
-Obs: 1 associated to landmark id: 3
-base Observation x: 5.3022 base observation y: -9.3093
-particle pos  x: 9.10054 particle pos y: 2.84768 particle pos theta: 0.309965
-transformed Observation x: 16.9896 Observation y: -4.40067
-Obs: 2 associated to landmark id: 40
-base Observation x: -23.2843 base observation y: 3.8734
-particle pos  x: 9.10054 particle pos y: 2.84768 particle pos theta: 0.309965
-transformed Observation x: -14.2556 Observation y: -0.565802
-Obs: 3 associated to landmark id: 39
-base Observation x: -9.0026 base observation y: -22.8052
-particle pos  x: 9.10054 particle pos y: 2.84768 particle pos theta: 0.309965
-transformed Observation x: 7.48313 Observation y: -21.6167
-Obs: 4 associated to landmark id: 38
-base Observation x: 3.0402 base observation y: -25.155
-particle pos  x: 9.10054 particle pos y: 2.84768 particle pos theta: 0.309965
-transformed Observation x: 19.6688 Observation y: -20.1812
-Obs: 5 associated to landmark id: 12
-base Observation x: 29.1883 base observation y: 3.3695
-particle pos  x: 9.10054 particle pos y: 2.84768 particle pos theta: 0.309965
-transformed Observation x: 35.8701 Observation y: 14.9598
-Obs: 6 associated to landmark id: 4
-base Observation x: -27.2883 base observation y: -30.5405
-particle pos  x: 9.10054 particle pos y: 2.84768 particle pos theta: 0.309965
-transformed Observation x: -7.5717 Observation y: -34.561
-Obs: 7 associated to landmark id: 24
-base Observation x: 15.8111 base observation y: -38.3054
-particle pos  x: 9.10054 particle pos y: 2.84768 particle pos theta: 0.309965
-transformed Observation x: 35.8423 Observation y: -28.8095
-Obs: 8 associated to landmark id: 16
-base Observation x: 5.6763 base observation y: -46.5192
-particle pos  x: 9.10054 particle pos y: 2.84768 particle pos theta: 0.309965
-transformed Observation x: 28.6959 Observation y: -39.7232
-Obs: 9 associated to landmark id: 17
-base Observation x: -45.8709 base observation y: -12.5698
-particle pos  x: 9.10054 particle pos y: 2.84768 particle pos theta: 0.309965
-transformed Observation x: -30.7502 Observation y: -23.1149
-particle number: 0now has weight: 2.68496e-72
-particle number: 0now has weight: 1.36283e-72
-particle number: 0now has weight: 8.77749e-74
-particle number: 0now has weight: 8.62174e-76
-particle number: 0now has weight: 4.4393e-76
-particle number: 0now has weight: 3.84526e-76
-particle number: 0now has weight: 2.27782e-76
-particle number: 0now has weight: 1.27105e-77
-particle number: 0now has weight: 1.78181e-77
-particle number: 0now has weight: 2.62025e-79
-for particle :1 number of landmarks associated are: 10
-for particle :1 number of observations in map cords are: 10
-after data association
-Obs: 0 associated to landmark id: 32
-base Observation x: 1.1097 base observation y: 4.9674
-particle pos  x: 8.5866 particle pos y: 2.67986 particle pos theta: 0.323182
-transformed Observation x: 8.06128 Observation y: 7.74252
-Obs: 1 associated to landmark id: 3
-base Observation x: 5.3022 base observation y: -9.3093
-particle pos  x: 8.5866 particle pos y: 2.67986 particle pos theta: 0.323182
-transformed Observation x: 16.5708 Observation y: -4.4636
-Obs: 2 associated to landmark id: 40
-base Observation x: -23.2843 base observation y: 3.8734
-particle pos  x: 8.5866 particle pos y: 2.67986 particle pos theta: 0.323182
-transformed Observation x: -14.7224 Observation y: -1.04202
-Obs: 3 associated to landmark id: 39
-base Observation x: -9.0026 base observation y: -22.8052
-particle pos  x: 8.5866 particle pos y: 2.67986 particle pos theta: 0.323182
-transformed Observation x: 7.29266 Observation y: -21.8038
-Obs: 4 associated to landmark id: 38
-base Observation x: 3.0402 base observation y: -25.155
-particle pos  x: 8.5866 particle pos y: 2.67986 particle pos theta: 0.323182
-transformed Observation x: 19.4583 Observation y: -20.2073
-Obs: 5 associated to landmark id: 12
-base Observation x: 29.1883 base observation y: 3.3695
-particle pos  x: 8.5866 particle pos y: 2.67986 particle pos theta: 0.323182
-transformed Observation x: 35.1937 Observation y: 15.1447
-Obs: 6 associated to landmark id: 4
-base Observation x: -27.2883 base observation y: -30.5405
-particle pos  x: 8.5866 particle pos y: 2.67986 particle pos theta: 0.323182
-transformed Observation x: -7.58977 Observation y: -34.9459
-Obs: 7 associated to landmark id: 24
-base Observation x: 15.8111 base observation y: -38.3054
-particle pos  x: 8.5866 particle pos y: 2.67986 particle pos theta: 0.323182
-transformed Observation x: 35.7444 Observation y: -28.6211
-Obs: 8 associated to landmark id: 16
-base Observation x: 5.6763 base observation y: -46.5192
-particle pos  x: 8.5866 particle pos y: 2.67986 particle pos theta: 0.323182
-transformed Observation x: 28.7428 Observation y: -39.6283
-Obs: 9 associated to landmark id: 17
-base Observation x: -45.8709 base observation y: -12.5698
-particle pos  x: 8.5866 particle pos y: 2.67986 particle pos theta: 0.323182
-transformed Observation x: -30.9176 Observation y: -23.8071
-particle number: 1now has weight: 3.13867e-73
-particle number: 1now has weight: 9.11907e-75
-particle number: 1now has weight: 1.72734e-79
-particle number: 1now has weight: 6.50606e-83
-particle number: 1now has weight: 8.60766e-84
-particle number: 1now has weight: 3.02804e-86
-particle number: 1now has weight: 6.57428e-87
-particle number: 1now has weight: 1.01183e-88
-particle number: 1now has weight: 1.43381e-88
-particle number: 1now has weight: 8.00959e-92
+Biggest particle has weight: 0
+highest w 1.37894e-15
+average w 1.07329e-15
 into particle_cloud
-Particle id: 1particle weight 2.62025e-79
-Particle id: 1particle weight 2.62025e-79
-highest w 2.62025e-79
-average w 2.62025e-79
-for particle :0 number of landmarks associated are: 10
-for particle :0 number of observations in map cords are: 10
-after data association
-Obs: 0 associated to landmark id: 32
-base Observation x: 0.0708 base observation y: 5.3384
-particle pos  x: 9.83175 particle pos y: 2.86655 particle pos theta: 0.310466
-transformed Observation x: 8.26827 Observation y: 7.97136
-Obs: 1 associated to landmark id: 3
-base Observation x: 4.6855 base observation y: -9.7551
-particle pos  x: 9.83175 particle pos y: 2.86655 particle pos theta: 0.310466
-transformed Observation x: 17.2735 Observation y: -4.99074
-Obs: 2 associated to landmark id: 40
-base Observation x: -23.2186 base observation y: 4.3642
-particle pos  x: 9.83175 particle pos y: 2.86655 particle pos theta: 0.310466
-transformed Observation x: -13.6101 Observation y: -0.0712419
-Obs: 3 associated to landmark id: 39
-base Observation x: -9.0742 base observation y: -22.3611
-particle pos  x: 9.83175 particle pos y: 2.86655 particle pos theta: 0.310466
-transformed Observation x: 8.02275 Observation y: -21.1977
-Obs: 4 associated to landmark id: 38
-base Observation x: 2.9402 base observation y: -25.6988
-particle pos  x: 9.83175 particle pos y: 2.86655 particle pos theta: 0.310466
-transformed Observation x: 20.4824 Observation y: -20.7054
-Obs: 5 associated to landmark id: 12
-base Observation x: 28.1306 base observation y: 3.1443
-particle pos  x: 9.83175 particle pos y: 2.86655 particle pos theta: 0.310466
-transformed Observation x: 35.6569 Observation y: 14.4545
-Obs: 6 associated to landmark id: 4
-base Observation x: -28.0015 base observation y: -30.7557
-particle pos  x: 9.83175 particle pos y: 2.86655 particle pos theta: 0.310466
-transformed Observation x: -7.43508 Observation y: -34.9733
-Obs: 7 associated to landmark id: 24
-base Observation x: 15.561 base observation y: -38.3521
-particle pos  x: 9.83175 particle pos y: 2.86655 particle pos theta: 0.310466
-transformed Observation x: 36.3655 Observation y: -28.8981
-Obs: 8 associated to landmark id: 16
-base Observation x: 5.2684 base observation y: -46.7207
-particle pos  x: 9.83175 particle pos y: 2.86655 particle pos theta: 0.310466
-transformed Observation x: 29.1216 Observation y: -40.011
-Obs: 9 associated to landmark id: 17
-base Observation x: -45.2135 base observation y: -13.1342
-particle pos  x: 9.83175 particle pos y: 2.86655 particle pos theta: 0.310466
-transformed Observation x: -29.2076 Observation y: -23.4526
-particle number: 0now has weight: 4.72577e-80
-particle number: 0now has weight: 3.16623e-80
-particle number: 0now has weight: 5.54677e-80
-particle number: 0now has weight: 6.15447e-80
-particle number: 0now has weight: 1.01855e-80
-particle number: 0now has weight: 1.58909e-81
-particle number: 0now has weight: 5.87457e-82
-particle number: 0now has weight: 7.12496e-82
-particle number: 0now has weight: 6.61346e-82
-particle number: 0now has weight: 1.09881e-82
-for particle :1 number of landmarks associated are: 10
-for particle :1 number of observations in map cords are: 10
-after data association
-Obs: 0 associated to landmark id: 32
-base Observation x: 0.0708 base observation y: 5.3384
-particle pos  x: 9.4838 particle pos y: 2.67742 particle pos theta: 0.300805
-transformed Observation x: 7.9697 Observation y: 7.7971
-Obs: 1 associated to landmark id: 3
-base Observation x: 4.6855 base observation y: -9.7551
-particle pos  x: 9.4838 particle pos y: 2.67742 particle pos theta: 0.300805
-transformed Observation x: 16.8492 Observation y: -5.25139
-Obs: 2 associated to landmark id: 40
-base Observation x: -23.2186 base observation y: 4.3642
-particle pos  x: 9.4838 particle pos y: 2.67742 particle pos theta: 0.300805
-transformed Observation x: -13.9853 Observation y: -0.0337643
-Obs: 3 associated to landmark id: 39
-base Observation x: -9.0742 base observation y: -22.3611
-particle pos  x: 9.4838 particle pos y: 2.67742 particle pos theta: 0.300805
-transformed Observation x: 7.4424 Observation y: -21.3682
-Obs: 4 associated to landmark id: 38
-base Observation x: 2.9402 base observation y: -25.6988
-particle pos  x: 9.4838 particle pos y: 2.67742 particle pos theta: 0.300805
-transformed Observation x: 19.9063 Observation y: -20.9963
-Obs: 5 associated to landmark id: 12
-base Observation x: 28.1306 base observation y: 3.1443
-particle pos  x: 9.4838 particle pos y: 2.67742 particle pos theta: 0.300805
-transformed Observation x: 35.4197 Observation y: 14.0153
-Obs: 6 associated to landmark id: 4
-base Observation x: -28.0015 base observation y: -30.7557
-particle pos  x: 9.4838 particle pos y: 2.67742 particle pos theta: 0.300805
-transformed Observation x: -8.1478 Observation y: -34.9938
-Obs: 7 associated to landmark id: 24
-base Observation x: 15.561 base observation y: -38.3521
-particle pos  x: 9.4838 particle pos y: 2.67742 particle pos theta: 0.300805
-transformed Observation x: 35.7094 Observation y: -29.342
-Obs: 8 associated to landmark id: 16
-base Observation x: 5.2684 base observation y: -46.7207
-particle pos  x: 9.4838 particle pos y: 2.67742 particle pos theta: 0.300805
-transformed Observation x: 28.3585 Observation y: -40.3845
-Obs: 9 associated to landmark id: 17
-base Observation x: -45.2135 base observation y: -13.1342
-particle pos  x: 9.4838 particle pos y: 2.67742 particle pos theta: 0.300805
-transformed Observation x: -29.808 Observation y: -23.2633
-particle number: 1now has weight: 1.03315e-80
-particle number: 1now has weight: 2.81707e-82
-particle number: 1now has weight: 2.51929e-82
-particle number: 1now has weight: 7.49655e-84
-particle number: 1now has weight: 1.83512e-85
-particle number: 1now has weight: 2.76199e-88
-particle number: 1now has weight: 4.84276e-91
-particle number: 1now has weight: 2.6908e-93
-particle number: 1now has weight: 1.0379e-94
-particle number: 1now has weight: 1.82554e-94
+Biggest particle has weight: 0
+highest w 4.41157e-18
+average w 2.70092e-18
 into particle_cloud
-Particle id: 1particle weight 1.09881e-82
-Particle id: 1particle weight 1.09881e-82
-highest w 1.09881e-82
-average w 1.09881e-82
-for particle :0 number of landmarks associated are: 10
-for particle :0 number of observations in map cords are: 10
-after data association
-Obs: 0 associated to landmark id: 32
-base Observation x: 0.3386 base observation y: 4.9139
-particle pos  x: 10.32 particle pos y: 3.0198 particle pos theta: 0.309518
-transformed Observation x: 9.14578 Observation y: 7.80333
-Obs: 1 associated to landmark id: 3
-base Observation x: 4.5043 base observation y: -9.7438
-particle pos  x: 10.32 particle pos y: 3.0198 particle pos theta: 0.309518
-transformed Observation x: 17.5783 Observation y: -4.88897
-Obs: 2 associated to landmark id: 39
-base Observation x: -10.0935 base observation y: -22.405
-particle pos  x: 10.32 particle pos y: 3.0198 particle pos theta: 0.309518
-transformed Observation x: 7.53073 Observation y: -21.395
-Obs: 3 associated to landmark id: 40
-base Observation x: -23.6496 base observation y: 4.192
-particle pos  x: 10.32 particle pos y: 3.0198 particle pos theta: 0.309518
-transformed Observation x: -13.4826 Observation y: -0.191054
-Obs: 4 associated to landmark id: 38
-base Observation x: 1.547 base observation y: -24.8609
-particle pos  x: 10.32 particle pos y: 3.0198 particle pos theta: 0.309518
-transformed Observation x: 19.3661 Observation y: -20.1885
-Obs: 5 associated to landmark id: 12
-base Observation x: 28.1482 base observation y: 2.7584
-particle pos  x: 10.32 particle pos y: 3.0198 particle pos theta: 0.309518
-transformed Observation x: 36.2904 Observation y: 14.221
-Obs: 6 associated to landmark id: 24
-base Observation x: 14.7184 base observation y: -38.9
-particle pos  x: 10.32 particle pos y: 3.0198 particle pos theta: 0.309518
-transformed Observation x: 36.1879 Observation y: -29.5485
-Obs: 7 associated to landmark id: 4
-base Observation x: -27.9841 base observation y: -31.0083
-particle pos  x: 10.32 particle pos y: 3.0198 particle pos theta: 0.309518
-transformed Observation x: -6.88916 Observation y: -35.0389
-Obs: 8 associated to landmark id: 16
-base Observation x: 4.6698 base observation y: -46.569
-particle pos  x: 10.32 particle pos y: 3.0198 particle pos theta: 0.309518
-transformed Observation x: 28.9528 Observation y: -39.9138
-Obs: 9 associated to landmark id: 17
-base Observation x: -46.5458 base observation y: -13.1264
-particle pos  x: 10.32 particle pos y: 3.0198 particle pos theta: 0.309518
-transformed Observation x: -30.0156 Observation y: -23.6607
-particle number: 0now has weight: 6.29593e-83
-particle number: 0now has weight: 6.07797e-83
-particle number: 0now has weight: 3.22838e-84
-particle number: 0now has weight: 4.73482e-84
-particle number: 0now has weight: 3.00717e-85
-particle number: 0now has weight: 6.62801e-86
-particle number: 0now has weight: 3.84683e-87
-particle number: 0now has weight: 1.24118e-87
-particle number: 0now has weight: 1.87289e-87
-particle number: 0now has weight: 1.22205e-87
-for particle :1 number of landmarks associated are: 10
-for particle :1 number of observations in map cords are: 10
-after data association
-Obs: 0 associated to landmark id: 32
-base Observation x: 0.3386 base observation y: 4.9139
-particle pos  x: 10.2713 particle pos y: 3.35667 particle pos theta: 0.324373
-transformed Observation x: 9.02607 Observation y: 8.12223
-Obs: 1 associated to landmark id: 3
-base Observation x: 4.5043 base observation y: -9.7438
-particle pos  x: 10.2713 particle pos y: 3.35667 particle pos theta: 0.324373
-transformed Observation x: 17.6462 Observation y: -4.44341
-Obs: 2 associated to landmark id: 39
-base Observation x: -10.0935 base observation y: -22.405
-particle pos  x: 10.2713 particle pos y: 3.35667 particle pos theta: 0.324373
-transformed Observation x: 7.84494 Observation y: -21.0969
-Obs: 3 associated to landmark id: 40
-base Observation x: -23.6496 base observation y: 4.192
-particle pos  x: 10.2713 particle pos y: 3.35667 particle pos theta: 0.324373
-transformed Observation x: -13.4811 Observation y: -0.207415
-Obs: 4 associated to landmark id: 38
-base Observation x: 1.547 base observation y: -24.8609
-particle pos  x: 10.2713 particle pos y: 3.35667 particle pos theta: 0.324373
-transformed Observation x: 19.6611 Observation y: -19.7147
-Obs: 5 associated to landmark id: 12
-base Observation x: 28.1482 base observation y: 2.7584
-particle pos  x: 10.2713 particle pos y: 3.35667 particle pos theta: 0.324373
-transformed Observation x: 36.0724 Observation y: 14.9425
-Obs: 6 associated to landmark id: 24
-base Observation x: 14.7184 base observation y: -38.9
-particle pos  x: 10.2713 particle pos y: 3.35667 particle pos theta: 0.324373
-transformed Observation x: 36.6201 Observation y: -28.8238
-Obs: 7 associated to landmark id: 4
-base Observation x: -27.9841 base observation y: -31.0083
-particle pos  x: 10.2713 particle pos y: 3.35667 particle pos theta: 0.324373
-transformed Observation x: -6.37068 Observation y: -34.9535
-Obs: 8 associated to landmark id: 16
-base Observation x: 4.6698 base observation y: -46.569
-particle pos  x: 10.2713 particle pos y: 3.35667 particle pos theta: 0.324373
-transformed Observation x: 29.5398 Observation y: -39.2955
-Obs: 9 associated to landmark id: 17
-base Observation x: -46.5458 base observation y: -13.1264
-particle pos  x: 10.2713 particle pos y: 3.35667 particle pos theta: 0.324373
-transformed Observation x: -29.6636 Observation y: -23.92
-particle number: 1now has weight: 2.35804e-83
-particle number: 1now has weight: 2.74211e-83
-particle number: 1now has weight: 2.18554e-83
-particle number: 1now has weight: 3.13852e-83
-particle number: 1now has weight: 5.4467e-84
-particle number: 1now has weight: 8.13573e-84
-particle number: 1now has weight: 1.39505e-83
-particle number: 1now has weight: 3.92637e-85
-particle number: 1now has weight: 2.19045e-86
-particle number: 1now has weight: 3.30206e-87
+Biggest particle has weight: 0
+highest w 5.39158e-19
+average w 3.02339e-19
 into particle_cloud
-Particle id: 1particle weight 3.30206e-87
-Particle id: 1particle weight 3.30206e-87
-highest w 3.30206e-87
-average w 3.30206e-87
-for particle :0 number of landmarks associated are: 10
-for particle :0 number of observations in map cords are: 10
-after data association
-Obs: 0 associated to landmark id: 32
-base Observation x: -0.8683 base observation y: 3.9526
-particle pos  x: 10.7772 particle pos y: 3.551 particle pos theta: 0.332429
-transformed Observation x: 8.6665 Observation y: 7.00384
-Obs: 1 associated to landmark id: 3
-base Observation x: 3.6787 base observation y: -10.0753
-particle pos  x: 10.7772 particle pos y: 3.551 particle pos theta: 0.332429
-transformed Observation x: 17.5424 Observation y: -4.7722
-Obs: 2 associated to landmark id: 39
-base Observation x: -10.0176 base observation y: -22.7174
-particle pos  x: 10.7772 particle pos y: 3.551 particle pos theta: 0.332429
-transformed Observation x: 8.7216 Observation y: -21.1918
-Obs: 3 associated to landmark id: 40
-base Observation x: -24.3177 base observation y: 4.3513
-particle pos  x: 10.7772 particle pos y: 3.551 particle pos theta: 0.332429
-transformed Observation x: -13.6292 Observation y: -0.271772
-Obs: 4 associated to landmark id: 38
-base Observation x: 2.093 base observation y: -25.006
-particle pos  x: 10.7772 particle pos y: 3.551 particle pos theta: 0.332429
-transformed Observation x: 20.916 Observation y: -19.403
-Obs: 5 associated to landmark id: 12
-base Observation x: 27.8491 base observation y: 3.4026
-particle pos  x: 10.7772 particle pos y: 3.551 particle pos theta: 0.332429
-transformed Observation x: 35.9912 Observation y: 15.8556
-Obs: 6 associated to landmark id: 24
-base Observation x: 15.0875 base observation y: -38.1793
-particle pos  x: 10.7772 particle pos y: 3.551 particle pos theta: 0.332429
-transformed Observation x: 37.4981 Observation y: -27.6144
-Obs: 7 associated to landmark id: 4
-base Observation x: -28.4986 base observation y: -30.846
-particle pos  x: 10.7772 particle pos y: 3.551 particle pos theta: 0.332429
-transformed Observation x: -6.09492 Observation y: -34.9065
-Obs: 8 associated to landmark id: 16
-base Observation x: 3.6728 base observation y: -46.5853
-particle pos  x: 10.7772 particle pos y: 3.551 particle pos theta: 0.332429
-transformed Observation x: 29.4515 Observation y: -39.2853
-Obs: 9 associated to landmark id: 17
-base Observation x: -46.6549 base observation y: -13.8353
-particle pos  x: 10.7772 particle pos y: 3.551 particle pos theta: 0.332429
-transformed Observation x: -28.8085 Observation y: -24.7522
-particle number: 0now has weight: 9.65056e-88
-particle number: 0now has weight: 1.32996e-87
-particle number: 0now has weight: 3.98838e-88
-particle number: 0now has weight: 5.96303e-88
-particle number: 0now has weight: 1.65877e-90
-particle number: 0now has weight: 6.4034e-93
-particle number: 0now has weight: 1.75303e-98
-particle number: 0now has weight: 3.88857e-101
-particle number: 0now has weight: 3.69859e-102
-particle number: 0now has weight: 1.04092e-109
-for particle :1 number of landmarks associated are: 10
-for particle :1 number of observations in map cords are: 10
-after data association
-Obs: 0 associated to landmark id: 32
-base Observation x: -0.8683 base observation y: 3.9526
-particle pos  x: 10.7551 particle pos y: 2.95719 particle pos theta: 0.320262
-transformed Observation x: 8.68659 Observation y: 6.43546
-Obs: 1 associated to landmark id: 3
-base Observation x: 3.6787 base observation y: -10.0753
-particle pos  x: 10.7551 particle pos y: 2.95719 particle pos theta: 0.320262
-transformed Observation x: 17.4186 Observation y: -5.4477
-Obs: 2 associated to landmark id: 39
-base Observation x: -10.0176 base observation y: -22.7174
-particle pos  x: 10.7551 particle pos y: 2.95719 particle pos theta: 0.320262
-transformed Observation x: 8.39861 Observation y: -21.7588
-Obs: 3 associated to landmark id: 40
-base Observation x: -24.3177 base observation y: 4.3513
-particle pos  x: 10.7551 particle pos y: 2.95719 particle pos theta: 0.320262
-transformed Observation x: -13.696 Observation y: -0.568336
-Obs: 4 associated to landmark id: 38
-base Observation x: 2.093 base observation y: -25.006
-particle pos  x: 10.7551 particle pos y: 2.95719 particle pos theta: 0.320262
-transformed Observation x: 20.6139 Observation y: -20.1184
-Obs: 5 associated to landmark id: 12
-base Observation x: 27.8491 base observation y: 3.4026
-particle pos  x: 10.7551 particle pos y: 2.95719 particle pos theta: 0.320262
-transformed Observation x: 36.1169 Observation y: 14.9541
-Obs: 6 associated to landmark id: 24
-base Observation x: 15.0875 base observation y: -38.1793
-particle pos  x: 10.7551 particle pos y: 2.95719 particle pos theta: 0.320262
-transformed Observation x: 37.0948 Observation y: -28.531
-Obs: 7 associated to landmark id: 4
-base Observation x: -28.4986 base observation y: -30.846
-particle pos  x: 10.7551 particle pos y: 2.95719 particle pos theta: 0.320262
-transformed Observation x: -6.58368 Observation y: -35.2922
-Obs: 8 associated to landmark id: 16
-base Observation x: 3.6728 base observation y: -46.5853
-particle pos  x: 10.7551 particle pos y: 2.95719 particle pos theta: 0.320262
-transformed Observation x: 28.9069 Observation y: -40.1031
-Obs: 9 associated to landmark id: 17
-base Observation x: -46.6549 base observation y: -13.8353
-particle pos  x: 10.7551 particle pos y: 2.95719 particle pos theta: 0.320262
-transformed Observation x: -29.172 Observation y: -24.8623
-particle number: 1now has weight: 4.73446e-90
-particle number: 1now has weight: 1.53523e-91
-particle number: 1now has weight: 6.90399e-93
-particle number: 1now has weight: 3.51897e-93
-particle number: 1now has weight: 1.76771e-93
-particle number: 1now has weight: 2.74253e-93
-particle number: 1now has weight: 6.76852e-94
-particle number: 1now has weight: 9.92791e-96
-particle number: 1now has weight: 8.91531e-96
-particle number: 1now has weight: 1.17602e-102
+Biggest particle has weight: 0
+highest w 5.4205e-24
+average w 3.89439e-24
 into particle_cloud
-Particle id: 1particle weight 1.17602e-102
-Particle id: 1particle weight 1.17602e-102
-highest w 1.17602e-102
-average w 1.17602e-102
-for particle :0 number of landmarks associated are: 10
-for particle :0 number of observations in map cords are: 10
-after data association
-Obs: 0 associated to landmark id: 32
-base Observation x: -1.1145 base observation y: 4.9503
-particle pos  x: 11.0069 particle pos y: 3.71559 particle pos theta: 0.3266
-transformed Observation x: 8.36312 Observation y: 8.04665
-Obs: 1 associated to landmark id: 3
-base Observation x: 2.9306 base observation y: -9.5362
-particle pos  x: 11.0069 particle pos y: 3.71559 particle pos theta: 0.3266
-transformed Observation x: 16.842 Observation y: -4.37631
-Obs: 2 associated to landmark id: 39
-base Observation x: -10.8309 base observation y: -22.3238
-particle pos  x: 11.0069 particle pos y: 3.71559 particle pos theta: 0.3266
-transformed Observation x: 7.91053 Observation y: -20.903
-Obs: 3 associated to landmark id: 38
-base Observation x: 1.3795 base observation y: -25.1932
-particle pos  x: 11.0069 particle pos y: 3.71559 particle pos theta: 0.3266
-transformed Observation x: 20.396 Observation y: -19.7033
-Obs: 4 associated to landmark id: 40
-base Observation x: -25.2071 base observation y: 3.8607
-particle pos  x: 11.0069 particle pos y: 3.71559 particle pos theta: 0.3266
-transformed Observation x: -14.1063 Observation y: -0.714845
-Obs: 5 associated to landmark id: 12
-base Observation x: 27.4076 base observation y: 4.1562
-particle pos  x: 11.0069 particle pos y: 3.71559 particle pos theta: 0.3266
-transformed Observation x: 35.6323 Observation y: 16.4451
-Obs: 6 associated to landmark id: 24
-base Observation x: 13.8596 base observation y: -38.9091
-particle pos  x: 11.0069 particle pos y: 3.71559 particle pos theta: 0.3266
-transformed Observation x: 36.6168 Observation y: -28.6902
-Obs: 7 associated to landmark id: 4
-base Observation x: -29.6216 base observation y: -30.9532
-particle pos  x: 11.0069 particle pos y: 3.71559 particle pos theta: 0.3266
-transformed Observation x: -7.11834 Observation y: -35.1047
-Obs: 8 associated to landmark id: 16
-base Observation x: 4.0652 base observation y: -46.3087
-particle pos  x: 11.0069 particle pos y: 3.71559 particle pos theta: 0.3266
-transformed Observation x: 29.7141 Observation y: -38.841
-Obs: 9 associated to landmark id: 17
-base Observation x: -47.7993 base observation y: -12.9471
-particle pos  x: 11.0069 particle pos y: 3.71559 particle pos theta: 0.3266
-transformed Observation x: -30.1119 Observation y: -23.8823
-particle number: 0now has weight: 2.34535e-103
-particle number: 0now has weight: 4.91782e-104
-particle number: 0now has weight: 5.29443e-104
-particle number: 0now has weight: 2.14046e-104
-particle number: 0now has weight: 1.37587e-105
-particle number: 0now has weight: 1.91847e-112
-particle number: 0now has weight: 2.66792e-112
-particle number: 0now has weight: 8.01807e-113
-particle number: 0now has weight: 3.41302e-116
-particle number: 0now has weight: 5.16442e-117
-for particle :1 number of landmarks associated are: 10
-for particle :1 number of observations in map cords are: 10
-after data association
-Obs: 0 associated to landmark id: 32
-base Observation x: -1.1145 base observation y: 4.9503
-particle pos  x: 11.2422 particle pos y: 3.07763 particle pos theta: 0.290276
-transformed Observation x: 8.75751 Observation y: 7.50184
-Obs: 1 associated to landmark id: 3
-base Observation x: 2.9306 base observation y: -9.5362
-particle pos  x: 11.2422 particle pos y: 3.07763 particle pos theta: 0.290276
-transformed Observation x: 16.7797 Observation y: -5.22084
-Obs: 2 associated to landmark id: 39
-base Observation x: -10.8309 base observation y: -22.3238
-particle pos  x: 11.2422 particle pos y: 3.07763 particle pos theta: 0.290276
-transformed Observation x: 7.25389 Observation y: -21.4122
-Obs: 3 associated to landmark id: 38
-base Observation x: 1.3795 base observation y: -25.1932
-particle pos  x: 11.2422 particle pos y: 3.07763 particle pos theta: 0.290276
-transformed Observation x: 19.7747 Observation y: -20.6668
-Obs: 4 associated to landmark id: 40
-base Observation x: -25.2071 base observation y: 3.8607
-particle pos  x: 11.2422 particle pos y: 3.07763 particle pos theta: 0.290276
-transformed Observation x: -14.0153 Observation y: -0.437876
-Obs: 5 associated to landmark id: 12
-base Observation x: 27.4076 base observation y: 4.1562
-particle pos  x: 11.2422 particle pos y: 3.07763 particle pos theta: 0.290276
-transformed Observation x: 36.3137 Observation y: 14.9045
-Obs: 6 associated to landmark id: 24
-base Observation x: 13.8596 base observation y: -38.9091
-particle pos  x: 11.2422 particle pos y: 3.07763 particle pos theta: 0.290276
-transformed Observation x: 35.6585 Observation y: -30.2369
-Obs: 7 associated to landmark id: 4
-base Observation x: -29.6216 base observation y: -30.9532
-particle pos  x: 11.2422 particle pos y: 3.07763 particle pos theta: 0.290276
-transformed Observation x: -8.28082 Observation y: -35.0588
-Obs: 8 associated to landmark id: 16
-base Observation x: 4.0652 base observation y: -46.3087
-particle pos  x: 11.2422 particle pos y: 3.07763 particle pos theta: 0.290276
-transformed Observation x: 28.3917 Observation y: -40.1302
-Obs: 9 associated to landmark id: 17
-base Observation x: -47.7993 base observation y: -12.9471
-particle pos  x: 11.2422 particle pos y: 3.07763 particle pos theta: 0.290276
-transformed Observation x: -30.8517 Observation y: -23.0088
-particle number: 1now has weight: 2.03407e-102
-particle number: 1now has weight: 4.31076e-104
-particle number: 1now has weight: 1.74718e-106
-particle number: 1now has weight: 3.353e-107
-particle number: 1now has weight: 1.43485e-107
-particle number: 1now has weight: 2.29274e-107
-particle number: 1now has weight: 1.05752e-113
-particle number: 1now has weight: 2.62206e-117
-particle number: 1now has weight: 5.08411e-118
-particle number: 1now has weight: 1.95488e-120
+Biggest particle has weight: 0
+highest w 2.24945e-24
+average w 1.13007e-24
 into particle_cloud
-Particle id: 1particle weight 5.16442e-117
-Particle id: 1particle weight 5.16442e-117
-highest w 5.16442e-117
-average w 5.16442e-117
-for particle :0 number of landmarks associated are: 10
-for particle :0 number of observations in map cords are: 10
-after data association
-Obs: 0 associated to landmark id: 32
-base Observation x: -1.8458 base observation y: 4.1794
-particle pos  x: 11.3408 particle pos y: 3.70456 particle pos theta: 0.334491
-transformed Observation x: 8.22522 Observation y: 7.04637
-Obs: 1 associated to landmark id: 3
-base Observation x: 2.4659 base observation y: -9.6323
-particle pos  x: 11.3408 particle pos y: 3.70456 particle pos theta: 0.334491
-transformed Observation x: 16.8322 Observation y: -4.58437
-Obs: 2 associated to landmark id: 39
-base Observation x: -10.9148 base observation y: -22.4984
-particle pos  x: 11.3408 particle pos y: 3.70456 particle pos theta: 0.334491
-transformed Observation x: 8.41686 Observation y: -21.1301
-Obs: 3 associated to landmark id: 38
-base Observation x: 0.6902 base observation y: -24.959
-particle pos  x: 11.3408 particle pos y: 3.70456 particle pos theta: 0.334491
-transformed Observation x: 20.1865 Observation y: -19.6446
-Obs: 4 associated to landmark id: 40
-base Observation x: -25.4675 base observation y: 4.3717
-particle pos  x: 11.3408 particle pos y: 3.70456 particle pos theta: 0.334491
-transformed Observation x: -14.1504 Observation y: -0.526718
-Obs: 5 associated to landmark id: 12
-base Observation x: 25.7025 base observation y: 3.3126
-particle pos  x: 11.3408 particle pos y: 3.70456 particle pos theta: 0.334491
-transformed Observation x: 34.5313 Observation y: 15.2714
-Obs: 6 associated to landmark id: 24
-base Observation x: 13.9288 base observation y: -38.1303
-particle pos  x: 11.3408 particle pos y: 3.70456 particle pos theta: 0.334491
-transformed Observation x: 37.0153 Observation y: -27.7398
-Obs: 7 associated to landmark id: 4
-base Observation x: -30.0338 base observation y: -30.7563
-particle pos  x: 11.3408 particle pos y: 3.70456 particle pos theta: 0.334491
-transformed Observation x: -6.93155 Observation y: -35.2069
-Obs: 8 associated to landmark id: 16
-base Observation x: 3.3333 base observation y: -46.7276
-particle pos  x: 11.3408 particle pos y: 3.70456 particle pos theta: 0.334491
-transformed Observation x: 29.8295 Observation y: -39.339
-Obs: 9 associated to landmark id: 17
-base Observation x: -48.296 base observation y: -14.0071
-particle pos  x: 11.3408 particle pos y: 3.70456 particle pos theta: 0.334491
-transformed Observation x: -29.6802 Observation y: -25.3813
-particle number: 0now has weight: 4.09742e-118
-particle number: 0now has weight: 1.06132e-118
-particle number: 0now has weight: 1.25885e-118
-particle number: 0now has weight: 5.31793e-119
-particle number: 0now has weight: 8.02385e-120
-particle number: 0now has weight: 8.56416e-127
-particle number: 0now has weight: 3.7843e-130
-particle number: 0now has weight: 4.55921e-131
-particle number: 0now has weight: 2.49791e-133
-particle number: 0now has weight: 8.00227e-144
-for particle :1 number of landmarks associated are: 10
-for particle :1 number of observations in map cords are: 10
-after data association
-Obs: 0 associated to landmark id: 32
-base Observation x: -1.8458 base observation y: 4.1794
-particle pos  x: 11.3656 particle pos y: 4.35955 particle pos theta: 0.330251
-transformed Observation x: 8.26422 Observation y: 7.71454
-Obs: 1 associated to landmark id: 3
-base Observation x: 2.4659 base observation y: -9.6323
-particle pos  x: 11.3656 particle pos y: 4.35955 particle pos theta: 0.330251
-transformed Observation x: 16.8218 Observation y: -3.95259
-Obs: 2 associated to landmark id: 39
-base Observation x: -10.9148 base observation y: -22.4984
-particle pos  x: 11.3656 particle pos y: 4.35955 particle pos theta: 0.330251
-transformed Observation x: 8.33641 Observation y: -20.4625
-Obs: 3 associated to landmark id: 38
-base Observation x: 0.6902 base observation y: -24.959
-particle pos  x: 11.3656 particle pos y: 4.35955 particle pos theta: 0.330251
-transformed Observation x: 20.1122 Observation y: -19.0269
-Obs: 4 associated to landmark id: 40
-base Observation x: -25.4675 base observation y: 4.3717
-particle pos  x: 11.3656 particle pos y: 4.35955 particle pos theta: 0.330251
-transformed Observation x: -14.1433 Observation y: 0.236381
-Obs: 5 associated to landmark id: 12
-base Observation x: 25.7025 base observation y: 3.3126
-particle pos  x: 11.3656 particle pos y: 4.35955 particle pos theta: 0.330251
-transformed Observation x: 34.6049 Observation y: 15.828
-Obs: 6 associated to landmark id: 24
-base Observation x: 13.9288 base observation y: -38.1303
-particle pos  x: 11.3656 particle pos y: 4.35955 particle pos theta: 0.330251
-transformed Observation x: 36.9066 Observation y: -27.1934
-Obs: 7 associated to landmark id: 4
-base Observation x: -30.0338 base observation y: -30.7563
-particle pos  x: 11.3656 particle pos y: 4.35955 particle pos theta: 0.330251
-transformed Observation x: -7.07154 Observation y: -34.4741
-Obs: 8 associated to landmark id: 16
-base Observation x: 3.3333 base observation y: -46.7276
-particle pos  x: 11.3656 particle pos y: 4.35955 particle pos theta: 0.330251
-transformed Observation x: 29.6716 Observation y: -38.762
-Obs: 9 associated to landmark id: 17
-base Observation x: -48.296 base observation y: -14.0071
-particle pos  x: 11.3656 particle pos y: 4.35955 particle pos theta: 0.330251
-transformed Observation x: -29.7783 Observation y: -24.5521
-particle number: 1now has weight: 2.01495e-117
-particle number: 1now has weight: 4.77899e-119
-particle number: 1now has weight: 1.82737e-119
-particle number: 1now has weight: 2.91193e-122
-particle number: 1now has weight: 6.80132e-123
-particle number: 1now has weight: 3.1693e-131
-particle number: 1now has weight: 3.52979e-138
-particle number: 1now has weight: 5.98438e-138
-particle number: 1now has weight: 1.60818e-141
-particle number: 1now has weight: 3.33509e-145
+Biggest particle has weight: 0
+highest w 9.94029e-26
+average w 6.08038e-26
 into particle_cloud
-Particle id: 1particle weight 8.00227e-144
-Particle id: 1particle weight 8.00227e-144
-highest w 8.00227e-144
-average w 8.00227e-144
-for particle :0 number of landmarks associated are: 10
-for particle :0 number of observations in map cords are: 9
-after data association
-Obs: 0 associated to landmark id: 32
-base Observation x: -2.2968 base observation y: 4.5538
-particle pos  x: 11.458 particle pos y: 4.04029 particle pos theta: 0.325017
-transformed Observation x: 7.82734 Observation y: 7.62225
-Obs: 1 associated to landmark id: 3
-base Observation x: 1.9945 base observation y: -9.5501
-particle pos  x: 11.458 particle pos y: 4.04029 particle pos theta: 0.325017
-transformed Observation x: 16.3977 Observation y: -4.37293
-Obs: 2 associated to landmark id: 38
-base Observation x: -0.3072 base observation y: -25.9144
-particle pos  x: 11.458 particle pos y: 4.04029 particle pos theta: 0.325017
-transformed Observation x: 19.442 Observation y: -20.6155
-Obs: 3 associated to landmark id: 39
-base Observation x: -11.6987 base observation y: -22.4367
-particle pos  x: 11.458 particle pos y: 4.04029 particle pos theta: 0.325017
-transformed Observation x: 7.5364 Observation y: -20.9574
-Obs: 4 associated to landmark id: 12
-base Observation x: 26.2776 base observation y: 3.6762
-particle pos  x: 11.458 particle pos y: 4.04029 particle pos theta: 0.325017
-transformed Observation x: 35.186 Observation y: 15.9151
-Obs: 5 associated to landmark id: 40
-base Observation x: -26.6167 base observation y: 4.2134
-particle pos  x: 11.458 particle pos y: 4.04029 particle pos theta: 0.325017
-transformed Observation x: -15.1106 Observation y: -0.466268
-Obs: 6 associated to landmark id: 24
-base Observation x: 12.2607 base observation y: -38.7301
-particle pos  x: 11.458 particle pos y: 4.04029 particle pos theta: 0.325017
-transformed Observation x: 35.4443 Observation y: -28.747
-Obs: 7 associated to landmark id: 4
-base Observation x: -30.0837 base observation y: -31.071
-particle pos  x: 11.458 particle pos y: 4.04029 particle pos theta: 0.325017
-transformed Observation x: -7.12892 Observation y: -35.0105
-Obs: 8 associated to landmark id: 16
-base Observation x: 2.8229 base observation y: -46.1841
-particle pos  x: 11.458 particle pos y: 4.04029 particle pos theta: 0.325017
-transformed Observation x: 28.8809 Observation y: -38.8244
-particle number: 0now has weight: 1.06397e-145
-particle number: 0now has weight: 4.25867e-148
-particle number: 0now has weight: 1.52059e-149
-particle number: 0now has weight: 2.29585e-150
-particle number: 0now has weight: 1.80447e-155
-particle number: 0now has weight: 9.25598e-161
-particle number: 0now has weight: 6.16245e-164
-particle number: 0now has weight: 3.18639e-164
-particle number: 0now has weight: 4.62786e-166
-for particle :1 number of landmarks associated are: 10
-for particle :1 number of observations in map cords are: 9
-after data association
-Obs: 0 associated to landmark id: 32
-base Observation x: -2.2968 base observation y: 4.5538
-particle pos  x: 11.9988 particle pos y: 3.83353 particle pos theta: 0.324381
-transformed Observation x: 8.37041 Observation y: 7.4178
-Obs: 1 associated to landmark id: 3
-base Observation x: 1.9945 base observation y: -9.5501
-particle pos  x: 11.9988 particle pos y: 3.83353 particle pos theta: 0.324381
-transformed Observation x: 16.9331 Observation y: -4.58282
-Obs: 2 associated to landmark id: 38
-base Observation x: -0.3072 base observation y: -25.9144
-particle pos  x: 11.9988 particle pos y: 3.83353 particle pos theta: 0.324381
-transformed Observation x: 19.9672 Observation y: -20.8273
-Obs: 3 associated to landmark id: 39
-base Observation x: -11.6987 base observation y: -22.4367
-particle pos  x: 11.9988 particle pos y: 3.83353 particle pos theta: 0.324381
-transformed Observation x: 8.06132 Observation y: -21.1617
-Obs: 4 associated to landmark id: 12
-base Observation x: 26.2776 base observation y: 3.6762
-particle pos  x: 11.9988 particle pos y: 3.83353 particle pos theta: 0.324381
-transformed Observation x: 35.7343 Observation y: 15.6933
-Obs: 5 associated to landmark id: 40
-base Observation x: -26.6167 base observation y: 4.2134
-particle pos  x: 11.9988 particle pos y: 3.83353 particle pos theta: 0.324381
-transformed Observation x: -14.5727 Observation y: -0.656148
-Obs: 6 associated to landmark id: 24
-base Observation x: 12.2607 base observation y: -38.7301
-particle pos  x: 11.9988 particle pos y: 3.83353 particle pos theta: 0.324381
-transformed Observation x: 35.9643 Observation y: -28.969
-Obs: 7 associated to landmark id: 4
-base Observation x: -30.0837 base observation y: -31.071
-particle pos  x: 11.9988 particle pos y: 3.83353 particle pos theta: 0.324381
-transformed Observation x: -6.61292 Observation y: -35.2054
-Obs: 8 associated to landmark id: 16
-base Observation x: 2.8229 base observation y: -46.1841
-particle pos  x: 11.9988 particle pos y: 3.83353 particle pos theta: 0.324381
-transformed Observation x: 29.3944 Observation y: -39.0423
-particle number: 1now has weight: 5.31305e-144
-particle number: 1now has weight: 2.51407e-144
-particle number: 1now has weight: 2.95057e-145
-particle number: 1now has weight: 3.81251e-145
-particle number: 1now has weight: 3.07746e-147
-particle number: 1now has weight: 7.77661e-150
-particle number: 1now has weight: 1.17408e-150
-particle number: 1now has weight: 4.05159e-152
-particle number: 1now has weight: 1.09237e-153
+Biggest particle has weight: 0
+highest w 1.49359e-26
+average w 1.09393e-26
 into particle_cloud
-Particle id: 1particle weight 1.09237e-153
-Particle id: 1particle weight 1.09237e-153
-highest w 1.09237e-153
-average w 1.09237e-153
-for particle :0 number of landmarks associated are: 9
-for particle :0 number of observations in map cords are: 10
-after data association
-Obs: 0 associated to landmark id: 32
-base Observation x: -2.7445 base observation y: 4.2794
-particle pos  x: 12.384 particle pos y: 3.89449 particle pos theta: 0.319887
-transformed Observation x: 8.43299 Observation y: 7.09376
-Obs: 1 associated to landmark id: 3
-base Observation x: 1.4163 base observation y: -9.0465
-particle pos  x: 12.384 particle pos y: 3.89449 particle pos theta: 0.319887
-transformed Observation x: 16.5732 Observation y: -4.24772
-Obs: 2 associated to landmark id: 38
-base Observation x: -0.1774 base observation y: -25.4354
-particle pos  x: 12.384 particle pos y: 3.89449 particle pos theta: 0.319887
-transformed Observation x: 20.214 Observation y: -20.3064
-Obs: 3 associated to landmark id: 39
-base Observation x: -12.3988 base observation y: -22.3624
-particle pos  x: 12.384 particle pos y: 3.89449 particle pos theta: 0.319887
-transformed Observation x: 7.64621 Observation y: -21.2324
-Obs: 4 associated to landmark id: 12
-base Observation x: 25.3265 base observation y: 3.5398
-particle pos  x: 12.384 particle pos y: 3.89449 particle pos theta: 0.319887
-transformed Observation x: 35.3126 Observation y: 15.2189
-Obs: 5 associated to landmark id: 40
-base Observation x: -26.8219 base observation y: 3.6595
-particle pos  x: 12.384 particle pos y: 3.89449 particle pos theta: 0.319887
-transformed Observation x: -14.228 Observation y: -1.06605
-Obs: 6 associated to landmark id: 24
-base Observation x: 12.5324 base observation y: -38.6277
-particle pos  x: 12.384 particle pos y: 3.89449 particle pos theta: 0.319887
-transformed Observation x: 36.4274 Observation y: -28.8327
-Obs: 7 associated to landmark id: 4
-base Observation x: -30.308 base observation y: -30.9968
-particle pos  x: 12.384 particle pos y: 3.89449 particle pos theta: 0.319887
-transformed Observation x: -6.63931 Observation y: -35.0605
-Obs: 8 associated to landmark id: 16
-base Observation x: 2.3447 base observation y: -46.957
-particle pos  x: 12.384 particle pos y: 3.89449 particle pos theta: 0.319887
-transformed Observation x: 29.3758 Observation y: -39.9431
-Obs: 9 associated to landmark id: 12
-base Observation x: 46.966 base observation y: -17.2439
-particle pos  x: 12.384 particle pos y: 3.89449 particle pos theta: 0.319887
-transformed Observation x: 62.3899 Observation y: 2.29425
-particle number: 0now has weight: 3.06772e-154
-particle number: 0now has weight: 5.08095e-156
-particle number: 0now has weight: 7.60255e-156
-particle number: 0now has weight: 1.65056e-156
-particle number: 0now has weight: 1.5193e-158
-particle number: 0now has weight: 2.1791e-161
-particle number: 0now has weight: 3.02317e-161
-particle number: 0now has weight: 3.1403e-162
-particle number: 0now has weight: 1.28079e-162
-particle number: 0now has weight: 0
-for particle :1 number of landmarks associated are: 9
-for particle :1 number of observations in map cords are: 10
-after data association
-Obs: 0 associated to landmark id: 32
-base Observation x: -2.7445 base observation y: 4.2794
-particle pos  x: 12.86 particle pos y: 3.90049 particle pos theta: 0.321642
-transformed Observation x: 8.90343 Observation y: 7.09283
-Obs: 1 associated to landmark id: 3
-base Observation x: 1.4163 base observation y: -9.0465
-particle pos  x: 12.86 particle pos y: 3.90049 particle pos theta: 0.321642
-transformed Observation x: 17.0635 Observation y: -4.23436
-Obs: 2 associated to landmark id: 38
-base Observation x: -0.1774 base observation y: -25.4354
-particle pos  x: 12.86 particle pos y: 3.90049 particle pos theta: 0.321642
-transformed Observation x: 20.7325 Observation y: -20.2866
-Obs: 3 associated to landmark id: 39
-base Observation x: -12.3988 base observation y: -22.3624
-particle pos  x: 12.86 particle pos y: 3.90049 particle pos theta: 0.321642
-transformed Observation x: 8.16635 Observation y: -21.2347
-Obs: 4 associated to landmark id: 12
-base Observation x: 25.3265 base observation y: 3.5398
-particle pos  x: 12.86 particle pos y: 3.90049 particle pos theta: 0.321642
-transformed Observation x: 35.7687 Observation y: 15.2651
-Obs: 5 associated to landmark id: 40
-base Observation x: -26.8219 base observation y: 3.6595
-particle pos  x: 12.86 particle pos y: 3.90049 particle pos theta: 0.321642
-transformed Observation x: -13.7433 Observation y: -1.10674
-Obs: 6 associated to landmark id: 24
-base Observation x: 12.5324 base observation y: -38.6277
-particle pos  x: 12.86 particle pos y: 3.90049 particle pos theta: 0.321642
-transformed Observation x: 36.9609 Observation y: -28.7845
-Obs: 7 associated to landmark id: 4
-base Observation x: -30.308 base observation y: -30.9968
-particle pos  x: 12.86 particle pos y: 3.90049 particle pos theta: 0.321642
-transformed Observation x: -6.09488 Observation y: -35.0878
-Obs: 8 associated to landmark id: 16
-base Observation x: 2.3447 base observation y: -46.957
-particle pos  x: 12.86 particle pos y: 3.90049 particle pos theta: 0.321642
-transformed Observation x: 29.9287 Observation y: -39.9072
-Obs: 9 associated to landmark id: 12
-base Observation x: 46.966 base observation y: -17.2439
-particle pos  x: 12.86 particle pos y: 3.90049 particle pos theta: 0.321642
-transformed Observation x: 62.8687 Observation y: 2.388
-particle number: 1now has weight: 5.03119e-154
-particle number: 1now has weight: 2.09545e-154
-particle number: 1now has weight: 4.7213e-155
-particle number: 1now has weight: 5.61795e-155
-particle number: 1now has weight: 1.19951e-155
-particle number: 1now has weight: 7.0453e-158
-particle number: 1now has weight: 6.22022e-158
-particle number: 1now has weight: 5.48976e-161
-particle number: 1now has weight: 2.32898e-163
-particle number: 1now has weight: 0
+Biggest particle has weight: 0
+highest w 2.80037e-26
+average w 1.90098e-26
 into particle_cloud
-Particle id: 1particle weight 0
-Particle id: 1particle weight 0
+Biggest particle has weight: 0
+highest w 1.22463e-27
+average w 6.9644e-28
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.3791e-28
+average w 8.73344e-29
+into particle_cloud
+Biggest particle has weight: 0
+highest w 3.97156e-30
+average w 2.10756e-30
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.64641e-34
+average w 9.14679e-35
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.43811e-35
+average w 9.75412e-36
+into particle_cloud
+Biggest particle has weight: 0
+highest w 7.20296e-37
+average w 3.76008e-37
+into particle_cloud
+Biggest particle has weight: 0
+highest w 5.90435e-38
+average w 3.71322e-38
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.03349e-40
+average w 7.268e-41
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.59537e-43
+average w 7.8158e-44
+into particle_cloud
+Biggest particle has weight: 0
+highest w 3.3355e-47
+average w 2.29019e-47
+into particle_cloud
+Biggest particle has weight: 0
+highest w 2.8182e-49
+average w 1.8144e-49
+into particle_cloud
+Biggest particle has weight: 0
+highest w 2.22911e-51
+average w 1.41074e-51
+into particle_cloud
+Biggest particle has weight: 0
+highest w 5.80344e-52
+average w 3.53581e-52
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.67063e-52
+average w 8.46511e-53
+into particle_cloud
+Biggest particle has weight: 0
+highest w 2.02016e-54
+average w 1.15226e-54
+into particle_cloud
+Biggest particle has weight: 0
+highest w 7.64153e-56
+average w 4.53345e-56
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.39778e-57
+average w 9.09073e-58
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.96073e-60
+average w 1.12455e-60
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.0244e-63
+average w 7.86888e-64
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.36971e-65
+average w 7.52947e-66
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.75781e-66
+average w 9.92042e-67
+into particle_cloud
+Biggest particle has weight: 0
+highest w 3.01331e-68
+average w 2.38588e-68
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.04725e-70
+average w 5.72644e-71
+into particle_cloud
+Biggest particle has weight: 0
+highest w 4.96228e-72
+average w 3.71547e-72
+into particle_cloud
+Biggest particle has weight: 0
+highest w 4.41403e-73
+average w 2.95063e-73
+into particle_cloud
+Biggest particle has weight: 0
+highest w 7.99828e-74
+average w 5.18674e-74
+into particle_cloud
+Biggest particle has weight: 0
+highest w 3.81341e-77
+average w 2.50548e-77
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.8445e-76
+average w 1.16533e-76
+into particle_cloud
+Biggest particle has weight: 0
+highest w 4.93802e-77
+average w 2.70013e-77
+into particle_cloud
+Biggest particle has weight: 0
+highest w 5.97259e-78
+average w 3.41636e-78
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.32927e-78
+average w 7.56818e-79
+into particle_cloud
+Biggest particle has weight: 0
+highest w 2.52039e-82
+average w 1.1756e-82
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.91756e-84
+average w 1.19996e-84
+into particle_cloud
+Biggest particle has weight: 0
+highest w 7.02078e-85
+average w 4.86769e-85
+into particle_cloud
+Biggest particle has weight: 0
+highest w 4.83655e-87
+average w 3.06003e-87
+into particle_cloud
+Biggest particle has weight: 0
+highest w 3.02579e-88
+average w 2.13195e-88
+into particle_cloud
+Biggest particle has weight: 0
+highest w 7.76683e-89
+average w 5.36204e-89
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.90033e-91
+average w 1.26304e-91
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.9247e-91
+average w 8.2927e-92
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.01122e-91
+average w 6.29426e-92
+into particle_cloud
+Biggest particle has weight: 0
+highest w 6.07185e-93
+average w 2.82986e-93
+into particle_cloud
+Biggest particle has weight: 0
+highest w 2.54718e-94
+average w 1.42332e-94
+into particle_cloud
+Biggest particle has weight: 0
+highest w 2.57141e-96
+average w 1.45316e-96
+into particle_cloud
+Biggest particle has weight: 0
+highest w 2.59695e-98
+average w 1.56065e-98
+into particle_cloud
+Biggest particle has weight: 0
+highest w 2.06098e-98
+average w 1.55989e-98
+into particle_cloud
+Biggest particle has weight: 0
+highest w 5.39087e-102
+average w 2.91176e-102
+into particle_cloud
+Biggest particle has weight: 0
+highest w 2.15813e-103
+average w 1.44339e-103
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.8959e-103
+average w 8.45842e-104
+into particle_cloud
+Biggest particle has weight: 0
+highest w 8.78075e-105
+average w 5.85847e-105
+into particle_cloud
+Biggest particle has weight: 0
+highest w 4.11943e-108
+average w 2.68814e-108
+into particle_cloud
+Biggest particle has weight: 0
+highest w 5.0807e-111
+average w 2.8974e-111
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.29732e-111
+average w 8.92779e-112
+into particle_cloud
+Biggest particle has weight: 0
+highest w 3.68706e-115
+average w 1.96142e-115
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.25957e-116
+average w 5.82162e-117
+into particle_cloud
+Biggest particle has weight: 0
+highest w 6.18829e-118
+average w 4.23652e-118
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.56456e-117
+average w 9.98587e-118
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.42508e-121
+average w 8.57499e-122
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.77349e-123
+average w 1.25365e-123
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.3222e-124
+average w 6.48274e-125
+into particle_cloud
+Biggest particle has weight: 0
+highest w 4.69886e-125
+average w 3.12377e-125
+into particle_cloud
+Biggest particle has weight: 0
+highest w 8.38976e-126
+average w 5.21647e-126
+into particle_cloud
+Biggest particle has weight: 0
+highest w 6.32115e-126
+average w 3.30207e-126
+into particle_cloud
+Biggest particle has weight: 0
+highest w 2.01297e-125
+average w 1.07211e-125
+into particle_cloud
+Biggest particle has weight: 0
+highest w 3.08189e-126
+average w 1.94807e-126
+into particle_cloud
+Biggest particle has weight: 0
+highest w 3.75829e-126
+average w 1.91531e-126
+into particle_cloud
+Biggest particle has weight: 0
+highest w 5.89942e-126
+average w 2.44418e-126
+into particle_cloud
+Biggest particle has weight: 0
+highest w 8.14251e-128
+average w 4.81325e-128
+into particle_cloud
+Biggest particle has weight: 0
+highest w 2.32643e-128
+average w 1.32322e-128
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.68243e-128
+average w 7.66112e-129
+into particle_cloud
+Biggest particle has weight: 0
+highest w 5.32256e-130
+average w 2.58461e-130
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.65361e-130
+average w 9.50864e-131
+into particle_cloud
+Biggest particle has weight: 0
+highest w 6.55452e-131
+average w 2.74897e-131
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.25513e-131
+average w 7.28164e-132
+into particle_cloud
+Biggest particle has weight: 0
+highest w 5.57023e-131
+average w 2.48373e-131
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.78032e-131
+average w 7.3063e-132
+into particle_cloud
+Biggest particle has weight: 0
+highest w 4.81166e-131
+average w 2.57367e-131
+into particle_cloud
+Biggest particle has weight: 0
+highest w 5.15049e-131
+average w 3.02428e-131
+into particle_cloud
+Biggest particle has weight: 0
+highest w 4.4367e-131
+average w 2.17292e-131
+into particle_cloud
+Biggest particle has weight: 0
+highest w 9.59476e-131
+average w 4.57102e-131
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.6736e-131
+average w 9.84441e-132
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.28484e-132
+average w 5.68164e-133
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.14631e-132
+average w 4.73946e-133
+into particle_cloud
+Biggest particle has weight: 0
+highest w 4.45185e-133
+average w 2.05934e-133
+into particle_cloud
+Biggest particle has weight: 0
+highest w 3.55004e-133
+average w 1.4682e-133
+into particle_cloud
+Biggest particle has weight: 0
+highest w 2.21095e-134
+average w 1.16369e-134
+into particle_cloud
+Biggest particle has weight: 0
+highest w 7.2836e-135
+average w 3.40581e-135
+into particle_cloud
+Biggest particle has weight: 0
+highest w 5.96958e-136
+average w 3.32328e-136
+into particle_cloud
+Biggest particle has weight: 0
+highest w 9.81345e-136
+average w 4.81312e-136
+into particle_cloud
+Biggest particle has weight: 0
+highest w 4.77214e-136
+average w 1.93388e-136
+into particle_cloud
+Biggest particle has weight: 0
+highest w 4.11607e-136
+average w 1.96708e-136
+into particle_cloud
+Biggest particle has weight: 0
+highest w 3.84689e-136
+average w 2.66366e-136
+into particle_cloud
+Biggest particle has weight: 0
+highest w 5.13094e-136
+average w 2.41125e-136
+into particle_cloud
+Biggest particle has weight: 0
+highest w 6.27697e-136
+average w 4.07507e-136
+into particle_cloud
+Biggest particle has weight: 0
+highest w 8.86421e-136
+average w 3.59549e-136
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.01505e-135
+average w 6.63047e-136
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.49173e-135
+average w 7.77974e-136
+into particle_cloud
+Biggest particle has weight: 0
+highest w 3.27674e-135
+average w 1.48428e-135
+into particle_cloud
+Biggest particle has weight: 0
+highest w 5.77057e-136
+average w 3.30542e-136
+into particle_cloud
+Biggest particle has weight: 0
+highest w 5.9963e-136
+average w 3.65199e-136
+into particle_cloud
+Biggest particle has weight: 0
+highest w 3.78962e-137
+average w 2.01364e-137
+into particle_cloud
+Biggest particle has weight: 0
+highest w 7.36126e-138
+average w 4.35455e-138
+into particle_cloud
+Biggest particle has weight: 0
+highest w 4.62869e-139
+average w 1.92393e-139
+into particle_cloud
+Biggest particle has weight: 0
+highest w 8.84115e-140
+average w 4.53246e-140
+into particle_cloud
+Biggest particle has weight: 0
+highest w 2.23432e-140
+average w 1.11577e-140
+into particle_cloud
+Biggest particle has weight: 0
+highest w 2.84041e-141
+average w 2.05044e-141
+into particle_cloud
+Biggest particle has weight: 0
+highest w 3.059e-141
+average w 1.73119e-141
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.51831e-141
+average w 7.43668e-142
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.66519e-141
+average w 9.53937e-142
+into particle_cloud
+Biggest particle has weight: 0
+highest w 4.71699e-142
+average w 2.50081e-142
+into particle_cloud
+Biggest particle has weight: 0
+highest w 3.31387e-142
+average w 1.87235e-142
+into particle_cloud
+Biggest particle has weight: 0
+highest w 4.9362e-143
+average w 2.25005e-143
+into particle_cloud
+Biggest particle has weight: 0
+highest w 5.9797e-143
+average w 3.59795e-143
+into particle_cloud
+Biggest particle has weight: 0
+highest w 2.79161e-143
+average w 1.32702e-143
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.99904e-143
+average w 7.51961e-144
+into particle_cloud
+Biggest particle has weight: 0
+highest w 3.71266e-143
+average w 2.66578e-143
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.47417e-144
+average w 6.63106e-145
+into particle_cloud
+Biggest particle has weight: 0
+highest w 5.61373e-145
+average w 3.40252e-145
+into particle_cloud
+Biggest particle has weight: 0
+highest w 2.43723e-147
+average w 1.32011e-147
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.1054e-146
+average w 6.41541e-147
+into particle_cloud
+Biggest particle has weight: 0
+highest w 2.30655e-146
+average w 1.39335e-146
+into particle_cloud
+Biggest particle has weight: 0
+highest w 2.23045e-150
+average w 1.69547e-150
+into particle_cloud
+Biggest particle has weight: 0
+highest w 2.59621e-150
+average w 1.60836e-150
+into particle_cloud
+Biggest particle has weight: 0
+highest w 4.01594e-151
+average w 2.07079e-151
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.63489e-152
+average w 9.00692e-153
+into particle_cloud
+Biggest particle has weight: 0
+highest w 7.64651e-156
+average w 3.59074e-156
+into particle_cloud
+Biggest particle has weight: 0
+highest w 6.21891e-156
+average w 3.05617e-156
+into particle_cloud
+Biggest particle has weight: 0
+highest w 5.58201e-157
+average w 2.7431e-157
+into particle_cloud
+Biggest particle has weight: 0
+highest w 2.60166e-158
+average w 1.55205e-158
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.11435e-157
+average w 6.55639e-158
+into particle_cloud
+Biggest particle has weight: 0
+highest w 7.09736e-159
+average w 3.83756e-159
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.29774e-158
+average w 7.56688e-159
+into particle_cloud
+Biggest particle has weight: 0
+highest w 2.39815e-160
+average w 1.39696e-160
+into particle_cloud
+Biggest particle has weight: 0
+highest w 4.53409e-160
+average w 2.46475e-160
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.61388e-162
+average w 1.09531e-162
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.75848e-162
+average w 8.7317e-163
+into particle_cloud
+Biggest particle has weight: 0
+highest w 8.44718e-163
+average w 3.68366e-163
+into particle_cloud
+Biggest particle has weight: 0
+highest w 7.85397e-164
+average w 4.33284e-164
+into particle_cloud
+Biggest particle has weight: 0
+highest w 3.49095e-166
+average w 2.16734e-166
+into particle_cloud
+Biggest particle has weight: 0
+highest w 2.51479e-167
+average w 1.18329e-167
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.05988e-169
+average w 8.23676e-170
+into particle_cloud
+Biggest particle has weight: 0
+highest w 6.70618e-170
+average w 3.21273e-170
+into particle_cloud
+Biggest particle has weight: 0
+highest w 3.46342e-171
+average w 2.57802e-171
+into particle_cloud
+Biggest particle has weight: 0
+highest w 9.43183e-172
+average w 5.61566e-172
+into particle_cloud
+Biggest particle has weight: 0
+highest w 5.92579e-173
+average w 3.44492e-173
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.52362e-174
+average w 7.68081e-175
+into particle_cloud
+Biggest particle has weight: 0
+highest w 9.041e-175
+average w 5.34568e-175
+into particle_cloud
+Biggest particle has weight: 0
+highest w 5.17194e-176
+average w 3.46727e-176
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.22528e-178
+average w 8.18157e-179
+into particle_cloud
+Biggest particle has weight: 0
+highest w 5.60763e-181
+average w 3.33849e-181
+into particle_cloud
+Biggest particle has weight: 0
+highest w 5.32835e-182
+average w 2.78711e-182
+into particle_cloud
+Biggest particle has weight: 0
+highest w 5.5316e-184
+average w 2.62979e-184
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.1989e-185
+average w 6.73782e-186
+into particle_cloud
+Biggest particle has weight: 0
+highest w 2.03399e-185
+average w 1.49681e-185
+into particle_cloud
+Biggest particle has weight: 0
+highest w 8.4542e-187
+average w 5.1826e-187
+into particle_cloud
+Biggest particle has weight: 0
+highest w 2.12376e-186
+average w 1.24666e-186
+into particle_cloud
+Biggest particle has weight: 0
+highest w 3.34412e-187
+average w 1.79888e-187
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.01055e-186
+average w 5.45254e-187
+into particle_cloud
+Biggest particle has weight: 0
+highest w 6.8528e-188
+average w 4.05835e-188
+into particle_cloud
+Biggest particle has weight: 0
+highest w 3.94017e-189
+average w 1.90375e-189
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.30872e-190
+average w 7.41408e-191
+into particle_cloud
+Biggest particle has weight: 0
+highest w 5.58066e-192
+average w 3.60183e-192
+into particle_cloud
+Biggest particle has weight: 0
+highest w 4.55302e-193
+average w 2.52645e-193
+into particle_cloud
+Biggest particle has weight: 0
+highest w 3.17421e-194
+average w 1.70815e-194
+into particle_cloud
+Biggest particle has weight: 0
+highest w 5.00705e-195
+average w 3.78261e-195
+into particle_cloud
+Biggest particle has weight: 0
+highest w 8.57231e-195
+average w 4.46919e-195
+into particle_cloud
+Biggest particle has weight: 0
+highest w 2.01714e-196
+average w 1.11638e-196
+into particle_cloud
+Biggest particle has weight: 0
+highest w 5.31164e-196
+average w 2.42264e-196
+into particle_cloud
+Biggest particle has weight: 0
+highest w 4.71063e-198
+average w 2.92585e-198
+into particle_cloud
+Biggest particle has weight: 0
+highest w 4.08214e-198
+average w 1.94453e-198
+into particle_cloud
+Biggest particle has weight: 0
+highest w 8.23874e-200
+average w 4.05585e-200
+into particle_cloud
+Biggest particle has weight: 0
+highest w 2.30467e-201
+average w 1.35013e-201
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.97348e-202
+average w 1.02017e-202
+into particle_cloud
+Biggest particle has weight: 0
+highest w 7.36763e-204
+average w 4.34797e-204
+into particle_cloud
+Biggest particle has weight: 0
+highest w 4.95976e-204
+average w 2.91801e-204
+into particle_cloud
+Biggest particle has weight: 0
+highest w 3.13836e-206
+average w 1.79751e-206
+into particle_cloud
+Biggest particle has weight: 0
+highest w 3.95332e-207
+average w 2.3522e-207
+into particle_cloud
+Biggest particle has weight: 0
+highest w 6.77839e-208
+average w 3.41594e-208
+into particle_cloud
+Biggest particle has weight: 0
+highest w 2.80206e-207
+average w 2.45733e-207
+into particle_cloud
+Biggest particle has weight: 0
+highest w 2.07636e-206
+average w 1.23936e-206
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.44856e-206
+average w 7.42227e-207
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.00652e-207
+average w 5.22242e-208
+into particle_cloud
+Biggest particle has weight: 0
+highest w 8.03067e-208
+average w 3.22323e-208
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.38714e-209
+average w 9.19234e-210
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.59049e-209
+average w 1.0621e-209
+into particle_cloud
+Biggest particle has weight: 0
+highest w 7.51279e-209
+average w 4.71097e-209
+into particle_cloud
+Biggest particle has weight: 0
+highest w 7.96281e-210
+average w 4.35119e-210
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.07544e-209
+average w 4.74444e-210
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.12181e-210
+average w 7.58784e-211
+into particle_cloud
+Biggest particle has weight: 0
+highest w 2.3792e-211
+average w 1.07428e-211
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.87016e-214
+average w 9.65621e-215
+into particle_cloud
+Biggest particle has weight: 0
+highest w 3.13762e-215
+average w 2.02439e-215
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.90052e-214
+average w 9.33829e-215
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.64184e-215
+average w 9.4817e-216
+into particle_cloud
+Biggest particle has weight: 0
+highest w 9.10688e-216
+average w 5.91023e-216
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.49361e-215
+average w 8.04476e-216
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.05956e-217
+average w 5.55041e-218
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.57799e-216
+average w 1.12187e-216
+into particle_cloud
+Biggest particle has weight: 0
+highest w 2.39761e-217
+average w 1.32611e-217
+into particle_cloud
+Biggest particle has weight: 0
+highest w 6.86799e-219
+average w 4.42165e-219
+into particle_cloud
+Biggest particle has weight: 0
+highest w 3.54709e-220
+average w 2.22912e-220
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.40831e-223
+average w 8.36175e-224
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.44504e-223
+average w 7.94151e-224
+into particle_cloud
+Biggest particle has weight: 0
+highest w 8.27696e-224
+average w 5.42368e-224
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.07008e-224
+average w 6.24327e-225
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.88611e-226
+average w 1.39241e-226
+into particle_cloud
+Biggest particle has weight: 0
+highest w 2.05073e-227
+average w 1.23295e-227
+into particle_cloud
+Biggest particle has weight: 0
+highest w 8.01941e-229
+average w 5.19174e-229
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.40576e-229
+average w 9.81353e-230
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.01152e-231
+average w 6.415e-232
+into particle_cloud
+Biggest particle has weight: 0
+highest w 2.29024e-232
+average w 1.51061e-232
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.15864e-233
+average w 9.2818e-234
+into particle_cloud
+Biggest particle has weight: 0
+highest w 4.02507e-235
+average w 2.41399e-235
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.05149e-240
+average w 5.98954e-241
+into particle_cloud
+Biggest particle has weight: 0
+highest w 2.77097e-243
+average w 1.51184e-243
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.71493e-242
+average w 1.27611e-242
+into particle_cloud
+Biggest particle has weight: 0
+highest w 7.94913e-244
+average w 4.82034e-244
+into particle_cloud
+Biggest particle has weight: 0
+highest w 3.15745e-246
+average w 1.97472e-246
+into particle_cloud
+Biggest particle has weight: 0
+highest w 4.51725e-246
+average w 3.44217e-246
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.63839e-246
+average w 9.79931e-247
+into particle_cloud
+Biggest particle has weight: 0
+highest w 4.34932e-247
+average w 2.96882e-247
+into particle_cloud
+Biggest particle has weight: 0
+highest w 4.8582e-249
+average w 3.25882e-249
+into particle_cloud
+Biggest particle has weight: 0
+highest w 4.42608e-252
+average w 3.52376e-252
+into particle_cloud
+Biggest particle has weight: 0
+highest w 5.69329e-254
+average w 5.69329e-254
+into particle_cloud
+Biggest particle has weight: 0
+highest w 3.92511e-255
+average w 2.60697e-255
+into particle_cloud
+Biggest particle has weight: 0
+highest w 5.44182e-258
+average w 2.87027e-258
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.07989e-259
+average w 5.61494e-260
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.36181e-261
+average w 8.03365e-262
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.45507e-261
+average w 9.0259e-262
+into particle_cloud
+Biggest particle has weight: 0
+highest w 5.63187e-264
+average w 3.04511e-264
+into particle_cloud
+Biggest particle has weight: 0
+highest w 5.93718e-265
+average w 4.72102e-265
+into particle_cloud
+Biggest particle has weight: 0
+highest w 4.46353e-272
+average w 3.51438e-272
+into particle_cloud
+Biggest particle has weight: 0
+highest w 2.78174e-273
+average w 1.0815e-273
+into particle_cloud
+Biggest particle has weight: 0
+highest w 5.06335e-275
+average w 3.46666e-275
+into particle_cloud
+Biggest particle has weight: 0
+highest w 2.21495e-275
+average w 1.05783e-275
+into particle_cloud
+Biggest particle has weight: 0
+highest w 2.79067e-278
+average w 1.54887e-278
+into particle_cloud
+Biggest particle has weight: 0
+highest w 5.72211e-279
+average w 3.32998e-279
+into particle_cloud
+Biggest particle has weight: 0
+highest w 6.3431e-280
+average w 2.82911e-280
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.55954e-279
+average w 1.1735e-279
+into particle_cloud
+Biggest particle has weight: 0
+highest w 2.04684e-282
+average w 9.12654e-283
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.91009e-284
+average w 8.91016e-285
+into particle_cloud
+Biggest particle has weight: 0
+highest w 5.79108e-285
+average w 3.61696e-285
+into particle_cloud
+Biggest particle has weight: 0
+highest w 2.21168e-287
+average w 1.49716e-287
+into particle_cloud
+Biggest particle has weight: 0
+highest w 7.00013e-287
+average w 3.35266e-287
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.73892e-287
+average w 8.99429e-288
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.4502e-289
+average w 8.27465e-290
+into particle_cloud
+Biggest particle has weight: 0
+highest w 2.09759e-289
+average w 1.1994e-289
+into particle_cloud
+Biggest particle has weight: 0
+highest w 6.88199e-289
+average w 4.62893e-289
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.21792e-289
+average w 6.72676e-290
+into particle_cloud
+Biggest particle has weight: 0
+highest w 8.97445e-291
+average w 3.99469e-291
+into particle_cloud
+Biggest particle has weight: 0
+highest w 5.68781e-292
+average w 2.71191e-292
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.34812e-294
+average w 6.52338e-295
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.59718e-294
+average w 9.44523e-295
+into particle_cloud
+Biggest particle has weight: 0
+highest w 2.5719e-294
+average w 1.03444e-294
+into particle_cloud
+Biggest particle has weight: 0
+highest w 3.17594e-297
+average w 1.6832e-297
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.50353e-300
+average w 8.61849e-301
+into particle_cloud
+Biggest particle has weight: 0
+highest w 5.29209e-303
+average w 3.43256e-303
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.2146e-304
+average w 7.14671e-305
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.52951e-306
+average w 7.93793e-307
+into particle_cloud
+Biggest particle has weight: 0
+highest w 5.72528e-307
+average w 3.61865e-307
+into particle_cloud
+Biggest particle has weight: 0
+highest w 4.37679e-307
+average w 2.10049e-307
+into particle_cloud
+Biggest particle has weight: 0
+highest w 3.77437e-309
+average w 2.02992e-309
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.50514e-311
+average w 1.07413e-311
+into particle_cloud
+Biggest particle has weight: 0
+highest w 9.95574e-313
+average w 5.32315e-313
+into particle_cloud
+Biggest particle has weight: 0
+highest w 4.89954e-314
+average w 2.83619e-314
+into particle_cloud
+Biggest particle has weight: 0
+highest w 2.42611e-315
+average w 1.32825e-315
+into particle_cloud
+Biggest particle has weight: 0
+highest w 2.54741e-316
+average w 1.02832e-316
+into particle_cloud
+Biggest particle has weight: 0
+highest w 1.36734e-317
+average w 8.19259e-318
+into particle_cloud
+Biggest particle has weight: 0
+highest w 9.04367e-319
+average w 3.23371e-319
+into particle_cloud
+Biggest particle has weight: 0
+highest w 6.76771e-320
+average w 3.29591e-320
+into particle_cloud
+Biggest particle has weight: 0
+highest w 8.01374e-321
+average w 4.02664e-321
+into particle_cloud
+Biggest particle has weight: 0
+highest w 9.88131e-324
+average w 9.88131e-324
+into particle_cloud
+Biggest particle has weight: 0
 highest w 0
 average w 0
-for particle :0 number of landmarks associated are: 10
-for particle :0 number of observations in map cords are: 10
-after data association
-Obs: 0 associated to landmark id: 32
-base Observation x: -3.2056 base observation y: 3.8631
-particle pos  x: 13.103 particle pos y: 3.56602 particle pos theta: 0.317909
-transformed Observation x: 8.85045 Observation y: 6.23354
-Obs: 1 associated to landmark id: 3
-base Observation x: 0.9824 base observation y: -9.3147
-particle pos  x: 13.103 particle pos y: 3.56602 particle pos theta: 0.317909
-transformed Observation x: 16.9477 Observation y: -4.97485
-Obs: 2 associated to landmark id: 12
-base Observation x: 25.0053 base observation y: 3.6224
-particle pos  x: 13.103 particle pos y: 3.56602 particle pos theta: 0.317909
-transformed Observation x: 35.723 Observation y: 14.8231
-Obs: 3 associated to landmark id: 38
-base Observation x: -0.9751 base observation y: -25.4581
-particle pos  x: 13.103 particle pos y: 3.56602 particle pos theta: 0.317909
-transformed Observation x: 20.1344 Observation y: -20.9212
-Obs: 4 associated to landmark id: 39
-base Observation x: -12.7079 base observation y: -22.6626
-particle pos  x: 13.103 particle pos y: 3.56602 particle pos theta: 0.317909
-transformed Observation x: 8.11573 Observation y: -21.9332
-Obs: 5 associated to landmark id: 40
-base Observation x: -26.567 base observation y: 4.3902
-particle pos  x: 13.103 particle pos y: 3.56602 particle pos theta: 0.317909
-transformed Observation x: -13.5051 Observation y: -0.568102
-Obs: 6 associated to landmark id: 24
-base Observation x: 11.8273 base observation y: -37.9889
-particle pos  x: 13.103 particle pos y: 3.56602 particle pos theta: 0.317909
-transformed Observation x: 36.2122 Observation y: -28.8223
-Obs: 7 associated to landmark id: 4
-base Observation x: -31.2852 base observation y: -30.4647
-particle pos  x: 13.103 particle pos y: 3.56602 particle pos theta: 0.317909
-transformed Observation x: -7.0919 Observation y: -35.1513
-Obs: 8 associated to landmark id: 16
-base Observation x: 2.0591 base observation y: -46.3805
-particle pos  x: 13.103 particle pos y: 3.56602 particle pos theta: 0.317909
-transformed Observation x: 29.5565 Observation y: -39.8468
-Obs: 9 associated to landmark id: 21
-base Observation x: 46.3058 base observation y: -16.7219
-particle pos  x: 13.103 particle pos y: 3.56602 particle pos theta: 0.317909
-transformed Observation x: 62.3154 Observation y: 2.15635
-particle number: 0now has weight: 0
-particle number: 0now has weight: 0
-particle number: 0now has weight: 0
-particle number: 0now has weight: 0
-particle number: 0now has weight: 0
-particle number: 0now has weight: 0
-particle number: 0now has weight: 0
-particle number: 0now has weight: 0
-particle number: 0now has weight: 0
-particle number: 0now has weight: 0
-for particle :1 number of landmarks associated are: 10
-for particle :1 number of observations in map cords are: 10
-after data association
-Obs: 0 associated to landmark id: 32
-base Observation x: -3.2056 base observation y: 3.8631
-particle pos  x: 13.2904 particle pos y: 4.33171 particle pos theta: 0.306928
-transformed Observation x: 9.06742 Observation y: 7.04576
-Obs: 1 associated to landmark id: 3
-base Observation x: 0.9824 base observation y: -9.3147
-particle pos  x: 13.2904 particle pos y: 4.33171 particle pos theta: 0.306928
-transformed Observation x: 17.0411 Observation y: -4.25086
-Obs: 2 associated to landmark id: 12
-base Observation x: 25.0053 base observation y: 3.6224
-particle pos  x: 13.2904 particle pos y: 4.33171 particle pos theta: 0.306928
-transformed Observation x: 36.0326 Observation y: 15.3397
-Obs: 3 associated to landmark id: 38
-base Observation x: -0.9751 base observation y: -25.4581
-particle pos  x: 13.2904 particle pos y: 4.33171 particle pos theta: 0.306928
-transformed Observation x: 20.0525 Observation y: -20.2312
-Obs: 4 associated to landmark id: 39
-base Observation x: -12.7079 base observation y: -22.6626
-particle pos  x: 13.2904 particle pos y: 4.33171 particle pos theta: 0.306928
-transformed Observation x: 8.02344 Observation y: -21.1112
-Obs: 5 associated to landmark id: 40
-base Observation x: -26.567 base observation y: 4.3902
-particle pos  x: 13.2904 particle pos y: 4.33171 particle pos theta: 0.306928
-transformed Observation x: -13.3615 Observation y: 0.490015
-Obs: 6 associated to landmark id: 24
-base Observation x: 11.8273 base observation y: -37.9889
-particle pos  x: 13.2904 particle pos y: 4.33171 particle pos theta: 0.306928
-transformed Observation x: 36.0426 Observation y: -28.3084
-Obs: 7 associated to landmark id: 4
-base Observation x: -31.2852 base observation y: -30.4647
-particle pos  x: 13.2904 particle pos y: 4.33171 particle pos theta: 0.306928
-transformed Observation x: -7.32841 Observation y: -34.1615
-Obs: 8 associated to landmark id: 16
-base Observation x: 2.0591 base observation y: -46.3805
-particle pos  x: 13.2904 particle pos y: 4.33171 particle pos theta: 0.306928
-transformed Observation x: 29.2662 Observation y: -39.2591
-Obs: 9 associated to landmark id: 21
-base Observation x: 46.3058 base observation y: -16.7219
-particle pos  x: 13.2904 particle pos y: 4.33171 particle pos theta: 0.306928
-transformed Observation x: 62.4843 Observation y: 2.38172
-particle number: 1now has weight: 0
-particle number: 1now has weight: 0
-particle number: 1now has weight: 0
-particle number: 1now has weight: 0
-particle number: 1now has weight: 0
-particle number: 1now has weight: 0
-particle number: 1now has weight: 0
-particle number: 1now has weight: 0
-particle number: 1now has weight: 0
-particle number: 1now has weight: 0
 into particle_cloud
-Particle id: 1particle weight 0
-Particle id: 1particle weight 0
+Biggest particle has weight: 0
 highest w 0
 average w 0
-for particle :0 number of landmarks associated are: 10
-for particle :0 number of observations in map cords are: 10
-after data association
-Obs: 0 associated to landmark id: 32
-base Observation x: -4.2166 base observation y: 4.741
-particle pos  x: 13.6688 particle pos y: 3.17591 particle pos theta: 0.339944
-transformed Observation x: 8.11266 Observation y: 6.23964
-Obs: 1 associated to landmark id: 3
-base Observation x: 0.5997 base observation y: -9.481
-particle pos  x: 13.6688 particle pos y: 3.17591 particle pos theta: 0.339944
-transformed Observation x: 17.3954 Observation y: -5.56256
-Obs: 2 associated to landmark id: 12
-base Observation x: 24.0082 base observation y: 3.7346
-particle pos  x: 13.6688 particle pos y: 3.17591 particle pos theta: 0.339944
-transformed Observation x: 35.0578 Observation y: 14.7019
-Obs: 3 associated to landmark id: 38
-base Observation x: -1.4697 base observation y: -25.3154
-particle pos  x: 13.6688 particle pos y: 3.17591 particle pos theta: 0.339944
-transformed Observation x: 20.7242 Observation y: -21.1808
-Obs: 4 associated to landmark id: 39
-base Observation x: -13.0942 base observation y: -22.001
-particle pos  x: 13.6688 particle pos y: 3.17591 particle pos theta: 0.339944
-transformed Observation x: 8.65979 Observation y: -21.9321
-Obs: 5 associated to landmark id: 40
-base Observation x: -27.5699 base observation y: 3.2226
-particle pos  x: 13.6688 particle pos y: 3.17591 particle pos theta: 0.339944
-transformed Observation x: -13.3979 Observation y: -2.97866
-Obs: 6 associated to landmark id: 24
-base Observation x: 11.9043 base observation y: -38.442
-particle pos  x: 13.6688 particle pos y: 3.17591 particle pos theta: 0.339944
-transformed Observation x: 37.7097 Observation y: -29.0969
-Obs: 7 associated to landmark id: 4
-base Observation x: -31.5241 base observation y: -31.1522
-particle pos  x: 13.6688 particle pos y: 3.17591 particle pos theta: 0.339944
-transformed Observation x: -5.6641 Observation y: -36.7048
-Obs: 8 associated to landmark id: 16
-base Observation x: 1.0218 base observation y: -46.5994
-particle pos  x: 13.6688 particle pos y: 3.17591 particle pos theta: 0.339944
-transformed Observation x: 30.1699 Observation y: -40.4161
-Obs: 9 associated to landmark id: 21
-base Observation x: 46.0105 base observation y: -16.836
-particle pos  x: 13.6688 particle pos y: 3.17591 particle pos theta: 0.339944
-transformed Observation x: 62.6599 Observation y: 2.64486
-particle number: 0now has weight: 0
-particle number: 0now has weight: 0
-particle number: 0now has weight: 0
-particle number: 0now has weight: 0
-particle number: 0now has weight: 0
-particle number: 0now has weight: 0
-particle number: 0now has weight: 0
-particle number: 0now has weight: 0
-particle number: 0now has weight: 0
-particle number: 0now has weight: 0
-for particle :1 number of landmarks associated are: 10
-for particle :1 number of observations in map cords are: 10
-after data association
-Obs: 0 associated to landmark id: 32
-base Observation x: -4.2166 base observation y: 4.741
-particle pos  x: 13.577 particle pos y: 3.90886 particle pos theta: 0.323243
-transformed Observation x: 8.07286 Observation y: 7.06495
-Obs: 1 associated to landmark id: 3
-base Observation x: 0.5997 base observation y: -9.481
-particle pos  x: 13.577 particle pos y: 3.90886 particle pos theta: 0.323243
-transformed Observation x: 17.1572 Observation y: -4.89063
-Obs: 2 associated to landmark id: 12
-base Observation x: 24.0082 base observation y: 3.7346
-particle pos  x: 13.577 particle pos y: 3.90886 particle pos theta: 0.323243
-transformed Observation x: 35.1556 Observation y: 15.0761
-Obs: 3 associated to landmark id: 38
-base Observation x: -1.4697 base observation y: -25.3154
-particle pos  x: 13.577 particle pos y: 3.90886 particle pos theta: 0.323243
-transformed Observation x: 20.2247 Observation y: -20.5623
-Obs: 4 associated to landmark id: 39
-base Observation x: -13.0942 base observation y: -22.001
-particle pos  x: 13.577 particle pos y: 3.90886 particle pos theta: 0.323243
-transformed Observation x: 8.14944 Observation y: -21.112
-Obs: 5 associated to landmark id: 40
-base Observation x: -27.5699 base observation y: 3.2226
-particle pos  x: 13.577 particle pos y: 3.90886 particle pos theta: 0.323243
-transformed Observation x: -13.5887 Observation y: -1.79282
-Obs: 6 associated to landmark id: 24
-base Observation x: 11.9043 base observation y: -38.442
-particle pos  x: 13.577 particle pos y: 3.90886 particle pos theta: 0.323243
-transformed Observation x: 37.0756 Observation y: -28.7609
-Obs: 7 associated to landmark id: 4
-base Observation x: -31.5241 base observation y: -31.1522
-particle pos  x: 13.577 particle pos y: 3.90886 particle pos theta: 0.323243
-transformed Observation x: -6.41917 Observation y: -35.6434
-Obs: 8 associated to landmark id: 16
-base Observation x: 1.0218 base observation y: -46.5994
-particle pos  x: 13.577 particle pos y: 3.90886 particle pos theta: 0.323243
-transformed Observation x: 29.3479 Observation y: -39.9526
-Obs: 9 associated to landmark id: 21
-base Observation x: 46.0105 base observation y: -16.836
-particle pos  x: 13.577 particle pos y: 3.90886 particle pos theta: 0.323243
-transformed Observation x: 62.5525 Observation y: 2.55971
-particle number: 1now has weight: 0
-particle number: 1now has weight: 0
-particle number: 1now has weight: 0
-particle number: 1now has weight: 0
-particle number: 1now has weight: 0
-particle number: 1now has weight: 0
-particle number: 1now has weight: 0
-particle number: 1now has weight: 0
-particle number: 1now has weight: 0
-particle number: 1now has weight: 0
 into particle_cloud
-Particle id: 1particle weight 0
-Particle id: 1particle weight 0
+Biggest particle has weight: 0
 highest w 0
 average w 0
-for particle :0 number of landmarks associated are: 10
-for particle :0 number of observations in map cords are: 10
-after data association
-Obs: 0 associated to landmark id: 32
-base Observation x: -4.3668 base observation y: 4.6185
-particle pos  x: 13.5525 particle pos y: 3.3135 particle pos theta: 0.348024
-transformed Observation x: 7.87235 Observation y: 6.16585
-Obs: 1 associated to landmark id: 3
-base Observation x: 0.4294 base observation y: -9.7398
-particle pos  x: 13.5525 particle pos y: 3.3135 particle pos theta: 0.348024
-transformed Observation x: 17.2778 Observation y: -5.69594
-Obs: 2 associated to landmark id: 12
-base Observation x: 23.9646 base observation y: 3.0713
-particle pos  x: 13.5525 particle pos y: 3.3135 particle pos theta: 0.348024
-transformed Observation x: 35.0329 Observation y: 14.3736
-Obs: 3 associated to landmark id: 38
-base Observation x: -2.3306 base observation y: -26.0824
-particle pos  x: 13.5525 particle pos y: 3.3135 particle pos theta: 0.348024
-transformed Observation x: 20.2568 Observation y: -22
-Obs: 4 associated to landmark id: 39
-base Observation x: -13.1776 base observation y: -22.3396
-particle pos  x: 13.5525 particle pos y: 3.3135 particle pos theta: 0.348024
-transformed Observation x: 8.7836 Observation y: -22.1809
-Obs: 5 associated to landmark id: 40
-base Observation x: -28.7735 base observation y: 3.9363
-particle pos  x: 13.5525 particle pos y: 3.3135 particle pos theta: 0.348024
-transformed Observation x: -14.8385 Observation y: -2.79914
-Obs: 6 associated to landmark id: 24
-base Observation x: 11.3318 base observation y: -37.6994
-particle pos  x: 13.5525 particle pos y: 3.3135 particle pos theta: 0.348024
-transformed Observation x: 37.0619 Observation y: -28.2611
-Obs: 7 associated to landmark id: 4
-base Observation x: -31.7576 base observation y: -31.5967
-particle pos  x: 13.5525 particle pos y: 3.3135 particle pos theta: 0.348024
-transformed Observation x: -5.52544 Observation y: -37.2196
-Obs: 8 associated to landmark id: 16
-base Observation x: 0.4171 base observation y: -46.51
-particle pos  x: 13.5525 particle pos y: 3.3135 particle pos theta: 0.348024
-transformed Observation x: 29.8064 Observation y: -40.2659
-Obs: 9 associated to landmark id: 21
-base Observation x: 45.2913 base observation y: -16.2211
-particle pos  x: 13.5525 particle pos y: 3.3135 particle pos theta: 0.348024
-transformed Observation x: 61.6605 Observation y: 3.51109
-particle number: 0now has weight: 0
-particle number: 0now has weight: 0
-particle number: 0now has weight: 0
-particle number: 0now has weight: 0
-particle number: 0now has weight: 0
-particle number: 0now has weight: 0
-particle number: 0now has weight: 0
-particle number: 0now has weight: 0
-particle number: 0now has weight: 0
-particle number: 0now has weight: 0
-for particle :1 number of landmarks associated are: 10
-for particle :1 number of observations in map cords are: 10
-after data association
-Obs: 0 associated to landmark id: 32
-base Observation x: -4.3668 base observation y: 4.6185
-particle pos  x: 13.8893 particle pos y: 3.28025 particle pos theta: 0.345335
-transformed Observation x: 8.21691 Observation y: 6.14787
-Obs: 1 associated to landmark id: 3
-base Observation x: 0.4294 base observation y: -9.7398
-particle pos  x: 13.8893 particle pos y: 3.28025 particle pos theta: 0.345335
-transformed Observation x: 17.5904 Observation y: -5.73917
-Obs: 2 associated to landmark id: 12
-base Observation x: 23.9646 base observation y: 3.0713
-particle pos  x: 13.8893 particle pos y: 3.28025 particle pos theta: 0.345335
-transformed Observation x: 35.3994 Observation y: 14.2825
-Obs: 3 associated to landmark id: 38
-base Observation x: -2.3306 base observation y: -26.0824
-particle pos  x: 13.8893 particle pos y: 3.28025 particle pos theta: 0.345335
-transformed Observation x: 20.5255 Observation y: -22.0512
-Obs: 4 associated to landmark id: 39
-base Observation x: -13.1776 base observation y: -22.3396
-particle pos  x: 13.8893 particle pos y: 3.28025 particle pos theta: 0.345335
-transformed Observation x: 9.05192 Observation y: -22.2012
-Obs: 5 associated to landmark id: 40
-base Observation x: -28.7735 base observation y: 3.9363
-particle pos  x: 13.8893 particle pos y: 3.28025 particle pos theta: 0.345335
-transformed Observation x: -14.5179 Observation y: -2.75601
-Obs: 6 associated to landmark id: 24
-base Observation x: 11.3318 base observation y: -37.6994
-particle pos  x: 13.8893 particle pos y: 3.28025 particle pos theta: 0.345335
-transformed Observation x: 37.3138 Observation y: -28.3575
-Obs: 7 associated to landmark id: 4
-base Observation x: -31.7576 base observation y: -31.5967
-particle pos  x: 13.8893 particle pos y: 3.28025 particle pos theta: 0.345335
-transformed Observation x: -5.29752 Observation y: -37.2014
-Obs: 8 associated to landmark id: 16
-base Observation x: 0.4171 base observation y: -46.51
-particle pos  x: 13.8893 particle pos y: 3.28025 particle pos theta: 0.345335
-transformed Observation x: 30.026 Observation y: -40.3427
-Obs: 9 associated to landmark id: 21
-base Observation x: 45.2913 base observation y: -16.2211
-particle pos  x: 13.8893 particle pos y: 3.28025 particle pos theta: 0.345335
-transformed Observation x: 61.9978 Observation y: 3.34845
-particle number: 1now has weight: 0
-particle number: 1now has weight: 0
-particle number: 1now has weight: 0
-particle number: 1now has weight: 0
-particle number: 1now has weight: 0
-particle number: 1now has weight: 0
-particle number: 1now has weight: 0
-particle number: 1now has weight: 0
-particle number: 1now has weight: 0
-particle number: 1now has weight: 0
 into particle_cloud
-Particle id: 1particle weight 0
-Particle id: 1particle weight 0
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
+highest w 0
+average w 0
+into particle_cloud
+Biggest particle has weight: 0
 highest w 0
 average w 0

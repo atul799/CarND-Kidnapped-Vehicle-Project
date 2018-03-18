@@ -49,6 +49,9 @@ public:
 	// Set of current particles
 	std::vector<Particle> particles;
 
+	// count of active partciles and thickness
+	std::vector<int> particles_cloud_list;
+
 
 
 	// Constructor
@@ -131,15 +134,8 @@ public:
 
 	//////////////////////////
 	//particle cloud
-	void Particle_cloud() {
-		for (int i=0;i<num_particles;i++) {
-			int particle_id=particles[i].id;
-			std::cout <<"Particle id: "<<particle_id<< "particle weight "<<particles[i].weight << std::endl;
-			//particle_cloud_list[particle_id] +=1;
-			//std::cout <<"Particle: "<< i << " is resampled: " << particle_cloud_list[i] << " times, sofar" <<std::endl;
-		}
-	}
-	////////////////////////////
+	void Particle_cloud();
+
 
 };
 

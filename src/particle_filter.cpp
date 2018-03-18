@@ -15,6 +15,9 @@
 #include <string>
 #include <iterator>
 
+//added for sort
+#include <algorithm>
+
 #include "particle_filter.h"
 
 using namespace std;
@@ -34,8 +37,15 @@ void ParticleFilter::init(double x, double y, double theta, double std[]) {
 
 	//Set number of particles
 	//num_particles=1000;
-	//num_particles=100;
-	num_particles=2;
+
+	//breaks down at return leg
+	//num_particles=500;
+
+	//breaks down at return leg
+	num_particles=100;
+
+	//to test
+	//num_particles=2;
 
 	//random engine declaration
 	//default_random_engine gen;
@@ -60,6 +70,7 @@ void ParticleFilter::init(double x, double y, double theta, double std[]) {
 		Particle p;
 		p.id=j;
 		p.weight=1.0;
+
 		// Sample  and from these normal distrubtions
 		//sample_x = dist_x(gen);
 		p.x=dist_x(gen);
@@ -74,8 +85,8 @@ void ParticleFilter::init(double x, double y, double theta, double std[]) {
 
 
 		particles.push_back(p);
-		//particle_cloud[j]=0;
-		cout<<"particle number: " << j << " initialized to: id:" << p.id<<" x: " <<p.x<<" y: " << p.y<< " theta: "<<p.theta<<" weight: "<<p.weight<<endl;
+		particles_cloud_list.push_back(0);
+		//cout<<"particle number: " << j << " initialized to: id:" << p.id<<" x: " <<p.x<<" y: " << p.y<< " theta: "<<p.theta<<" weight: "<<p.weight<<endl;
 	}
 
 	//set particle initialized flag to true
@@ -252,7 +263,7 @@ void ParticleFilter::updateWeights(double sensor_range, double std_landmark[],
 				landmarks_in_range.push_back({map_landmarks.landmark_list[j].id_i,map_landmarks.landmark_list[j].x_f,map_landmarks.landmark_list[j].y_f});
 			}
 		}
-		cout << "for particle :" << i << " number of landmarks associated are: " << landmarks_in_range.size()<<endl;
+		//cout << "for particle :" << i << " number of landmarks associated are: " << landmarks_in_range.size()<<endl;
 		//Step 1
 		//transform each observation to map cordinates w.r.t particle
 		vector<LandmarkObs> observations_in_map_cord;
@@ -264,19 +275,20 @@ void ParticleFilter::updateWeights(double sensor_range, double std_landmark[],
 			observations_in_map_cord.push_back(LandmarkObs{observations[k].id,x_transform,y_transform});
 		}
 
-		cout << "for particle :" << i << " number of observations in map cords are: " << observations_in_map_cord.size()<<endl;
+		//cout << "for particle :" << i << " number of observations in map cords are: " << observations_in_map_cord.size()<<endl;
 		//Step 2. find associations for each particle to landmarks (sense)
 		//landmarks_in_range passed as value and observations_in_map_cord passed as reference to method dataAssociation
 		dataAssociation(landmarks_in_range,observations_in_map_cord );
 
-		cout << "after data association" <<endl;
+		//cout << "after data association" <<endl;
+		/*
 		for (int pp=0;pp<observations_in_map_cord.size();pp++) {
 			cout <<"Obs: " << pp << " associated to landmark id: " << observations_in_map_cord[pp].id<<endl;
 			cout <<"base Observation x: " << observations[pp].x<< " base observation y: " << observations[pp].y<<endl;
 			cout <<"particle pos  x: " << particles[i].x << " particle pos y: " << particles[i].y<< " particle pos theta: " << particles[i].theta<<endl;
 			cout <<"transformed Observation x: " << observations_in_map_cord[pp].x<< " Observation y: " << observations_in_map_cord[pp].y<<endl;
 			//landmark position for associated observation
-		}
+		} */
 
 		//Step 3. find measurement probabilities and update weights
 		//A> for each transformed observation find landmark associated with each (search with id)
@@ -314,7 +326,7 @@ void ParticleFilter::updateWeights(double sensor_range, double std_landmark[],
 			//cout << "multivariate gaussian for observation: " << mv_G<<endl;
 			// multiple with mvgaussian pdf with prior weights
 			particles[i].weight *= mv_G;
-			cout << "particle number: "<<i << "now has weight: "<<particles[i].weight<<endl;
+			//cout << "particle number: "<<i << "now has weight: "<<particles[i].weight<<endl;
 
 
 		}
@@ -435,6 +447,29 @@ string ParticleFilter::getSenseY(Particle best)
     string s = ss.str();
     s = s.substr(0, s.length()-1);  // get rid of the trailing space
     return s;
+}
+
+
+
+/*
+ *  check particle survival rate and number of times resampled
+ *
+ */
+
+//////////////////////////
+//particle cloud
+void ParticleFilter::Particle_cloud() {
+	for (int i=0;i<num_particles;i++) {
+		int particle_id=particles[i].id;
+		//std::cout <<"Particle id: "<<particle_id<< "particle weight "<<particles[i].weight << std::endl;
+		particles_cloud_list[particle_id] +=1;
+		std::cout <<"Particle: "<< i << " is resampled: " << particles_cloud_list[i] << " times, sofar" <<std::endl;
+	}
+	////////////////////////////
+	//std::vector<int> particles_cloud_list_sorted=particles_cloud_list;
+	//std::sort(particles_cloud_list_sorted.begin(),particles_cloud_list_sorted.end());
+	//std::cout << "Biggest Particle has weight: " << particles_cloud_list_sorted[0]<<std::endl;
+
 }
 
 
