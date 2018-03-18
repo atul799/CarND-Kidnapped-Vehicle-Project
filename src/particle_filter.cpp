@@ -42,10 +42,10 @@ void ParticleFilter::init(double x, double y, double theta, double std[]) {
 	//num_particles=500;
 
 	//breaks down at return leg
-	num_particles=100;
+	//num_particles=100;
 
 	//to test
-	//num_particles=2;
+	num_particles=2;
 
 	//random engine declaration
 	//default_random_engine gen;
@@ -272,13 +272,26 @@ void ParticleFilter::updateWeights(double sensor_range, double std_landmark[],
 			double x_transform=particles[i].x + cos(particles[i].theta)*observations[k].x-sin(particles[i].theta)*observations[k].y;
 			double y_transform=particles[i].y + sin(particles[i].theta)*observations[k].x+cos(particles[i].theta)*observations[k].y;
 			//push back observation id, transformed x and y to observations_in_map_cord
-			observations_in_map_cord.push_back(LandmarkObs{observations[k].id,x_transform,y_transform});
+			//observation id gets reset to landmark id in nearest landmarl step
+			observations_in_map_cord.push_back(LandmarkObs{k,x_transform,y_transform});
+			//cout <<"observation_in map coords vector: "<<observations_in_map_cord[k].id<<endl;
 		}
 
 		//cout << "for particle :" << i << " number of observations in map cords are: " << observations_in_map_cord.size()<<endl;
 		//Step 2. find associations for each particle to landmarks (sense)
 		//landmarks_in_range passed as value and observations_in_map_cord passed as reference to method dataAssociation
 		dataAssociation(landmarks_in_range,observations_in_map_cord );
+
+		//reinit weight
+		particles[i].weight=1.0;
+
+		/*
+		for (int tt=0;tt<observations_in_map_cord.size();tt++){
+			cout<< "Obs: "<< tt << " Assigned to: "<<observations_in_map_cord[tt].id<<endl;
+			cout<< "Obs x:"<<observations_in_map_cord[tt].x << " : y:" << observations_in_map_cord[tt].y <<endl;
+			cout<< "Landmark x:" << map_landmarks.landmark_list[observations_in_map_cord[tt].id-1].x_f << " : y:" << map_landmarks.landmark_list[observations_in_map_cord[tt].id-1].y_f << endl;
+
+		} */
 
 		//cout << "after data association" <<endl;
 		/*
@@ -318,6 +331,9 @@ void ParticleFilter::updateWeights(double sensor_range, double std_landmark[],
 			//calculate multivariate PD for the w.r.t. associated landmark
 			double l_x_diff=observations_in_map_cord[l].x-x_lm_p;
 			double l_y_diff=observations_in_map_cord[l].y-y_lm_p;
+			//double l_x_diff=x_lm_p-observations_in_map_cord[l].x;
+			//double l_y_diff=y_lm_p-observations_in_map_cord[l].y;
+
 			//cout << "local x diff: " << l_x_diff << " local y diff : "<<l_y_diff<<endl;
 			double x_diff_sq=pow(l_x_diff,2);
 			double y_diff_sq=pow(l_y_diff,2);
@@ -332,6 +348,8 @@ void ParticleFilter::updateWeights(double sensor_range, double std_landmark[],
 		}
 
 
+
+		cout << "particle number: "<<i << "has weight: "<<particles[i].weight<<endl;
 
 	}
 
@@ -374,6 +392,7 @@ void ParticleFilter::resample() {
 	vector<double> weights;
 
 	//captures weight of each particle in weights vector
+	double sum_weights=0;
 	for (int i=0;i<num_particles;i++) {
 		weights.push_back(particles[i].weight);
 	}
