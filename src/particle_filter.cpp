@@ -42,10 +42,10 @@ void ParticleFilter::init(double x, double y, double theta, double std[]) {
 	//num_particles=500;
 
 	//breaks down at return leg
-	//num_particles=100;
+	num_particles=100;
 
 	//to test
-	num_particles=2;
+	//num_particles=2;
 
 	//random engine declaration
 	//default_random_engine gen;
@@ -144,6 +144,8 @@ void ParticleFilter::prediction(double delta_t, double std_pos[], double velocit
 			//no change in theta as yaw_rate is  effectively 0
 		}
 		else {
+			//update theta before position update or after??
+
 			particles[i].x += velocity / yaw_rate * (sin(particles[i].theta + yaw_rate*delta_t) - sin(particles[i].theta));
 			particles[i].y += velocity / yaw_rate * (cos(particles[i].theta) - cos(particles[i].theta + yaw_rate*delta_t));
 			particles[i].theta += yaw_rate * delta_t;
@@ -282,6 +284,10 @@ void ParticleFilter::updateWeights(double sensor_range, double std_landmark[],
 		//landmarks_in_range passed as value and observations_in_map_cord passed as reference to method dataAssociation
 		dataAssociation(landmarks_in_range,observations_in_map_cord );
 
+
+		//particle weights gets small if not normalized
+		//normalize the weights at each step
+		//forums in udacity suggests to discard the weights from previous step and start with 1.0
 		//reinit weight
 		particles[i].weight=1.0;
 
@@ -349,7 +355,7 @@ void ParticleFilter::updateWeights(double sensor_range, double std_landmark[],
 
 
 
-		cout << "particle number: "<<i << "has weight: "<<particles[i].weight<<endl;
+		//cout << "particle number: "<<i << "has weight: "<<particles[i].weight<<endl;
 
 	}
 
@@ -402,7 +408,7 @@ void ParticleFilter::resample() {
 	discrete_distribution<> d(weights.begin(),weights.end());
 
 	//particles that survived
-	vector<int> particles_survived;
+	//vector<int> particles_survived;
 	for (int j=0;j<num_particles;j++) {
 		//get index according to discrete distribtuion sampling
 		int idx=d(gen);
@@ -410,7 +416,8 @@ void ParticleFilter::resample() {
 		//++particles[idx].nr_times_resampled;
 		//cout << "nr of times particle: " << idx << " sampled so far: " <<  particles[idx].nr_times_resampled << endl;
 		p_n.push_back(particles[idx]);
-		particles_survived.push_back(idx);
+		//particles_survived.push_back(idx);
+		//particles_cloud_list[particle_id] +=1;
 
 	}
 
@@ -482,7 +489,7 @@ void ParticleFilter::Particle_cloud() {
 		int particle_id=particles[i].id;
 		//std::cout <<"Particle id: "<<particle_id<< "particle weight "<<particles[i].weight << std::endl;
 		particles_cloud_list[particle_id] +=1;
-		std::cout <<"Particle: "<< i << " is resampled: " << particles_cloud_list[i] << " times, sofar" <<std::endl;
+		//std::cout <<"Particle: "<< i << " is resampled: " << particles_cloud_list[i] << " times, sofar" <<std::endl;
 	}
 	////////////////////////////
 	//std::vector<int> particles_cloud_list_sorted=particles_cloud_list;
