@@ -50,44 +50,53 @@ with (open(part_cloud_file,'r')) as part_cl:
     
 print ("Number of steps were: ",step_counter)
 
-
-#%%
-for key, data_list in step_dict.items():
-    #dates_str, values = zip(*data_list)  # Unpack
-    #dates = convert_str_to_dates(dates_str)  # Not handled in example
-    plt.plot(list(range(500)), data_list, label=key)
-plt.legend()
+#print (np.argmax(step_dict[number_of_particles-1]))
+(m,i) = max((v,i) for i,v in enumerate(step_dict[step_counter-1]))
+print (m,i)
+print ("Max sampled particle was at idx:",i," value: ",m)
 
 
 #%%
 fig0, ax0 = plt.subplots()
-ax0.plot(list(range(500)), step_dict[0], label='step1')
-
+ax0.plot(list(range(number_of_particles-1)), step_dict[0], label='step1')
+ax0.set_title('PC bar at Step0')
 #ax0.plot(list(range(500)), step_dict[0], label='step1')
 figs0,axs0=plt.subplots()
-x = list(range(500))
-y = [0]*len(x)
-s = [.1*n for n in step_dict[0]]
-axs0.scatter(x,y,s=s)
 
+x = list(range(number_of_particles-1))
+y = [0]*len(x)
+s = [1*n for n in step_dict[0]]
+axs0.scatter(x,y,s=s)
+axs0.set_title('PC at Step0')
 
 fig5, ax5 = plt.subplots()
-ax5.plot(list(range(500)), step_dict[5], label='step5')
+ax5.plot(list(range(number_of_particles-1)), step_dict[5], label='step5')
+ax5.set_title('PC bar at Step5')
 figs5,axs5=plt.subplots()
 s = [.1*n for n in step_dict[5]]
 axs5.scatter(x,y,s=s)
-
+axs5.set_title('PC at Step5')
 #fig100, ax100 = plt.subplots()
 #ax100.plot(list(range(500)), step_dict[100], label='step100')
 
 figs100,axs100=plt.subplots()
 s = [.1*n for n in step_dict[100]]
 axs100.scatter(x,y,s=s)
-
+axs100.set_title('PC at Step100')
 
 figslast,axslast=plt.subplots()
 s = [.01*n for n in step_dict[step_counter-1] ]
 axslast.scatter(x,y,s=s)
+axslast.set_title('PC at Last Step')
+
+
+#%%
+fig0, ax0 = plt.subplots()
+for i in range(len(step_dict.keys())):
+    x = list(range(number_of_particles-1))
+    y = [0]*len(step_dict[i])
+    s = [1*n for n in step_dict[0]]
+    axs0.scatter(x,y,s=s)
 
 #%% 
 #histogram of particle cloud
@@ -104,6 +113,41 @@ ys=[i/ys_sum for i in ys_nonnorm]
 fig = plt.figure()
 plt.scatter(xs,ys_nonnorm)
 
+#%%
+import numpy as np
+import matplotlib.pyplot as plt
+import matplotlib.animation as animation
+
+ffig = plt.figure()
+ax = plt.axes(xlim=(0, 500), ylim=(0, 50000))
+#fig, ax = plt.subplots()
+ax.grid('on')
+#line, = ax.plot([], [], lw=2)
+line, = ax.plot([], [], 'ro')
+
+def animate(i):
+    #line.set_ydata(np.sin(x + i/10.0))  # update the data
+    y=[n for n in step_dict[i]]
+    line.set_data(range(len(y)), y)
+    return line,
+
+# Init only required for blitting to give a clean slate.
+def init():
+    #line.set_ydata(np.ma.array(x, mask=True))
+    #line.set_data(range(500), [0 for _ in range(500)])
+    line.set_data([], [])
+    return line,
+
+#ani = animation.FuncAnimation(fig, animate, np.arange(1, 100), init_func=init,
+#                              interval=25, blit=True)
+
+#ani = animation.FuncAnimation(fig, animate, init_func=init,frames=200,
+#                              interval=250, blit=True)
+ani = animation.FuncAnimation(fig, animate, init_func=init,frames=step_dict.keys(),
+                              interval=500, blit=True)
+
+
+plt.show() 
 
 
 #%%

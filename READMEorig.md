@@ -1,16 +1,3 @@
-# CarND-Kidnapped-Vehicle-Project
-
-
-# Project Goals
----
-The goal of this project are the following:
-
-* Build a Partcile Filter.
-* Localize a vehicle given observations and landmarks in a map. 
-* Summarize the results with a written report.
-
-
-
 # Overview
 This repository contains all the code needed to complete the final project for the Localization course in Udacity's Self-Driving Car Nanodegree.
 
