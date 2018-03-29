@@ -1,8 +1,8 @@
 /*
  * helper_functions.h
  * Some helper functions for the 2D particle filter.
- *  Created on: Dec 13, 2016
- *      Author: Tiffany Huang
+*  Modified on: March 10, 2018
+ *      By: Atul Pandey
  */
 
 #ifndef HELPER_FUNCTIONS_H_

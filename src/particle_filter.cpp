@@ -1,8 +1,8 @@
 /*
  * particle_filter.cpp
  *
- *  Created on: Dec 12, 2016
- *      Author: Tiffany Huang
+ *  Modified on: March 10, 2018
+ *      By: Atul Pandey
  */
 
 #include <random>
@@ -20,6 +20,19 @@
 
 #include "particle_filter.h"
 
+// macro for number of particles
+#define NUM_PARTICLES 500
+//yaw tolerance for motion model
+#define  YAW_RATE_TOL 0.001
+
+//MAP_SIZE is used to initialize minimum distance from particle to landmark
+//gets updated while setting association
+#define  MAP_SIZE 1000
+
+
+//code can be optimized to have nearest neighbor association and weight calc have same loops twice!
+
+
 using namespace std;
 //random engine global declaration as it is used across multiple methods
 default_random_engine gen;
@@ -36,13 +49,16 @@ void ParticleFilter::init(double x, double y, double theta, double std[]) {
 	// NOTE: Consult particle_filter.h for more information about this method (and others in this file).
 
 	//Set number of particles
+
+	num_particles=NUM_PARTICLES;
+
 	//num_particles=1000;
 
-	//breaks down at return leg
+	//another try
 	//num_particles=500;
 
-	//breaks down at return leg
-	num_particles=100;
+	//even less
+	//num_particles=100;
 
 	//to test
 	//num_particles=2;
@@ -65,11 +81,19 @@ void ParticleFilter::init(double x, double y, double theta, double std[]) {
 	normal_distribution<double> dist_y(y, std_y);
 	normal_distribution<double> dist_theta(theta, std_theta);
 
+	//create num_particles partciles and init
+	//with gps position+ std dev for position and
+	//weights as 1 or max conf state
+
+	//calc init weight as 1/num partciles
+	double w_init= 1.0/num_particles;
+
 
 	for (int j=0;j < num_particles;j++) {
 		Particle p;
 		p.id=j;
-		p.weight=1.0;
+		//p.weight=1.0;
+		p.weight=w_init;
 
 		// Sample  and from these normal distrubtions
 		//sample_x = dist_x(gen);
@@ -79,12 +103,16 @@ void ParticleFilter::init(double x, double y, double theta, double std[]) {
 		p.y=dist_y(gen);
 		//sample_theta = dist_theta(gen);
 		p.theta=dist_theta(gen);
+
+		weights.push_back(w_init);
 		// Print your samples to the terminal.
-		//cout << "Sample " <<  p.x << " " << p.y << " " << p.theta << endl;
+		cout << "Sample " <<  p.x << " " << p.y << " " << p.theta << weights[j] <<endl;
 		p.nr_times_resampled=0;
 
 
 		particles.push_back(p);
+
+
 		particles_cloud_list.push_back(0);
 		//cout<<"particle number: " << j << " initialized to: id:" << p.id<<" x: " <<p.x<<" y: " << p.y<< " theta: "<<p.theta<<" weight: "<<p.weight<<endl;
 	}
@@ -134,21 +162,28 @@ void ParticleFilter::prediction(double delta_t, double std_pos[], double velocit
 	//Create normal distributions for y and theta.
 	normal_distribution<double> dist_y(0, std_y);
 	normal_distribution<double> dist_theta(0, std_theta);
+
+	//calculate constants upfront
+	double vel_delta_t=velocity * delta_t;
+	double vel_yaw_rate=velocity / yaw_rate;
+	double yaw_rate_delta_t=yaw_rate*delta_t;
+
+
 	// predict new state for each particle
 	for (int i = 0; i < num_particles; i++) {
 
 
-		if (fabs(yaw_rate) < 0.001) {
-			particles[i].x += velocity * delta_t * cos(particles[i].theta);
-			particles[i].y += velocity * delta_t * sin(particles[i].theta);
+		if (fabs(yaw_rate) < YAW_RATE_TOL) {
+			particles[i].x += vel_delta_t * cos(particles[i].theta);
+			particles[i].y += vel_delta_t * sin(particles[i].theta);
 			//no change in theta as yaw_rate is  effectively 0
 		}
 		else {
 			//update theta before position update or after??
-
-			particles[i].x += velocity / yaw_rate * (sin(particles[i].theta + yaw_rate*delta_t) - sin(particles[i].theta));
-			particles[i].y += velocity / yaw_rate * (cos(particles[i].theta) - cos(particles[i].theta + yaw_rate*delta_t));
-			particles[i].theta += yaw_rate * delta_t;
+			const double theta_n=particles[i].theta + yaw_rate_delta_t;
+			particles[i].x += vel_yaw_rate * (sin(theta_n) - sin(particles[i].theta));
+			particles[i].y += vel_yaw_rate * (cos(particles[i].theta) - cos(theta_n));
+			particles[i].theta += yaw_rate_delta_t;
 		}
 
 		// add noise
@@ -179,7 +214,7 @@ void ParticleFilter::dataAssociation(std::vector<LandmarkObs> predicted, std::ve
 
 		// keep a counter of min distance to each landmark
 		//assuming map size < 1000 and that would be max distance
-		double min_distance = 1000;
+		double min_distance = MAP_SIZE;
 
 		//id of landmark to associate to observation[i]
 		int landmark_id ;
@@ -200,7 +235,7 @@ void ParticleFilter::dataAssociation(std::vector<LandmarkObs> predicted, std::ve
 			}
 		}
 
-		//observation[i] id to the nearest neighbor
+		//assign observation[i] id to the nearest neighbor
 		observations[i].id = landmark_id;
 		//cout << "observation: " << i <<" is assigned to landmark: "<< landmark_id<<endl;
 	}
@@ -243,7 +278,8 @@ void ParticleFilter::updateWeights(double sensor_range, double std_landmark[],
 	const double x_d = 2 * std_landmark[0] * std_landmark[0];
 	const double y_d = 2 * std_landmark[1] * std_landmark[1];
 
-
+	//weight normalization
+	double sum_of_weights=0;
 
 
 	//loop over all particles
@@ -282,14 +318,16 @@ void ParticleFilter::updateWeights(double sensor_range, double std_landmark[],
 		//cout << "for particle :" << i << " number of observations in map cords are: " << observations_in_map_cord.size()<<endl;
 		//Step 2. find associations for each particle to landmarks (sense)
 		//landmarks_in_range passed as value and observations_in_map_cord passed as reference to method dataAssociation
+		//code can be optimized to have nearest neighbor association and weight calc have same loops twice!
+
 		dataAssociation(landmarks_in_range,observations_in_map_cord );
 
 
 		//particle weights gets small if not normalized
 		//normalize the weights at each step
 		//forums in udacity suggests to discard the weights from previous step and start with 1.0
-		//reinit weight
-		particles[i].weight=1.0;
+		//re-init weight
+		//particles[i].weight=1.0;
 
 		/*
 		for (int tt=0;tt<observations_in_map_cord.size();tt++){
@@ -313,6 +351,8 @@ void ParticleFilter::updateWeights(double sensor_range, double std_landmark[],
 		//A> for each transformed observation find landmark associated with each (search with id)
 			//making a hash table would probably have made it efficient to search for id
 		//B> calculate multivariate PD for each observation and multiply by previous weights for given particle
+
+
 
 		for (int l=0;l<observations_in_map_cord.size();l++) {
 
@@ -351,13 +391,24 @@ void ParticleFilter::updateWeights(double sensor_range, double std_landmark[],
 			//cout << "particle number: "<<i << "now has weight: "<<particles[i].weight<<endl;
 
 
+
+
 		}
 
-
-
+		sum_of_weights += particles[i].weight;
+		weights[i]= particles[i].weight;
 		//cout << "particle number: "<<i << "has weight: "<<particles[i].weight<<endl;
 
 	}
+
+
+	// Weights normalization
+		for (int i = 0; i < num_particles; i++) {
+			particles[i].weight /= sum_of_weights;
+			//sum of weights of all partciles shall be 1 after normalization, add a check??
+			//weights attribute in class not being used
+			weights[i] = particles[i].weight;
+		}
 
 }
 
@@ -365,19 +416,60 @@ void ParticleFilter::resample() {
 	// TODO: Resample particles with replacement with probability proportional to their weight. 
 	// NOTE: You may find std::discrete_distribution helpful here.
 	//   http://en.cppreference.com/w/cpp/numeric/random/discrete_distribution
+
+
+
+
+	//Step 1
+	vector<Particle> p_n;
+	//vector<double> weights;
+
+	//captures weight of each particle in weights vector
+	//double sum_weights=0;
+	//for (int i=0;i<num_particles;i++) {
+	//	weights.push_back(particles[i].weight);
+	//}
+
+
+	/*
+
+	/////USE OF STL discrete_dist
+	//Step 2
+	//use of discrete_distribution to resample
+	discrete_distribution<> d(weights.begin(),weights.end());
+
+	//particles that survived
+	//vector<int> particles_survived;
+	for (int j=0;j<num_particles;j++) {
+		//get index according to discrete distribution sampling
+		int idx=d(gen);
+		//cout << "Particle: " << idx << " got sampled" << endl;
+		//++particles[idx].nr_times_resampled;
+		//cout << "nr of times particle: " << idx << " sampled so far: " <<  particles[idx].nr_times_resampled << endl;
+		p_n.push_back(particles[idx]);
+		//particles_survived.push_back(idx);
+		//particles_cloud_list[particle_id] +=1;
+
+	}
+
+	// reset particles
+	particles=p_n;
+
+	*/
+	//////////////////////////////////////
 	/////////////
 	//sebastian code on importance sampling (sampling with replacement)
 	/* p3 = [] //new set of particles will be saved as original particle of IS
-	        index = int(random.random() * N)
-	        beta = 0.0
-	        mw = max(w)
-	        for i in range(N):
-	            beta += random.random() * 2.0 * mw
-	            while beta > w[index]:
-	                beta -= w[index]
-	                index = (index + 1) % N
-	            p3.append(p[index])
-	        p = p3 */
+		        index = int(random.random() * N)
+		        beta = 0.0
+		        mw = max(w)
+		        for i in range(N):
+		            beta += random.random() * 2.0 * mw
+		            while beta > w[index]:
+		                beta -= w[index]
+		                index = (index + 1) % N
+		            p3.append(p[index])
+		        p = p3 */
 
 	//Step 1: create a new vector of type Partcile and  size num_partciles and a weight vector
 	//Step 2: generate a random index from num_particles range
@@ -390,44 +482,23 @@ void ParticleFilter::resample() {
 	//	else choose the partcile at current index
 
 	///////
-
-
-
-	//Step 1
-	vector<Particle> p_n;
-	vector<double> weights;
-
-	//captures weight of each particle in weights vector
-	double sum_weights=0;
-	for (int i=0;i<num_particles;i++) {
-		weights.push_back(particles[i].weight);
+	//Generate random particle index
+	//random int sample for index
+	uniform_int_distribution<int> p_idx(0, particles.size());
+	int index = p_idx(gen);
+	double beta = 0.0;
+	//sample 2*maxweight
+	double max_weight = 2.0 * *max_element(weights.begin(), weights.end());
+	for (int i = 0; i < particles.size(); i++) {
+		uniform_real_distribution<double> random_weight(0.0, max_weight);
+		beta += random_weight(gen);
+		while (beta > weights[index]) {
+			beta -= weights[index];
+			index = (index + 1) % particles.size();
+		}
+		p_n.push_back(particles[index]);
 	}
-
-	//Step 2
-	//use of discrete_distribution to resample
-	discrete_distribution<> d(weights.begin(),weights.end());
-
-	//particles that survived
-	//vector<int> particles_survived;
-	for (int j=0;j<num_particles;j++) {
-		//get index according to discrete distribtuion sampling
-		int idx=d(gen);
-		//cout << "Particle: " << idx << " got sampled" << endl;
-		//++particles[idx].nr_times_resampled;
-		//cout << "nr of times particle: " << idx << " sampled so far: " <<  particles[idx].nr_times_resampled << endl;
-		p_n.push_back(particles[idx]);
-		//particles_survived.push_back(idx);
-		//particles_cloud_list[particle_id] +=1;
-
-	}
-
-
-
-
-	// reset particles
-	particles=p_n;
-
-
+	particles = p_n;
 
 
 
@@ -495,6 +566,7 @@ void ParticleFilter::Particle_cloud() {
 	//std::vector<int> particles_cloud_list_sorted=particles_cloud_list;
 	//std::sort(particles_cloud_list_sorted.begin(),particles_cloud_list_sorted.end());
 	//std::cout << "Biggest Particle has weight: " << particles_cloud_list_sorted[0]<<std::endl;
+
 
 }
 

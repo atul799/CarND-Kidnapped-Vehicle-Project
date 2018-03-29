@@ -2,8 +2,8 @@
  * particle_filter.h
  *
  * 2D particle filter class.
- *  Created on: Dec 12, 2016
- *      Author: Tiffany Huang
+ *  Modified on: March 10, 2018
+ *      By: Atul Pandey
  */
 
 #ifndef PARTICLE_FILTER_H_
@@ -49,7 +49,7 @@ public:
 	// Set of current particles
 	std::vector<Particle> particles;
 
-	// count of active partciles and thickness
+	// count of active particles
 	std::vector<int> particles_cloud_list;
 
 

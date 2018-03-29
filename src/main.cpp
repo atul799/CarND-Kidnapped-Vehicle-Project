@@ -29,6 +29,20 @@ int main()
 {
   uWS::Hub h;
 
+
+
+
+  //////////////////////////////////
+  //write particle cloud
+  // open a file handle to write results for visualization
+  string out_file_name="../outputs/particle_cloud.out";
+  ofstream dataFile (out_file_name, ofstream::out);
+  if (!dataFile.is_open())  {
+	  cerr << "Cannot open output file: " << out_file_name << endl;
+	  exit(EXIT_FAILURE);
+  }
+
+
   //Set up parameters here
   double delta_t = 0.1; // Time elapsed between measurements [sec]
   double sensor_range = 50; // Sensor range [m]
@@ -46,8 +60,12 @@ int main()
   // Create particle filter
   ParticleFilter pf;
 
-  h.onMessage([&pf,&map,&delta_t,&sensor_range,&sigma_pos,&sigma_landmark](uWS::WebSocket<uWS::SERVER> ws, char *data, size_t length, uWS::OpCode opCode) {
-    // "42" at the start of the message means there's a websocket message event.
+  //h.onMessage([&pf,&map,&delta_t,&sensor_range,&sigma_pos,&sigma_landmark](uWS::WebSocket<uWS::SERVER> ws, char *data, size_t length, uWS::OpCode opCode) {
+  h.onMessage([&pf,&map,&delta_t,&sensor_range,&sigma_pos,&sigma_landmark,&dataFile](uWS::WebSocket<uWS::SERVER> ws, char *data, size_t length, uWS::OpCode opCode) {
+
+
+
+  	  // "42" at the start of the message means there's a websocket message event.
     // The 4 signifies a websocket message
     // The 2 signifies a websocket event
 
@@ -114,9 +132,20 @@ int main()
 		  pf.updateWeights(sensor_range, sigma_landmark, noisy_observations, map);
 		  pf.resample();
 
-		  cout<<"into particle_cloud"<<endl;
+		  //cout<<"into particle_cloud"<<endl;
 		  //find out unique particles (by Particle.id in particles list) and their size (Particle nr_times_resampled)
 		  pf.Particle_cloud();
+		  //write particle cloud
+
+		  for (int i = 0; i < pf.particles.size(); i++) {
+		  	  dataFile <<pf.particles_cloud_list[i]<<";";
+		  }
+		  dataFile << endl;
+
+		  //for (int i = 0; i < pf.num_particles; i++) {
+		  //	cout << i << pf.particles_cloud_list[i] << "\n";
+		  //}
+
 
 		  // Calculate and output the average weighted error of the particle filter over all time steps so far.
 		  vector<Particle> particles = pf.particles;
@@ -192,6 +221,9 @@ int main()
     return -1;
   }
   h.run();
+
+  //close particle cloud file
+  dataFile.close();
 }
 
 
