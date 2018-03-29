@@ -79,10 +79,10 @@ axs5.set_title('PC at Step5')
 #fig100, ax100 = plt.subplots()
 #ax100.plot(list(range(500)), step_dict[100], label='step100')
 
-figs100,axs100=plt.subplots()
-s = [.1*n for n in step_dict[100]]
-axs100.scatter(x,y,s=s)
-axs100.set_title('PC at Step100')
+figs50,axs50=plt.subplots()
+s = [.1*n for n in step_dict[50]]
+axs50.scatter(x,y,s=s)
+axs50.set_title('PC at Step50')
 
 figslast,axslast=plt.subplots()
 s = [.01*n for n in step_dict[step_counter-1] ]
@@ -92,11 +92,12 @@ axslast.set_title('PC at Last Step')
 
 #%%
 fig0, ax0 = plt.subplots()
-for i in range(len(step_dict.keys())):
+#for i in range(len(step_dict.keys())):
+for i in range(4):    
     x = list(range(number_of_particles-1))
     y = [0]*len(step_dict[i])
-    s = [1*n for n in step_dict[0]]
-    axs0.scatter(x,y,s=s)
+    s = [n for n in step_dict[i]]
+    ax0.scatter(x,y,s=s)
 
 #%% 
 #histogram of particle cloud

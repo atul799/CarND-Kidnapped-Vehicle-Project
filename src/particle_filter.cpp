@@ -21,7 +21,12 @@
 #include "particle_filter.h"
 
 // macro for number of particles
-#define NUM_PARTICLES 500
+//#define NUM_PARTICLES 500  //success
+#define NUM_PARTICLES 100 //success
+//#define NUM_PARTICLES 50  //yaw rate error at turn
+//#define NUM_PARTICLES 10 // yaw rate error
+
+
 //yaw tolerance for motion model
 #define  YAW_RATE_TOL 0.001
 
