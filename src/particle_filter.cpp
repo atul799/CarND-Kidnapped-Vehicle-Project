@@ -34,9 +34,13 @@
 //gets updated while setting association
 #define  MAP_SIZE 1000
 
-const bool init_weights_with_1 false;
-const bool resample_with_sampling_wheel false;
+//flag to try weight reinit with 1 for particles are each update or normalize
+const bool init_weights_with_1=false;
+//const bool init_weights_with_1=true;
 
+//use C++ STL function or sampling wheel for resample
+const bool resample_with_sampling_wheel=false;
+//const bool resample_with_sampling_wheel=false;
 
 //code can be optimized to have nearest neighbor association and weight calc have same loops twice!
 
@@ -331,13 +335,19 @@ void ParticleFilter::updateWeights(double sensor_range, double std_landmark[],
 		dataAssociation(landmarks_in_range,observations_in_map_cord );
 
 
-		//particle weights gets small if not normalized
-		//normalize the weights at each step
-		//forums in udacity suggests to discard the weights from previous step and start with 1.0
-		//re-init weight
-		//particles[i].weight=1.0;
 
+		if (init_weights_with_1) {
+			//particle weights gets small if not normalized
+			//normalize the weights at each step
+			//forums in udacity suggests to discard the weights from previous step and start with 1.0
+			//re-init weight
+			cout << "Init weight with 1"<<endl;
+			particles[i].weight=1.0;
+		}
+
+		///////////////////////////////////////////////////////////////////////////
 		/*
+		//for debug print values of observations and converted to map coordinates
 		for (int tt=0;tt<observations_in_map_cord.size();tt++){
 			cout<< "Obs: "<< tt << " Assigned to: "<<observations_in_map_cord[tt].id<<endl;
 			cout<< "Obs x:"<<observations_in_map_cord[tt].x << " : y:" << observations_in_map_cord[tt].y <<endl;
@@ -354,6 +364,7 @@ void ParticleFilter::updateWeights(double sensor_range, double std_landmark[],
 			cout <<"transformed Observation x: " << observations_in_map_cord[pp].x<< " Observation y: " << observations_in_map_cord[pp].y<<endl;
 			//landmark position for associated observation
 		} */
+		//////////////////////////////////////////////////////////////////////////////////
 
 		//Step 3. find measurement probabilities and update weights
 		//A> for each transformed observation find landmark associated with each (search with id)
@@ -409,14 +420,16 @@ void ParticleFilter::updateWeights(double sensor_range, double std_landmark[],
 
 	}
 
-
-	// Weights normalization
+	if (!init_weights_with_1) {
+		// Weights normalization
+		//cout << "weight normalization Routine"<<endl;
 		for (int i = 0; i < num_particles; i++) {
 			particles[i].weight /= sum_of_weights;
 			//sum of weights of all partciles shall be 1 after normalization, add a check??
 			//weights attribute in class not being used
 			weights[i] = particles[i].weight;
 		}
+	}
 
 }
 
