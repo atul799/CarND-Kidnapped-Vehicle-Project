@@ -28,7 +28,9 @@ The essence of the particle filter is to have these particles guess where the ve
 
 *This description is derived from Sebastian Thrun's Particle filter explanation video*
 
-
+* 100 particles works with sampling wheel while STL discrete_distribution failed once
+* 250 particles works for STL discrete_distribution  but fails for sampling wheel
+* 500 works for both STL discrete_distribution and sampling wheel
 
 # Overview of the Project
 ---

@@ -20,12 +20,14 @@
 
 #include "particle_filter.h"
 
-// macro for number of particles
-//#define NUM_PARTICLES 500  //success
-#define NUM_PARTICLES 100 //success
+// macro for number of particles trials
+#define NUM_PARTICLES 500  //success for sampling wheel and also discrete_distribution
+//#define NUM_PARTICLES 250  //fails for sampling wheel and success with discrete_distribution
+
+//#define NUM_PARTICLES 100 //success for sampling wheel but fails discrete_distribution
 //#define NUM_PARTICLES 50  //yaw rate error at turn
 //#define NUM_PARTICLES 10 // yaw rate error
-
+//#define NUM_PARTICLES 2  //Test and debug
 
 //yaw tolerance for motion model
 #define  YAW_RATE_TOL 0.001
@@ -39,8 +41,8 @@ const bool init_weights_with_1=false;
 //const bool init_weights_with_1=true;
 
 //use C++ STL function or sampling wheel for resample
+//const bool resample_with_sampling_wheel=true;
 const bool resample_with_sampling_wheel=false;
-//const bool resample_with_sampling_wheel=false;
 
 //code can be optimized to have nearest neighbor association and weight calc have same loops twice!
 
@@ -420,8 +422,9 @@ void ParticleFilter::updateWeights(double sensor_range, double std_landmark[],
 
 	}
 
+
+	//Weight normalization
 	if (!init_weights_with_1) {
-		// Weights normalization
 		//cout << "weight normalization Routine"<<endl;
 		for (int i = 0; i < num_particles; i++) {
 			particles[i].weight /= sum_of_weights;
@@ -438,48 +441,51 @@ void ParticleFilter::resample() {
 	// NOTE: You may find std::discrete_distribution helpful here.
 	//   http://en.cppreference.com/w/cpp/numeric/random/discrete_distribution
 
-
-
+	/////////////////////////////////////////////////
+	//Step 1: create a new vector of type Partcile and  size num_partciles and a weight vector
+	//Step 2: generate a random index from num_particles range
+	//	create a variable with max weights of all particles
+	//Step 3: for each particle:
+	//   generate a random number beta-->between 0 and 2*maxweights
+	// 	if beta > weight of current indexed particles (small weight partcile)
+	//	subtract the beta contribution from the weights of particle
+	//	increment the index of particle
+	//	else choose the partcile at current index
+	/////////////////////////////////////////////////
 
 	//Step 1
 	vector<Particle> p_n;
 	//vector<double> weights;
 
-	//captures weight of each particle in weights vector
-	//double sum_weights=0;
-	//for (int i=0;i<num_particles;i++) {
-	//	weights.push_back(particles[i].weight);
-	//}
 
 
-	/*
+	if (!resample_with_sampling_wheel) {
+		//cout <<"STL resampling with discrete_distribution"<<endl;
+		/////USE OF STL discrete_dist
+		//Step 2
+		//use of discrete_distribution to resample particles
+		discrete_distribution<> d(weights.begin(),weights.end());
 
-	/////USE OF STL discrete_dist
-	//Step 2
-	//use of discrete_distribution to resample
-	discrete_distribution<> d(weights.begin(),weights.end());
+		//particles that survived
+		//vector<int> particles_survived;
+		//Step 3
+		for (int j=0;j<num_particles;j++) {
+			//get index according to discrete distribution sampling
+			int idx=d(gen);
+			//cout << "Particle: " << idx << " got sampled" << endl;
+			//++particles[idx].nr_times_resampled;
+			//cout << "nr of times particle: " << idx << " sampled so far: " <<  particles[idx].nr_times_resampled << endl;
+			p_n.push_back(particles[idx]);
+			//particles_survived.push_back(idx);
+		}
 
-	//particles that survived
-	//vector<int> particles_survived;
-	for (int j=0;j<num_particles;j++) {
-		//get index according to discrete distribution sampling
-		int idx=d(gen);
-		//cout << "Particle: " << idx << " got sampled" << endl;
-		//++particles[idx].nr_times_resampled;
-		//cout << "nr of times particle: " << idx << " sampled so far: " <<  particles[idx].nr_times_resampled << endl;
-		p_n.push_back(particles[idx]);
-		//particles_survived.push_back(idx);
-		//particles_cloud_list[particle_id] +=1;
+		//assign sampled particles
+		particles=p_n;
 
 	}
-
-	// reset particles
-	particles=p_n;
-
-	*/
 	//////////////////////////////////////
 	/////////////
-	//sebastian code on importance sampling (sampling with replacement)
+	//PY Code for importance sampling (sampling with replacement)
 	/* p3 = [] //new set of particles will be saved as original particle of IS
 		        index = int(random.random() * N)
 		        beta = 0.0
@@ -492,34 +498,30 @@ void ParticleFilter::resample() {
 		            p3.append(p[index])
 		        p = p3 */
 
-	//Step 1: create a new vector of type Partcile and  size num_partciles and a weight vector
-	//Step 2: generate a random index from num_particles range
-	//	create a variable with max weights of all particles
-	//Step 3: for each particle:
-	//   generate a random number beta-->between 0 and 2*maxweights
-	// 	if beta > weight of current indexed particles (small weight partcile)
-	//	subtract the beta contribution from the weights of particle
-	//	increment the index of particle
-	//	else choose the partcile at current index
-
 	///////
 	//Generate random particle index
 	//random int sample for index
-	uniform_int_distribution<int> p_idx(0, particles.size());
-	int index = p_idx(gen);
-	double beta = 0.0;
-	//sample 2*maxweight
-	double max_weight = 2.0 * *max_element(weights.begin(), weights.end());
-	for (int i = 0; i < particles.size(); i++) {
-		uniform_real_distribution<double> random_weight(0.0, max_weight);
-		beta += random_weight(gen);
-		while (beta > weights[index]) {
-			beta -= weights[index];
-			index = (index + 1) % particles.size();
+
+	if (resample_with_sampling_wheel) {
+		//cout << "Sampling wheel"<<endl;
+		//Step 2
+		uniform_int_distribution<int> p_idx(0, particles.size());
+		int index = p_idx(gen);
+		double beta = 0.0;
+		//sample 2*maxweight
+		double max_weight = 2.0 * *max_element(weights.begin(), weights.end());
+		//step 3
+		for (int i = 0; i < particles.size(); i++) {
+			uniform_real_distribution<double> random_weight(0.0, max_weight);
+			beta += random_weight(gen);
+			while (beta > weights[index]) {
+				beta -= weights[index];
+				index = (index + 1) % particles.size();
+			}
+			p_n.push_back(particles[index]);
 		}
-		p_n.push_back(particles[index]);
+		particles = p_n;
 	}
-	particles = p_n;
 
 
 
