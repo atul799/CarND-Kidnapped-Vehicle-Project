@@ -5,9 +5,42 @@
 ---
 The goal of this project are the following:
 
-* Build a Partcile Filter.
+* Implement a 2D Particle Filter in C++.
 * Localize a vehicle given observations and landmarks in a map. 
 * Summarize the results with a written report.
+
+
+
+# Global Localization
+---
+Consider this image:
+![title](./outputs/localization.png "Robo Moves")
+
+The Vehicle has no clue about where it is and it has to find out where it is based on sensor measurements.
+This vehicle has range sensors(Radar/Lidar) as indicated by blue stripes. Vehicles has to use these range sensors observations to determine a good posterior distribution as to where it is. What it doesn't know is it's starting in the middle of a corridor (in the picture), in fact it is completely uncertain as to where it is at the start.The particle filter represents this using particles.Each of the red dots  in picture, of which there can be several thousand here, is a discrete guess where robot might be.
+
+Its structured as an X and Y coordinate pair and a heading direction and these 3 values together comprise a single guess,but a single guess is not a filter,it is the set of several thousands of such guesses that together comprise an approximate representation for the posterior of the robot.
+
+In the beginning the particles are uniformly spread but the particle filter makes them survive in proportion of how consistent these particles are with the sensor measurement.The thickness of a particle represents it's weight in the given particle cloud. 
+
+In the image, vehicle can figures out that it's in the corridor, but 2 clouds of particles will survive because of the symmetry of the corridor. As the vehicle enter 1 of the offices, the symmetry is broken and the correct set of particles survive.
+The essence of the particle filter is to have these particles guess where the vehicle might be moving but also have them survive using effectively survival of the fittest so that particles that are more consistent with the measurements are more likely to survive and as a result higher probability (weight) will collect more particles, and therefore will be more representative of the robot's posterior belief.Those particles surviving  particles are  clustered in a single location. Those comprise the approximate belief of the robot as it localizes itself.
+
+*This description is derived from Sebastian Thrun's Particle filter explanation video*
+
+
+
+# Overview of the Project
+---
+
+Particle filters have state space which is continuous and it's belief is multi-modal.They are very easy to program.
+
+
+A critical module in the working of a self driving vehicle is the localizer or localization module. Localization can be defined as predicting the location of vehicle with high accuracy in the range 3-10 cm. This location is in reference to a global map of the locality in which the self driving vehicle is either stationery or moving.
+
+One way to localize a vehicle is by using data from Global Positioning System (GPS), which makes use of triangulation to predict the position of an object detected by multiple satellites. But GPS doesn't always provide high accuracy data. For e.g.: In case of strong GPS signal, the accuracy in location is in the range of 1-3 m. Whereas in the case of a weak GPS signal, the accuracy drops to a range of 10-50 m. Hence the use of only GPS is not reliable and desirable.
+
+To achieve an accuracy of 3-10 cm, sensor information from Laser sensor (LIDAR) and/or Radial distance and angle sensor (RADAR) is used and fused together using a Particle Filter. This process is demonstrated in the following sections.
 
 
 

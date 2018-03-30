@@ -34,6 +34,9 @@
 //gets updated while setting association
 #define  MAP_SIZE 1000
 
+const bool init_weights_with_1 false;
+const bool resample_with_sampling_wheel false;
+
 
 //code can be optimized to have nearest neighbor association and weight calc have same loops twice!
 
