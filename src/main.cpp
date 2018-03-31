@@ -36,11 +36,34 @@ int main()
   //write particle cloud
   // open a file handle to write results for visualization
   string out_file_name="../outputs/particle_cloud.out";
-  ofstream dataFile (out_file_name, ofstream::out);
-  if (!dataFile.is_open())  {
+  ofstream dataFile_particle_sampled (out_file_name, ofstream::out);
+  if (!dataFile_particle_sampled.is_open())  {
 	  cerr << "Cannot open output file: " << out_file_name << endl;
 	  exit(EXIT_FAILURE);
   }
+
+
+  //////////////////////////////////
+    //write particle weights at each step
+    // open a file handle to write results for visualization
+    string out_file_name_weights="../outputs/particle_weights.out";
+    ofstream dataFile_particle_weights (out_file_name_weights, ofstream::out);
+    if (!dataFile_particle_weights.is_open())  {
+  	  cerr << "Cannot open output file: " << out_file_name_weights << endl;
+  	  exit(EXIT_FAILURE);
+    }
+
+
+    //////////////////////////////////
+    //write particle id survived at each step
+    // open a file handle to write results for visualization
+    string out_file_name_id="../outputs/particle_id.out";
+    ofstream dataFile_particle_id (out_file_name_id, ofstream::out);
+    if (!dataFile_particle_id.is_open())  {
+    	cerr << "Cannot open output file: " << out_file_name_id << endl;
+    	exit(EXIT_FAILURE);
+    }
+
 
 
   //Set up parameters here
@@ -61,7 +84,7 @@ int main()
   ParticleFilter pf;
 
   //h.onMessage([&pf,&map,&delta_t,&sensor_range,&sigma_pos,&sigma_landmark](uWS::WebSocket<uWS::SERVER> ws, char *data, size_t length, uWS::OpCode opCode) {
-  h.onMessage([&pf,&map,&delta_t,&sensor_range,&sigma_pos,&sigma_landmark,&dataFile](uWS::WebSocket<uWS::SERVER> ws, char *data, size_t length, uWS::OpCode opCode) {
+  h.onMessage([&pf,&map,&delta_t,&sensor_range,&sigma_pos,&sigma_landmark,&dataFile_particle_sampled,&dataFile_particle_weights,&dataFile_particle_id](uWS::WebSocket<uWS::SERVER> ws, char *data, size_t length, uWS::OpCode opCode) {
 
 
 
@@ -138,13 +161,16 @@ int main()
 		  //write particle cloud
 
 		  for (int i = 0; i < pf.particles.size(); i++) {
-		  	  dataFile <<pf.particles_cloud_list[i]<<";";
+			  dataFile_particle_sampled <<pf.particles_cloud_list[i]<<";";
+			  dataFile_particle_weights<<pf.particles[i].weight<<";";
+			  dataFile_particle_id<<pf.particles[i].id<<";";
+			  //weights vector is private
+			  //dataFile_particle_weights<<pf.weights[i]<<";";
 		  }
-		  dataFile << endl;
+		  dataFile_particle_sampled << endl;
+		  dataFile_particle_weights << endl;
+		  dataFile_particle_id<<endl;
 
-		  //for (int i = 0; i < pf.num_particles; i++) {
-		  //	cout << i << pf.particles_cloud_list[i] << "\n";
-		  //}
 
 
 		  // Calculate and output the average weighted error of the particle filter over all time steps so far.
@@ -223,7 +249,10 @@ int main()
   h.run();
 
   //close particle cloud file
-  dataFile.close();
+  dataFile_particle_weights.close();
+  dataFile_particle_sampled.close();
+  dataFile_particle_id.close();
+
 }
 
 

@@ -37,8 +37,8 @@
 #define  MAP_SIZE 1000
 
 //flag to try weight reinit with 1 for particles are each update or normalize
-const bool init_weights_with_1=false;
-//const bool init_weights_with_1=true;
+//const bool init_weights_with_1=false;
+const bool init_weights_with_1=true;
 
 //use C++ STL function or sampling wheel for resample
 //const bool resample_with_sampling_wheel=true;
@@ -332,7 +332,7 @@ void ParticleFilter::updateWeights(double sensor_range, double std_landmark[],
 		//cout << "for particle :" << i << " number of observations in map cords are: " << observations_in_map_cord.size()<<endl;
 		//Step 2. find associations for each particle to landmarks (sense)
 		//landmarks_in_range passed as value and observations_in_map_cord passed as reference to method dataAssociation
-		//code can be optimized to have nearest neighbor association and weight calc have same loops twice!
+		//code can be optimized to have nearest neighbor association and weight calc (right now have same loops twice! due to dataAssoc funtion)
 
 		dataAssociation(landmarks_in_range,observations_in_map_cord );
 
@@ -341,9 +341,9 @@ void ParticleFilter::updateWeights(double sensor_range, double std_landmark[],
 		if (init_weights_with_1) {
 			//particle weights gets small if not normalized
 			//normalize the weights at each step
-			//forums in udacity suggests to discard the weights from previous step and start with 1.0
+			//in python implementation weights are initialized to 1 at each step
 			//re-init weight
-			cout << "Init weight with 1"<<endl;
+			//cout << "Init weight with 1"<<endl;
 			particles[i].weight=1.0;
 		}
 
@@ -396,10 +396,10 @@ void ParticleFilter::updateWeights(double sensor_range, double std_landmark[],
 			//cout << "landmark position x: "<< x_lm_p << "landmark position y: " << y_lm_p<<endl;
 			//cout << "observation position x: "<< observations_in_map_cord[l].x << "observation position y:" << observations_in_map_cord[l].y<<endl;
 			//calculate multivariate PD for the w.r.t. associated landmark
-			double l_x_diff=observations_in_map_cord[l].x-x_lm_p;
-			double l_y_diff=observations_in_map_cord[l].y-y_lm_p;
-			//double l_x_diff=x_lm_p-observations_in_map_cord[l].x;
-			//double l_y_diff=y_lm_p-observations_in_map_cord[l].y;
+			//double l_x_diff=observations_in_map_cord[l].x-x_lm_p;
+			//double l_y_diff=observations_in_map_cord[l].y-y_lm_p;
+			double l_x_diff=x_lm_p-observations_in_map_cord[l].x;
+			double l_y_diff=y_lm_p-observations_in_map_cord[l].y;
 
 			//cout << "local x diff: " << l_x_diff << " local y diff : "<<l_y_diff<<endl;
 			double x_diff_sq=pow(l_x_diff,2);
@@ -416,8 +416,9 @@ void ParticleFilter::updateWeights(double sensor_range, double std_landmark[],
 
 		}
 
-		sum_of_weights += particles[i].weight;
+
 		weights[i]= particles[i].weight;
+		sum_of_weights += particles[i].weight;
 		//cout << "particle number: "<<i << "has weight: "<<particles[i].weight<<endl;
 
 	}
