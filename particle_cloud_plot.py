@@ -6,7 +6,7 @@ plot particle cloud at each step in particle filter
 #%%
 import matplotlib.pyplot as plt
 
-
+#load data
 
 part_cloud_file='./outputs/particle_cloud.out'
 part_cloud_weights='./outputs/particle_weights.out'
@@ -193,6 +193,9 @@ axt.plot(x,y)
 
 
 #%%
+
+#plot scatter plot of partcile clound with scatter size proportional to sampled nr 
+#for each partcile upto that step
 fig0, ax0 = plt.subplots()
 ax0.plot(list(range(number_of_particles-1)), step_dict[0], label='step1')
 ax0.set_title('PC bar at Step0')
@@ -227,13 +230,25 @@ axslast.set_title('PC at Last Step')
 
 
 #%%
+#continous scatter plot scatter proportional to step
 fig0, ax0 = plt.subplots()
 #for i in range(len(step_dict.keys())):
-for i in range(4):    
-    x = list(range(number_of_particles-1))
-    y = [0]*len(step_dict[i])
-    s = [n for n in step_dict[i]]
-    ax0.scatter(x,y,s=s)
+#for i in range(number_of_particles-1):    
+#    x = list(range(number_of_particles-1))
+#    y = [0]*len(step_dict[i])
+#    s = [n for n in step_dict[i]]
+#    ax0.scatter(x,y,s=s)
+
+
+x = list(range(number_of_particles-1))
+y = [0]*len(step_dict[step_counter-1])
+s = [0.01*n for n in step_dict[step_counter-1]]
+ax0.scatter(x,y,s=s)
+
+
+txt='{},{}'.format('Biggest_Cloud:',particle_nr)
+ax0.annotate(txt, (particle_nr,0))
+
 
 #%% 
 #histogram of particle cloud
@@ -264,6 +279,11 @@ txt='{},{}'.format(hi,hm)
 axh.annotate(txt, (hi,hm))
 
 #%%
+
+##line plot of survived partciles at each step (2442 total steps)
+#shows which and how many of each particle get sampled at each step
+#annotation is added to show step number of dominant particle
+
 import numpy as np
 import matplotlib.animation as animation
 
@@ -299,13 +319,16 @@ def update_scatter(num ,data,line):
     ann=plt.annotate('{} {}'.format('Dominant Particle',most_freq),(150,150),color = "blue")
     ann_list.append(ann)
 line_scat = animation.FuncAnimation(figscat, update_scatter, len(id_dict.keys()), fargs=(id_dict, l),
-                                   interval=20, repeat=True,blit=False)
+                                   interval=50, repeat=True,blit=False)
 
 #line_scat.save('./outputs/particles_develop'+'.gif',writer='imagemagick', fps=50)
 
-plt.rcParams["animation.convert_path"] = "C:\Program Files\ImageMagick-7.0.7-Q8\magick.exe" 
+#plt.rcParams["animation.convert_path"] = "C:\Program Files\ImageMagick-7.0.7-Q8\magick.exe" 
 
-line_scat.save('./outputs/line_particle_survival.gif',writer='imagemagick', extra_args='convert')
+#line_scat.save('./outputs/line_particle_survival.gif',writer='imagemagick', extra_args='convert')
+
+
+
 plt.xlim(0,500)
 plt.ylim(0,500)
 
@@ -315,14 +338,17 @@ plt.ylim(0,500)
 import numpy as np
 import matplotlib.animation as animation
 
+##line plot of survived partciles at each step (2442 total steps)
+#shows which and how many of each particle get sampled at each step
+
 #update set line a value(a list) of dict data
 def update_line(num ,data, line):
     y = data[num]
     line.set_data(range(len(y)), y)
     #axani.annotate('  ', (num*2,num))
-    axani.annotate(num,(num*2,num))
-    ann = axani.annotate(num,(num*2,num))
-    ann.remove()
+    #axani.annotate(num,(num*2,num))
+    #ann = axani.annotate(num,(num*2,num))
+    #ann.remove()
 
 
     
@@ -348,3 +374,49 @@ line_ani = animation.FuncAnimation(figani, update_line, len(id_dict.keys()), far
 
 plt.xlim(0,500)
 plt.ylim(0,500)
+
+
+#%%
+
+#tried scatter plot animated point cloud-- WIP
+import numpy as np
+import matplotlib.animation as animation
+
+
+figscat,axscat=plt.subplots()
+
+axscat.set_title('Scatter plot of Survived particle at each update Step', fontsize=10)
+axscat.set_xlabel('Particles', fontsize=12)
+axscat.set_ylabel('Particle Survived', fontsize=12)
+
+#x = list(range(number_of_particles-1))
+#    y = [0]*len(step_dict[i])
+#    s = [n for n in step_dict[i]]
+#    ax0.scatter(x,y,s=s)
+
+s=[0]*len(step_dict[0])
+scat=plt.scatter([],[],s=s,color='purple')
+ann_list=[]
+l, = plt.plot([], [], 'rx')
+#update set line a value(a list) of dict data
+def update_scatter(num ,data,line):
+    y = [0]*len(step_dict[num])
+    #y = data[num]
+    line.set_data(range(len(y)), y)
+    scat._sizes = [0.01*n for n in step_dict[num]]
+    scat.set_offsets([range(len(y)), y])
+
+line_scat = animation.FuncAnimation(figscat, update_scatter, len(id_dict.keys()), fargs=(id_dict, l),
+                                   interval=5, repeat=True,blit=False)
+
+#line_scat.save('./outputs/particles_develop'+'.gif',writer='imagemagick', fps=50)
+
+#plt.rcParams["animation.convert_path"] = "C:\Program Files\ImageMagick-7.0.7-Q8\magick.exe" 
+
+#line_scat.save('./outputs/line_particle_survival.gif',writer='imagemagick', extra_args='convert')
+
+
+
+plt.xlim(0,500)
+plt.ylim(0,500)
+
