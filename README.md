@@ -22,21 +22,18 @@ To achieve high accuracy for vehicle localization, sensor information from RADAR
 
 Vehicles has to use these range sensors observations to determine a good posterior distribution as to where it is. What it doesn't know is it's starting in the middle of a corridor (in the picture), in fact it is completely uncertain as to where it is at the start.The particle filter represents this using particles.Each of the red dots  in picture, of which there can be several thousand here, is a discrete guess where robot might be.
 
-Its structured as an X and Y coordinate pair and a heading direction and these 3 values together comprise a single guess,but a single guess is not a filter,it is the set of several thousands of such guesses that together comprise an approximate representation for the posterior of the robot.
+Its structured as an X and Y coordinate pair and a heading direction and these 3 values together comprise a single guess,but a single guess is not a filter,it is the set of several thousands of such guesses that together comprise an approximate representation for the posterior of the vehicle.
 
 In the beginning the particles are uniformly spread but the particle filter makes them survive in proportion of how consistent these particles are with the sensor measurement.The thickness of a particle represents it's weight in the given particle cloud. 
 
-In the image, vehicle can figures out that it's in the corridor, but 2 clouds of particles will survive because of the symmetry of the corridor. As the vehicle enter 1 of the offices, the symmetry is broken and the correct set of particles survive.
-The essence of the particle filter is to have these particles guess where the vehicle might be moving but also have them survive using effectively survival of the fittest so that particles that are more consistent with the measurements are more likely to survive and as a result higher probability (weight) will collect more particles, and therefore will be more representative of the robot's posterior belief.Those particles surviving  particles are  clustered in a single location. Those comprise the approximate belief of the robot as it localizes itself.
+In the image, vehicle can figure out that it's in the corridor, but 2 clouds of particles will survive because of the symmetry of the corridor. As the vehicle enter 1 of the offices, the symmetry is broken and the correct set of particles survive.
+The essence of the particle filter is to have these particles guess where the vehicle might be moving but also have them survive using effectively survival of the fittest so that particles that are more consistent with the measurements are more likely to survive and as a result higher probability (weight) will collect more particles, and therefore will be more representative of the robot's posterior belief.These surviving  particles are  clustered in a single location. Those comprise the approximate belief of the robot as it localizes itself.
 
 
 Particle filters have state space which is continuous and it's belief is multi-modal.They are very easy to program.
 
 *This description is derived from Sebastian Thrun's Particle filter explanation video*
 
-* 100 particles works with sampling wheel while STL discrete_distribution failed once
-* 250 particles works for STL discrete_distribution  but fails for sampling wheel
-* 500 works for both STL discrete_distribution and sampling wheel
 
 # Overview of the Project
 ---
@@ -59,7 +56,7 @@ The Steps in Localization are depicted in image below and described thereafter.
 ![picture alt](./outputs/pfilter_pseudo_code.png) *Particle Filter Pseudo-code*
 
 
-#Initialize number of Particles and location
+# Initialize number of Particles and location
 
 The first step is to choose number of particles to use for localization.Various values of particles were tried and found 500 particles to be sufficient for localization.
 
@@ -119,13 +116,15 @@ Resampling of particles is based on weight of the particles. Particle with highe
 The C++ STL function discrete_distribution is used for resampling of the particles.
 
 ![picture alt](./outputs/particle_survival.gif) *Resampling and Particle survival*
+
 The image above shows the particle id with it's survival (number on y axis) count. Particle 427
 gets resampled most and represents the particle closest to vehicle.By 40th step, particle 427 is identified as the closest to vehicle and all other particles disappear.
 
 Another view of particles that is closest is by looking at particle that is sampled most.
 
 ![picture alt](./outputs/partcile_cloud_size.png) *Resampling and Particle survival*
-Here the thickness of scatter point shows how many time a particle is sampled during the vehicles moves (4244 steps), Particle 427 is sampled most times.
+
+Here the thickness of scatter point shows how many times a particle is sampled during the vehicles moves (4244 steps), Particle 427 is sampled most times.
 
 
 
@@ -154,7 +153,10 @@ A python post-processing script,particle_cloud_plot.py, is included to post proc
 
 ## Notes
 * normalizing of re-initializing the weights at each step is important. Reinit with 1 or normalizing produces same result.
-* The dataAssociation method introduces a redundant loop and can be avoided by associating obs to landmark while updating weights
+* The dataAssociation method introduces a redundant loop and can be avoided by associating obs to landmark while updating weights. 
+* 100 particles works with sampling wheel while STL discrete_distribution failed once
+* 250 particles works for STL discrete_distribution  but fails for sampling wheel
+* 500 works for both STL discrete_distribution and sampling wheel
 
 
 
