@@ -16,7 +16,7 @@ The goal of this project are the following:
 Consider this image:
 ![title](./outputs/localization.png "Robo Moves")
 
-The Vehicle has no clue about where it is and it has to find out with accuracy of 5-10 cm where it is. Global Positioning System (GPS) can be used for localization, which makes use of triangulation to predict the position of an object detected by multiple satellites. GPS accuracy is not sufficient for localization in driving conditions.Strong GPS signal has the accuracy in the range of 1-3 m and for weak GPS signal, the accuracy drops to a range of 10-50 m. Hence the use of only GPS is not reliable and desirable.
+The Vehicle has no clue about where it is and it has to find out with accuracy of 5-10 cm where it is. Global Positioning System (GPS) can be used for localization, which makes use of triangulation to predict the position of an object detected by multiple satellites. GPS accuracy is not sufficient for localization in driving conditions.Strong GPS signal has the accuracy in the range of 1-3 m and for weak GPS signal, the accuracy drops to a range of 10-50 m. Hence the use of only GPS is not reliable.
 
 To achieve high accuracy for vehicle localization, sensor information from RADAR and LIDAR is used. The vehicle in image has range sensors(Radar/Lidar) as indicated by blue stripes in the image.
 
