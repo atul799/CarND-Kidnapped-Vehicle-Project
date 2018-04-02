@@ -51,11 +51,6 @@ using namespace std;
 //random engine global declaration as it is used across multiple methods
 default_random_engine gen;
 
-//for dbg, keep a track of particle(out of 100), how many times re-sampled
-
-//vector<int> particle_sample_count(num_particles,0);
-
-
 void ParticleFilter::init(double x, double y, double theta, double std[]) {
 	// Set the number of particles. Initialize all particles to first position (based on estimates of
 	//   x, y, theta and their uncertainties from GPS) and all weights to 1. 
@@ -67,13 +62,8 @@ void ParticleFilter::init(double x, double y, double theta, double std[]) {
 	num_particles=NUM_PARTICLES;
 
 	//num_particles=1000;
-
-	//another try
 	//num_particles=500;
-
-	//even less
 	//num_particles=100;
-
 	//to test
 	//num_particles=2;
 
@@ -118,9 +108,13 @@ void ParticleFilter::init(double x, double y, double theta, double std[]) {
 		//sample_theta = dist_theta(gen);
 		p.theta=dist_theta(gen);
 
+		p.associations.clear();
+		p.sense_x.clear();
+		p.sense_y.clear();
+
 		weights.push_back(w_init);
 		// Print your samples to the terminal.
-		cout << "Sample " <<  p.x << " " << p.y << " " << p.theta << weights[j] <<endl;
+		//cout << "Sample " <<  p.x << " " << p.y << " " << p.theta << weights[j] <<endl;
 		p.nr_times_resampled=0;
 
 
@@ -206,6 +200,12 @@ void ParticleFilter::prediction(double delta_t, double std_pos[], double velocit
 		particles[i].theta += dist_theta(gen);
 
 		//cout <<"Particle: " << i <<" moved to: " <<" x: " <<particles[i].x<<" y: " <<particles[i].y<<" theta: " <<particles[i].theta<<endl;
+
+		//clear the associations memebers if each particle
+		particles[i].associations.clear();
+		particles[i].sense_x.clear();
+		particles[i].sense_y.clear();
+
 	}
 
 
@@ -220,7 +220,7 @@ void ParticleFilter::dataAssociation(std::vector<LandmarkObs> predicted, std::ve
 	//   implement this method and use it as a helper during the updateWeights phase.
 
 
-	//for each observation calculate eucladean distance to each predicted (landmark)
+	//for each observation calculate eucleadean distance to each predicted (landmark)
 	for (int i = 0; i < observations.size(); i++) {
 
 		// local var for current observation (struct LandmarkObs used)
@@ -391,6 +391,9 @@ void ParticleFilter::updateWeights(double sensor_range, double std_landmark[],
 					x_lm_p=landmarks_in_range[m].x;
 					y_lm_p=landmarks_in_range[m].y;
 					//break;
+					particles[i].associations.push_back(assoc_lm);
+					particles[i].sense_x.push_back(x_lm_p);
+					particles[i].sense_y.push_back(y_lm_p);
 				}
 			}
 			//cout << "landmark position x: "<< x_lm_p << "landmark position y: " << y_lm_p<<endl;

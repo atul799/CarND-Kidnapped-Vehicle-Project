@@ -183,7 +183,7 @@ print ("Number of particles were: ",id_number_of_particles-1)
 
 figt, axt = plt.subplots()
 x = list(range(number_of_particles-1))
-#y=id_dict[id_counter-1]
+y=id_dict[id_counter-1]
 #y=id_dict[50]
 axt.plot(x,y)
 
@@ -261,7 +261,7 @@ axh.set_ylabel('Nr times sampled')
 print ("Max weight for particle was at idx:",hi," value: ",hm)
 
 txt='{},{}'.format(hi,hm)
-axh.annotate(txt, (wi,wm))
+axh.annotate(txt, (hi,hm))
 
 #%%
 import numpy as np
@@ -301,7 +301,11 @@ def update_scatter(num ,data,line):
 line_scat = animation.FuncAnimation(figscat, update_scatter, len(id_dict.keys()), fargs=(id_dict, l),
                                    interval=20, repeat=True,blit=False)
 
+#line_scat.save('./outputs/particles_develop'+'.gif',writer='imagemagick', fps=50)
 
+plt.rcParams["animation.convert_path"] = "C:\Program Files\ImageMagick-7.0.7-Q8\magick.exe" 
+
+line_scat.save('./outputs/line_particle_survival.gif',writer='imagemagick', extra_args='convert')
 plt.xlim(0,500)
 plt.ylim(0,500)
 

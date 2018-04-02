@@ -15,6 +15,7 @@ The goal of this project are the following:
 ---
 Consider this image:
 ![title](./outputs/localization.png "Robo Moves")
+![title](./outputs/line_particle_survival.gif "TT")
 
 The Vehicle has no clue about where it is and it has to find out where it is based on sensor measurements.
 This vehicle has range sensors(Radar/Lidar) as indicated by blue stripes. Vehicles has to use these range sensors observations to determine a good posterior distribution as to where it is. What it doesn't know is it's starting in the middle of a corridor (in the picture), in fact it is completely uncertain as to where it is at the start.The particle filter represents this using particles.Each of the red dots  in picture, of which there can be several thousand here, is a discrete guess where robot might be.
