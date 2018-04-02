@@ -152,6 +152,9 @@ The C++-code implementing Particle Filter are in directory src in this repo.
 A python post-processing script,particle_cloud_plot.py, is included to post process data and generate particle cloud plots and animation.
 
 
+## Notes
+* normalizing of re-initializing the weights at each step is important. Reinit with 1 or normalizing produces same result.
+* The dataAssociation method introduces a redundant loop and can be avoided by associating obs to landmark while updating weights
 
 
 
